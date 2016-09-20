@@ -47,12 +47,19 @@
         color: #333;
     }
 
+    .panel-heading a {
+        color: #333;
+    }
 
     body {
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         line-height: 1.5;
         font-size: 15px;
+    }
+
+    ul {
+        margin-left: -20px;
     }
 
     .navbar-nav {
