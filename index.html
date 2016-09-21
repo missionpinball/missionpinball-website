@@ -2,335 +2,794 @@
 <html lang="en">
 <head>
     <title>The Mission Pinball Framework</title>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/0fb2a42c3c.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/mpf.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:300,400,700" rel="stylesheet">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/icons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="images/icons/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="The Mission Pinball Framework"/>
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="images/icons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="images/icons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="images/icons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="images/icons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="images/icons/mstile-310x310.png" />
-
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href=
+    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel=
+    "stylesheet">
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src=
+    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="https://use.fontawesome.com/0fb2a42c3c.js">
+    </script>
+    <link href="css/mpf.css" rel="stylesheet" type="text/css">
+    <link href=
+    "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:300,400,700"
+    rel="stylesheet">
+    <link href="images/icons/apple-touch-icon-57x57.png" rel=
+    "apple-touch-icon-precomposed" sizes="57x57">
+    <link href="images/icons/apple-touch-icon-114x114.png" rel=
+    "apple-touch-icon-precomposed" sizes="114x114">
+    <link href="images/icons/apple-touch-icon-72x72.png" rel=
+    "apple-touch-icon-precomposed" sizes="72x72">
+    <link href="images/icons/apple-touch-icon-144x144.png" rel=
+    "apple-touch-icon-precomposed" sizes="144x144">
+    <link href="images/icons/apple-touch-icon-60x60.png" rel=
+    "apple-touch-icon-precomposed" sizes="60x60">
+    <link href="images/icons/apple-touch-icon-120x120.png" rel=
+    "apple-touch-icon-precomposed" sizes="120x120">
+    <link href="images/icons/apple-touch-icon-76x76.png" rel=
+    "apple-touch-icon-precomposed" sizes="76x76">
+    <link href="images/icons/apple-touch-icon-152x152.png" rel=
+    "apple-touch-icon-precomposed" sizes="152x152">
+    <link href="images/icons/favicon-196x196.png" rel="icon" sizes="196x196"
+    type="image/png">
+    <link href="images/icons/favicon-96x96.png" rel="icon" sizes="96x96" type=
+    "image/png">
+    <link href="images/icons/favicon-32x32.png" rel="icon" sizes="32x32" type=
+    "image/png">
+    <link href="images/icons/favicon-16x16.png" rel="icon" sizes="16x16" type=
+    "image/png">
+    <link href="images/icons/favicon-128.png" rel="icon" sizes="128x128" type=
+    "image/png">
+    <meta content="The Mission Pinball Framework" name="application-name">
+    <meta content="#FFFFFF" name="msapplication-TileColor">
+    <meta content="images/icons/mstile-144x144.png" name=
+    "msapplication-TileImage">
+    <meta content="images/icons/mstile-70x70.png" name=
+    "msapplication-square70x70logo">
+    <meta content="images/icons/mstile-150x150.png" name=
+    "msapplication-square150x150logo">
+    <meta content="images/icons/mstile-310x150.png" name=
+    "msapplication-wide310x150logo">
+    <meta content="images/icons/mstile-310x310.png" name=
+    "msapplication-square310x310logo">
 </head>
 <body>
-
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>The Mission Pinball Framework</h1>
-    <p>Software for powering real pinball machines. 100% free. 100% open source.</p>
-  </div>
-</div>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><img src="images/mpf-flag-tiny.png"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="http://docs.missionpinball.org">Docs</a></li>
-        <li><a href="http://docs.missionpinball.org/en/stable/tutorial/index.html">Tutorial</a></li>
-        <li><a href="https://groups.google.com/forum/#!forum/mpf-users">Forum</a></li>
-        <li><a href="/events.html">Live Events</a></li>
-        <li><a href="/about.html">About</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://twitter.com/missionpinball"><span class="fa fa-twitter fa-lg"></span></a></li>
-        <li><a href="https://www.youtube.com/missionpinball"><span class="fa fa-youtube fa-lg" aria-hidden="true"></span></a></li>
-        <li><a href="https://github.com/missionpinball/"><span class="fa fa-github fa-lg"></span></a></li>
-        <li><a href="https://www.flickr.com/missionpinball"><span class="fa fa-flickr fa-lg"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Begin Page Content-->
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-            <p>The Mission Pinball Framework (“MPF”) is a free Python-based pinball software framework that’s used to run
-                real pinball machines. It allows both casual builders and hard-core programmers
-                to create the software to run their pinball machines—whether it’s new game code for an
-                existing pinball machine, a “re-theme” of an old machine, or totally custom / homebrew
-                machine built from scratch.</p>
-            <p>MPF is cross-platform and runs on Windows, Mac, Linux, and the Raspberry Pi. It's available in 32-bit
-            and 64-bit versions and can be installed in minutes.</p>
-            <br/>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>The Mission Pinball Framework</h1>
+            <p>Software for powering real pinball machines. 100% free. 100%
+            open source.</p>
         </div>
-        <div class="col-sm-2"></div>
     </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/config/index.html">Build your game with config files</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/config/index.html"><img src="images/config.png" class="img-responsive" style="width:100%" alt="Image"></a></div>
-            <div class="panel-footer">
-                <p>95%+ of what you need to do to program a pinball machine in MPF is done with
-                text-based configuration files, so even if you have no prior programming experience, you can still do it!</p>
-                <p>That said, if you're a programmer, we have an
-                <a href="http://docs.missionpinball.org/en/stable/api/index.html">API reference</a>, and it's really easy to
-                <a href="http://docs.missionpinball.org/en/stable/start/dsl_vs_programming.html">mix-and-match custom
-                code with the MPF config files</a>.</p>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target="#myNavbar"
+                data-toggle="collapse" type="button"><span class=
+                "icon-bar"></span> <span class="icon-bar"></span> <span class=
+                "icon-bar"></span></button> <a class="navbar-brand" href=
+                "/"><img src="images/mpf-flag-tiny.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://docs.missionpinball.org">Docs</a>
+                    </li>
+                    <li>
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/tutorial/index.html">
+                        Tutorial</a>
+                    </li>
+                    <li>
+                        <a href=
+                        "https://groups.google.com/forum/#!forum/mpf-users">Forum</a>
+                    </li>
+                    <li>
+                        <a href="/events.html">Live Events</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href=
+                        "https://twitter.com/missionpinball"><span class=
+                        "fa fa-twitter fa-lg"></span></a>
+                    </li>
+                    <li>
+                        <a href=
+                        "https://www.youtube.com/missionpinball"><span aria-hidden="true"
+                        class="fa fa-youtube fa-lg"></span></a>
+                    </li>
+                    <li>
+                        <a href=
+                        "https://github.com/missionpinball/"><span class=
+                        "fa fa-github fa-lg"></span></a>
+                    </li>
+                    <li>
+                        <a href=
+                        "https://www.flickr.com/missionpinball"><span class=
+                        "fa fa-flickr fa-lg"></span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/hardware/index.html">Hardware Independent</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/hardware/index.html"><img src="images/hardware.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>MPF supports many different pinball hardware controllers, including hardware from:</p>
-            <ul>
-                <li><a href="http://docs.missionpinball.org/en/stable/hardware/fast.html">FAST Pinball</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/hardware/configuring_opp_hardware.html">Open Pinball Project</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/hardware/multimorphic.html">Multimorphic P-ROC / P3-ROC</a></li>
-            </ul>
-            <p>It also supports all sorts of other hardware, like the FadeCandy LED controllers, SmartMatrix RGB DMDs,
-            Pololu Servo Controllers, and more.</p>
+    </nav><!-- Begin Page Content-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <p>The <strong>Mission Pinball Framework</strong> (“MPF”) is
+                a free Python-based pinball software framework that’s used to
+                run real pinball machines. It allows both casual builders and
+                hard-core programmers to create the software to run their pinball
+                machines—whether it’s new game code for an existing pinball
+                machine, a “re-theme” of an old machine, or totally custom /
+                homebrew machine built from scratch.</p>
+                <p>MPF is cross-platform and runs on Windows, Mac, Linux, and
+                the Raspberry Pi. It's available in 32-bit and 64-bit versions
+                and can be installed in minutes.</p><br>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
-      </div>
     </div>
-    <div class="col-sm-4">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/machines/index.html">Multiple eras of machines</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/machines/index.html"><img src="images/eras.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p><a href="http://docs.missionpinball.org/en/stable/machines/homebrew_machines.html">You can use MPF with modern pinball control hardware to build your own custom "home brew" pinball machine
-            from scratch.</a></p>
-            <p><a href="http://www.fastpinball.com">FAST Pinball</a> and <a href="http://www.pinballcontrollers.com">Multimorphic</a>
-            make modern pinball controllers you can swap into existing machines in just a few minutes to completely
-            remove the original code and control them via MPF, including:</p>
-            <ul>
-                <li><a href="http://docs.missionpinball.org/en/stable/machines/wpc.html">Williams / Bally / Midway WPC</a></li>
-                <li>Williams System 11</li>
-                <li>Data East</li>
-                <li>Stern Whitestar / SAM</li>
-            </ul>
-            You can also use MPF with any existing machine if you want to <a href="https://www.youtube.com/watch?v=M6EW2M_KtLg">redo the wiring.</a></li>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/config/index.html">
+                        Build your game with config files</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/config/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/config.png" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>95%+ of what you need to do to program a pinball
+                        machine in MPF is done with text-based configuration
+                        files, so even if you have no prior programming
+                        experience, you can still do it!</p>
+                        <p><a href=
+                        "http://docs.missionpinball.org/en/stable/tutorial/index.html">
+                        Our step-by-step tutorial</a> walks you through the
+                        whole process, from listing your switches, coils, and
+                        lights, to building modes and scoring, and through
+                        creating graphics and sounds.</p>
+                        <p>If you're a programmer and you know Python, we have an
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/api/index.html">
+                        API reference</a>, and it's really easy to <a href=
+                        "http://docs.missionpinball.org/en/stable/start/dsl_vs_programming.html">
+                        mix-and-match custom code with the MPF config
+                        files</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/hardware/index.html">
+                        Hardware Independent</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/hardware/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/hardware.jpg" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>MPF supports many different pinball hardware
+                        controllers, including hardware from:</p>
+                        <ul>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/hardware/fast.html">
+                                FAST Pinball</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/hardware/configuring_opp_hardware.html">
+                                Open Pinball Project</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/hardware/multimorphic.html">
+                                Multimorphic P-ROC / P3-ROC</a>
+                            </li>
+                        </ul>
+                        <p>It also supports all sorts of other hardware, like
+                        the FadeCandy LED controllers, SmartMatrix RGB DMDs,
+                        Pololu Servo Controllers, and more.</p>
+                        <p>MPF is written in a hardware-independent way, so we
+                        can easily add support for new hardware as it comes out.
+                        You can even swap between different kinds of hardware
+                        after your game is done!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/machines/index.html">
+                        Multiple eras of machines</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/machines/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/eras.jpg" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p><a href=
+                        "http://docs.missionpinball.org/en/stable/machines/homebrew_machines.html">
+                        You can use MPF with modern pinball control hardware to
+                        build your own custom "home brew" pinball machine from
+                        scratch.</a></p>
+                        <p><a href="http://www.fastpinball.com">FAST
+                        Pinball</a> and <a href=
+                        "http://www.pinballcontrollers.com">Multimorphic</a>
+                        make modern pinball controllers you can swap into
+                        existing machines in just a few minutes to completely
+                        remove the original code and control them via MPF,
+                        including:</p>
+                        <ul>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/machines/wpc.html">
+                                Williams / Bally / Midway WPC</a>
+                            </li>
+                            <li>Williams System 11</li>
+                            <li>Data East</li>
+                            <li>Stern Whitestar / SAM</li>
+                        </ul>You can also use MPF with any existing machine if
+                        you want to <a href=
+                        "https://www.youtube.com/watch?v=M6EW2M_KtLg">redo the
+                        wiring.</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/devices/index.html">Pinball Devices</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/devices/index.html"><img src="images/devices.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>MPF includes built-in support for just about every kinds of pinball device, including:</p>
-            <ul>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/switch.html">Switches</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/coil.html">Coils</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/light.html">Lights</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/led.html">RGB LEDs</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/flipper.html">Flippers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/accelerometer.html">Accelerometers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/trough.html">Troughs</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/plunger.html">Plungers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/drop_target.html">Drop Targets</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/gi.html">GI</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/flasher.html">Flashers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/loop.html">Loops/Orbits/Ramps</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/kickback.html">Kickback Lanes</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/magnet.html">Magnets</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/playfield.html">Multiple Playfields</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/pop_bumper.html">Pop Bumpers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/score_reel.html">Mechanical Score Reels</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/servo.html">Servos</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/slingshot.html">Slingshots</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/pop_bumper.html">Pop Bumpers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/spinner.html">Spinners</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/devices/target.html">Stand-up Targets</a></li>
-            </ul>
+    </div><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/devices/index.html">
+                        Pinball Devices</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/devices/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/devices.jpg" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>MPF includes built-in support for just about every
+                        kinds of pinball device, including:</p>
+                        <ul>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/switch.html">
+                                Switches</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/coil.html">
+                                Coils</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/light.html">
+                                Lights</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/led.html">
+                                RGB LEDs</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/flipper.html">
+                                Flippers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/accelerometer.html">
+                                Accelerometers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/trough.html">
+                                Troughs</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/plunger.html">
+                                Plungers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/drop_target.html">
+                                Drop Targets</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/gi.html">
+                                GI</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/flasher.html">
+                                Flashers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/loop.html">
+                                Loops/Orbits/Ramps</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/kickback.html">
+                                Kickback Lanes</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/magnet.html">
+                                Magnets</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/playfield.html">
+                                Multiple Playfields</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/pop_bumper.html">
+                                Pop Bumpers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/score_reel.html">
+                                Mechanical Score Reels</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/servo.html">
+                                Servos</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/slingshot.html">
+                                Slingshots</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/pop_bumper.html">
+                                Pop Bumpers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/spinner.html">
+                                Spinners</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/devices/target.html">
+                                Stand-up Targets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/game_logic/index.html">
+                        Game Logic</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/game_logic/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/game_logic.png" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>You can use MPF's config files to implement complex
+                        game features & logic, including:</p>
+                        <ul>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/player_variables.html">
+                                Player management</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/modes/index.html">
+                                Game modes & mode stacking</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/ball_lock.html">
+                                Ball locks</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/ball_save.html">
+                                Ball saves</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/ball_search.html">
+                                Ball search</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/ball_tracking.html">
+                                Ball tracking</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/extra_ball.html">
+                                Extra balls</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/multiball.html">
+                                Multiballs</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/timer.html">
+                                Timers</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/shot.html">
+                                Shots & shot groups</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/bonus.html">
+                                End of ball bonus</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/video_mode.html">
+                                Video modes</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/achievements.html">
+                                Player achievements</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/high_score.html">
+                                High scores</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/tilt.html">
+                                Tilt</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/game_logic/credits.html">
+                                Coins & credits</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/shows/index.html">
+                                Synchronized shows of lights, sounds, &
+                                animations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/displays/index.html">
+                        Display, DMDs, & Graphics</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/displays/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/graphics.jpg" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>MPF includes a powerful media controller based on
+                        <a href="http://kivy.org">Kivy</a> to control graphics
+                        and sound. It leverages hardware GPU acceleration and
+                        OpenGL to provide a modern, smooth environment, with
+                        support for:</p>
+                        <ul>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/display/physical_mono_dmd.html">
+                                Mono 128x32 dot matrix displays (DMDs)</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/display/physical_rgb_dmd.html">
+                                RGB LED "Smart Matrix" displays</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/display/lcd.html">
+                                LCDs & on-screen displays</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/display/adding_dot_look_to_lcd.html">
+                                Virtual "color" DMDs</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/widgets/widget/video.html">
+                                Video</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/widgets/widget/image.html">
+                                Images</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/displays/widgets/animate_widgets.html">
+                                Animations & motion</a>
+                            </li>
+                        </ul>
+                        <p>MPF also supports dynamically updating text, multi-language strings, and everything
+                        else you need to create a professional-looking machine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/sound/index.html">
+                        Sounds & Audio</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/sound/index.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/sound.jpg" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>MPF includes a custom-built audio library built on
+                        SDL2 and SDL_Mixer which was designed for pinball
+                        environments.</p>
+                        <ul>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/sound/index.html">
+                                Multi-track audio</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/config/sounds.html">
+                                Fade in / fade out</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/config/sounds.html">
+                                Instance limiting</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/sound/ducking.html">
+                                Ducking</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/config/sounds.html">
+                                Attenuation</a>
+                            </li>
+                            <li>
+                                <a href=
+                                "http://docs.missionpinball.org/en/stable/sound/variations.html">
+                                Sound variation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/game_logic/index.html">Game Logic</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/game_logic/index.html"><img src="images/game_logic.png" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>You can use MPF's config files to implement complex game features & logic, including:</p>
-            <ul>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/player_variables.html">Player management</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/modes/index.html">Game modes & mode stacking</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/ball_lock.html">Ball locks</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/ball_save.html">Ball saves</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/ball_search.html">Ball search</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/ball_tracking.html">Ball tracking</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/extra_ball.html">Extra balls</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/multiball.html">Multiballs</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/timer.html">Timers</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/shot.html">Shots & shot groups</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/bonus.html">End of ball bonus</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/video_mode.html">Video modes</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/achievements.html">Player achievements</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/high_score.html">High scores</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/tilt.html">Tilt</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/game_logic/credits.html">Coins & credits</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/shows/index.html">Synchronized shows of lights, sounds, & animations</a></li>
-            </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/about/license.html">
+                        Completely free & open source</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/about/license.html">
+                        <img alt="Image" class="img-responsive" src=
+                        "images/free.png" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>MPF is released under the “MIT” license which is
+                        extremely permissive. You can do just about anything
+                        you want with it. Use it. Copy it. Modify it. Merge,
+                        publish, distribute, sublicense and/or sell it. If you
+                        make a commercial pinball machine based on MPF, you do
+                        not have to pay us anything, and you do not have to
+                        release your machine’s source code if you don’t want
+                        to.</p>
+                        <p>We don’t “own” MPF any more than you do. So go nuts.
+                        Rip us off. Take the code. Make it yours. Don’t give us
+                        credit… It’s all good! Seriously. We’re just putting
+                        the code out there which will hopefully lead to more
+                        pinball in the world!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href="http://docs.missionpinball.org">Plenty of
+                        documentation</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href="http://docs.missionpinball.org"><img alt=
+                        "Image" class="img-responsive" src="images/docs.jpg"
+                        style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p><a href=
+                        "https://pinside.com/pinball/forum/search?s=1&q=&quot;pinball+is+hard&quot;#results">
+                        &quot;Pinball is hard&quot;</a> (as they say on
+                        <a href="https://pinside.com/pinball/forum/">Pinside</a>),
+                        and to help you create your machine with MPF, we've
+                        written hundreds of pages of detailed documentation,
+                        tutorials, how to guides, instruction, and reference
+                        material.</p>
+                        <p>Our documentation is hosted by <a href=
+                        "https://readthedocs.org/">Read the Docs</a> at
+                        <a href="http://docs.missionpinball.org">docs.missionpinball.org</a></p>
+                        <p>You can even download documentation in <a href=
+                        "http://readthedocs.org/projects/mpf/downloads/pdf/stable/">
+                        PDF</a>, <a href=
+                        "http://readthedocs.org/projects/mpf/downloads/epub/stable/">
+                        Epub</a>, and <a href=
+                        "http://readthedocs.org/projects/mpf/downloads/htmlzip/stable/">
+                        HTML Zip</a> archive formats.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "https://groups.google.com/forum/#!forum/mpf-users">Active
+                        support forum</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "https://groups.google.com/forum/#!forum/mpf-users"><img alt="Image"
+                        class="img-responsive" src="images/forum.jpg" style=
+                        "width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>The MPF Users Google Group is very active and full
+                        of pinball-loving people using MPF and helping each
+                        other.</p>
+                        <p><a href=
+                        "https://groups.google.com/forum/#!forum/mpf-users">Check
+                        it out</a> and tell everyone about the cool project you
+                        want to build!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href=
+                        "https://github.com/missionpinball/mpf/commits/dev">Actively
+                        developed & updated often</a>
+                    </div>
+                    <div class="panel-body">
+                        <a href=
+                        "https://github.com/missionpinball/mpf/commits/dev"><img alt="Image"
+                        class="img-responsive" src=
+                        "images/active_development.jpg" style="width:100%"></a>
+                    </div>
+                    <div class="panel-footer">
+                        <p>The people working on MPF are passionate about the
+                        project. We average dozens of code check-ins per week,
+                        and so far we've spent over 4,000 hours working on
+                        MPF.</p>
+                        <p>We put our money where our mouths are:</p><a href=
+                        'https://coveralls.io/github/missionpinball/'><img alt=
+                        'Coverage Status' src=
+                        'https://coveralls.io/repos/github/missionpinball/mpf/badge.svg?branch=dev'></a>
+                        <p>Automated Testing Coverage</p><a href=
+                        'https://travis-ci.org/missionpinball/'><img alt=
+                        'Test Status' src=
+                        'https://travis-ci.org/missionpinball/mpf.svg?branch=dev'></a>
+                        <p>Build Status</p><a href=
+                        'https://landscape.io/github/missionpinball/mpf/'><img alt='Health Status'
+                        src=
+                        'https://landscape.io/github/missionpinball/mpf/dev/landscape.svg?style=flat'></a>
+                        <p>Health Status</p>
+                        <p>Our goal is that you can use MPF to run a commercial-grade professional
+                        machine in revenue service in a public location.</p>
+                        <p>Want to help make the pinball world a better place?
+                        <a href=
+                        "http://docs.missionpinball.org/en/stable/contribute/index.html">
+                        Join us!</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/displays/index.html">Display, DMDs, & Graphics</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/displays/index.html"><img src="images/graphics.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>MPF includes a powerful media controller based on <a href="http://kivy.org">Kivy</a> to control graphics and
-            sound. It leverages hardware GPU acceleration and OpenGL to provide a modern, smooth environment, with support
-            for:</p>
-            <ul>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/display/physical_mono_dmd.html">Mono 128x32 dot matrix displays</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/display/physical_rgb_dmd.html">RGB LED "Smart Matrix" displays</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/display/lcd.html">LCDs</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/display/adding_dot_look_to_lcd.html">Virtual "color" DMDs</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/widgets/widget/video.html">Video</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/widgets/widget/image.html">Images</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/displays/widgets/animate_widgets.html">Animations & motion</a></li>
-            </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 text-center">
+                <p>We're just scratching the surface. <a href=
+                "http://docs.missionpinball.org">Dig into the documentation to
+                continue.</a></p><br>
+                <br>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
-      </div>
     </div>
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/sound/index.html">Sounds & Audio</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/sound/index.html"><img src="images/sound.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>MPF includes a custom-built audio library built on SDL2 and SDL_Mixer which was designed for pinball
-            environments.</p>
-            <ul>
-                <li><a href="http://docs.missionpinball.org/en/stable/sound/index.html">Multi-track audio</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/config/sounds.html">Fade in / fade out</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/config/sounds.html">Instance limiting</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/sound/ducking.html">Ducking</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/config/sounds.html">Attenuation</a></li>
-                <li><a href="http://docs.missionpinball.org/en/stable/sound/variations.html">Sound variation</a></li>
-            </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a class="btn btn-success center-block" href=
+                "http://docs.missionpinball.org/en/stable/tutorial/index.html"
+                role="button">Start the Tutorial</a>
+            </div>
+            <div class="col-sm-4">
+                <a class="btn btn-info center-block" href=
+                "https://groups.google.com/forum/#!forum/mpf-users" role=
+                "button">Ask a Question</a>
+            </div>
+            <div class="col-sm-4">
+                <a class="btn btn-info center-block" href=
+                "http://docs.missionpinball.org/" role="button">Read the
+                Docs</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+    </div><!-- End Page Content-->
+    <br>
+    <br>
+    <footer class="container-fluid text-center">
+        <p>Code licensed <a href="https://opensource.org/licenses/MIT">MIT</a>.
+        Docs & Text <a href="http://creativecommons.org/licenses/by/4.0/">CC BY
+        4.0.</a> Website <a href=
+        "https://github.com/missionpinball/missionpinball-website">source</a>.<br>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org/en/stable/about/license.html">Completely free & open source</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org/en/stable/about/license.html"><img src="images/free.png" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>MPF is released under the “MIT” license which is extremely permissive. You can do just
-            about anything you want with it. Use it. Copy it. Modify it. Merge, publish, distribute, sublicense and/or
-            sell it. If you make a commercial pinball machine based on MPF, you do not have to pay us anything, and you
-            do not have to release your machine’s source code if you don’t want to.</p>
-
-            <p>We don’t “own” MPF any more than you do. So go nuts. Rip us off. Take the code. Make it yours. Don’t give
-            us credit… It’s all good! Seriously. We’re just putting the code out there which will hopefully lead to more
-            pinball in the world!</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="http://docs.missionpinball.org">Plenty of documentation</a></div>
-        <div class="panel-body"><a href="http://docs.missionpinball.org"><img src="images/docs.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">
-            <p>We've written hundreds of pages of detailed documentation and instructions</p>
-            <p>We have a repository of working examples you can study to learn how to use MPF more effectively.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="https://groups.google.com/forum/#!forum/mpf-users">Active support forum</a></div>
-        <div class="panel-body"><a href="https://groups.google.com/forum/#!forum/mpf-users"><img src="images/forum.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">We have a Google Groups forum which receives many posts per day. <a href="https://groups.google.com/forum/#!forum/mpf-users">Check it out.</a></div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="panel panel-default">
-        <div class="panel-heading"><a href="https://github.com/missionpinball/mpf/commits/dev">Actively developed & updated often</a></div>
-        <div class="panel-body"><a href="https://github.com/missionpinball/mpf/commits/dev"><img src="images/active_development.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
-        <div class="panel-footer">We have lots of people working</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 text-center">
-            <p>We're just scratching the surface. <a href="http://docs.missionpinball.org">Dig into the documentation to continue.</a></p>
-            <br><br>
-        </div>
-        <div class="col-sm-2"></div>
-    </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-        <a href="http://docs.missionpinball.org/en/stable/tutorial/index.html" class="btn btn-success center-block" role="button">Start the Tutorial</a>
-    </div>
-    <div class="col-sm-4">
-        <a href="https://groups.google.com/forum/#!forum/mpf-users" class="btn btn-info center-block" role="button">Ask a Question</a>
-    </div>
-    <div class="col-sm-4">
-        <a href="http://docs.missionpinball.org/" class="btn btn-info center-block" role="button">Read the Docs</a>
-    </div>
-  </div>
-</div>
-
-<!-- End Page Content-->
-
-<br/><br/>
-
-<footer class="container-fluid text-center">
-  <p>Code licensed <a href="https://opensource.org/licenses/MIT">MIT</a>.
-     Docs & Text <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0.</a>
-     Website <a href="https://github.com/missionpinball/missionpinball-website">source</a>.
-     <br/>
-     <a href="https://groups.google.com/forum/#!topic/mpf-users/7I-phnq9rOs">Archive of posts from the old website</a>.
-  </p>
-</footer>
-
+        <a href=
+        "https://groups.google.com/forum/#!topic/mpf-users/7I-phnq9rOs">Archive
+        of posts from the old website</a>.</p>
+    </footer>
 </body>
 </html>
