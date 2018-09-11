@@ -1,0 +1,5 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://missionpinball.github.io"
+title: Mission Pinball Framework Blog
+description: "Mission Pinball Framework Blog"
