@@ -25,11 +25,12 @@ None
 
 ## Bugfixes
 
-* [Restore Diverter State After Ball Search](https://github.com/missionpinball/mpf/commit/7930fbc4691676edb87d5601245dd460e18562f0)
+* [Restore Diverter State After Ball Search](https://github.com/missionpinball/mpf/commit/7930fbc4691676edb87d5601245dd460e18562f0) - jab
 
 ## Documentation
 
-* [Document how to cancel a show using flipper_cancel events](https://github.com/missionpinball/mpf-docs/commit/c060d879e61195dacb29c5dcd64a4a60810a32e5) - mwiz* [Fix combo_switches syntax](https://github.com/missionpinball/mpf-docs/commit/721c6166b07e7dfd9b11ed53d46b9102be0fbfa5)
+* [Document how to cancel a show using flipper_cancel events](https://github.com/missionpinball/mpf-docs/commit/c060d879e61195dacb29c5dcd64a4a60810a32e5) - mwiz
+* [Fix combo_switches syntax](https://github.com/missionpinball/mpf-docs/commit/721c6166b07e7dfd9b11ed53d46b9102be0fbfa5)
 
 # Dev release (future 0.51)
 
@@ -50,7 +51,7 @@ We pushed MPF dev-7.
 * [Fix debug flag in P-Roc and P3-Roc](https://github.com/missionpinball/mpf/commit/015fc4d8508ffadf9324100a5d9280dd4e781b49) - jab
 * [Prevent achivements from enabling after restoring state](https://github.com/missionpinball/mpf/pull/1211) - avanwinkle
 * [Fix ms vs sec in timer pause](https://github.com/missionpinball/mpf/pull/1214) - avanwinkle
-* [Fix decreation warnings in kivy scale](https://github.com/missionpinball/mpf-mc/pull/343)
+* [Fix depreation warnings in kivy scale](https://github.com/missionpinball/mpf-mc/pull/343) - avanwinkle
 
 ## Documentation
 
