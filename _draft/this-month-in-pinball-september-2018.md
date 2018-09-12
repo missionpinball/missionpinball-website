@@ -15,9 +15,9 @@ and event handling.
 Furthermore, we improve the error/logging output and added a new production
 flag which optimizes the behaviour for unattended operations.
 
-# Current release 0.50
+# Current stable release (0.50)
 
-We released MPF 0.50. with bugfixes.
+We released MPF 0.50.14 and MPF-MC 0.50.8 with bugfixes and backports.
 
 ## Changes
 
@@ -25,7 +25,7 @@ We released MPF 0.50. with bugfixes.
 
 ## Bugfixes
 
-* []()
+* [Fix mode events when starting/stopping mode from BCP](https://github.com/missionpinball/mpf/issues/1215) - jab based on report by Travis Martin
 
 ## Documentation
 
@@ -33,22 +33,41 @@ We released MPF 0.50. with bugfixes.
 
 # Dev release (future 0.51)
 
-We pushed MPF dev-.
+We pushed MPF dev-2.
 
-## Changes
+## Changes/New features
 
-* []()
+* [Support other channel orders than RGB for all RGB DMDs](https://github.com/missionpinball/mpf-mc/issues/345) - jab based on request from Cadrion
 
 ## Bugfixes
 
-* []()
+* [Fix mode events when starting/stopping mode from BCP](https://github.com/missionpinball/mpf/issues/1215) - jab based on report by Travis Martin
 
 ## Documentation
 
 * [Document appliance classes and common ground](https://github.com/missionpinball/mpf-docs/commit/44c15465db97108d93fad1637c43a3778afdd4aa) - jab
 * [Added examples for PD-LED](https://github.com/missionpinball/mpf-docs/commit/a57ddb305abf8b4738e355143be1222d6c763b6b) - jab
+* [Improved bonus mode documentation](https://github.com/missionpinball/mpf-docs/pull/173) - avanwinkle
+* [Document ball and game end mode blocking](https://github.com/missionpinball/mpf-docs/commit/fd7112356a26413abe27a0e0cb3980f586f3a6c9) - jab inspired by Lynn
+* [Extra ball based on score example](https://github.com/missionpinball/mpf-docs/commit/2d8e6b7d073f6904564896ca485b3f3c69951027) - jab based on example from Lynn
+* [How to use high score mode in EMs](https://github.com/missionpinball/mpf-docs/commit/318541ee4349776e5fb4660fcd44b29104f1a842) - jab based on example from Lynn
+* [Document RGB DMD channel_order parameter](https://github.com/missionpinball/mpf-docs/commit/a21bcae7b7be032c918a987fdb32cda8ee2a567e) - jab
 
+Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
+
+## Open PRs/Not landed yet
+
+* [New OSC module](https://github.com/missionpinball/mpf/pull/1200) - jab
+* [P-Roc libpinproc in separate thread (since it is currently blocking)](https://github.com/missionpinball/mpf/pull/1195) - jab
+* [Entrance switch ignore window](https://github.com/missionpinball/mpf/pull/1216) - avanwinkle
+* [Change sound volume handling in sound_player/sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen
+
+## Upcoming changes
+
+* [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
+* More stepper and servo hardware - jab
+* Moving slides/widget management to MPF from MPF-MC to improve the programming interface - jab
 
 
 Did we forget anything? Please let us know.
-
+Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
