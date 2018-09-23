@@ -2,7 +2,7 @@
 layout: post
 author: jab
 title: This Month in Pinball August 2018
-tags: [blog, MPF]
+tags: [this_month_in_pinball, MPF]
 ---
 What happened in MPF-land in August 2018?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation

@@ -2,6 +2,7 @@
 layout: post
 author: jab
 title: This Month in Pinball September 2018
+tags: [this_month_in_pinball, MPF]
 ---
 What happened in MPF-land in September 2018?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
@@ -77,6 +78,7 @@ We pushed MPF dev-2.
 * [No longer claim Python 3.4 support - it is EOL](https://github.com/missionpinball/mpf-docs/commit/1639e5b62f221b6a525b3ca39da6b68dd2d88752) - jab
 * [Document PC power on/off](https://github.com/missionpinball/mpf-docs/commit/8bb7de3ce54153c8e7afbc3fdb992b13bb000409) - jab
 * [Typos](https://github.com/missionpinball/mpf-docs/pull/177), [Typos](https://github.com/missionpinball/mpf-docs/pull/178) - travisbmartin 
+* [Improve skill shot example to prevent race condition and add timeout](https://github.com/missionpinball/mpf-docs/commit/063dd00c2b9f0db50b099528e3f2d948c7e40f28) - jab based on [question from mike wiz](https://groups.google.com/forum/#!topic/mpf-users/Fxuh95wxmjY) 
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 

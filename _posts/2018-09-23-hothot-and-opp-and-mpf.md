@@ -2,10 +2,9 @@
 layout: post
 author: jab
 title: HotRod and OPP and MPF
+tags: [OPP, MPF, users]
 ---
 What happened to HotRod and OPP? How does that affect MPF?
-
-# HotRod and OPP and MPF
 
 Jeremy, one of our OPP users, build a very cool EM machine based on OPP and MPF.
 Unfortunately, he experienced multiple issues as highlighted in

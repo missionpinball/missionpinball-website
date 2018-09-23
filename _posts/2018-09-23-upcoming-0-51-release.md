@@ -1,11 +1,10 @@
 ---
 layout: post
 author: jab
-title: Upcoming 0.51 Maintainance Release 
+title: Upcoming 0.51 Maintainance Release
+tags: [MPF, release]
 ---
 What will change in the upcoming 0.51 maintainance release?
-
-# Upcoming 0.51 Maintainance Release
 
 We are currently preparing for the 0.51 release which will not require
 migrations for most users (unless you are using accelerometers).
