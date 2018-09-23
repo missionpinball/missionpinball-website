@@ -1,5 +1,4 @@
 ---
-layout: post
 author: jab
 title: This Month in Pinball August 2018
 tags: [this_month_in_pinball, MPF]

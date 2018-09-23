@@ -3,3 +3,22 @@ baseurl: ""
 url: "https://missionpinball.github.io"
 title: Mission Pinball Framework Blog
 description: "Mission Pinball Framework Blog"
+
+collections:
+  events:
+    output: true
+    permalink: /event/:name.html
+
+future: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: event
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post

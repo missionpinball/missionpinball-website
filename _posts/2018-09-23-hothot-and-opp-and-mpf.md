@@ -1,5 +1,4 @@
 ---
-layout: post
 author: jab
 title: HotRod and OPP and MPF
 tags: [OPP, MPF, users]

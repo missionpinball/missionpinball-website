@@ -10,26 +10,41 @@ title: Events
         "https://groups.google.com/forum/#!forum/mpf-users">MPF Users Google
         Group</a> and let's meet up!</p>
         <h2>Future events we'll be attending</h2>
-        <b>2018</b>
+{% assign events_by_year = site.events | sort: 'year' | reverse | group_by: 'year' %}
+{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+{% capture year %}{{'now' | date: '%Y' | plus: 0 %}}{% endcapture %}
+{% for group in events_by_year %}
+    {% capture group_year %}{{group.items[0].date | date: '%Y' | plus: 0 %}}{% endcapture %}
+    {% if group_year >= year %}
+        <b>{{ group_year }}</b>
         <ul>
-            <li>Chicago Pinball Expo, Chicago, US, Oct 17-20, 2018</li>
-            <li>Dutch Pinball Open, Drunen, The Netherlands, Nov 10-11, 2018</li>
+        {% for event in group.items %}
+            {% capture date %}{{event.date | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% if date > now %}
+            <li><a href="{{ event.url | prepend: site.baseurl }}">{{ event.name }}</a>, {{ event.location }}, {{ event.city }}, {{ event.duration }}, {{ event.year }}</li>
+            {% endif %}
+        {% endfor %}
         </ul>
+    {% endif %}
+{% endfor %}
+
         <h2>Past events</h2>
-        <b>2018</b>
+{% for group in events_by_year %}
+    {% capture group_year %}{{group.items[0].date | date: '%Y' | plus: 0 %}}{% endcapture %}
+    {% if group_year <= year %}
+        <b>{{ group_year }}</b>
         <ul>
-            <li>Southern-Fried Gaming Expo, Atlanta, GA - Marriott Renaissance Waverly, June 8-10, 2018</li>
-            <li>Northwest Pinball and Arcade Show, Tacoma Convention Center, June 8-10, 2018</li>
-            <li>Texas Pinball Festival, Frisco, Texas, Mar 16-18,
-            2018</li>
+        {% for event in group.items %}
+            {% capture date %}{{event.date | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% if date <= now %}
+            <li><a href="{{ event.url | prepend: site.baseurl }}">{{ event.name }}</a>, {{ event.location }}, {{ event.city }}, {{ event.duration }}, {{ event.year }}</li>
+            {% endif %}
+        {% endfor %}
         </ul>
-        <b>2017</b>
-        <ul>
-            <li>34th Chaos Communication Congress, Leipzig, Germany, Dec 27-30,
-            2017</li>
-            <li>Northwest Pinball and Arcade Show (in the FAST Pinball booth),
-            Tacoma, Washington, June 5-7, 2017</li>
-        </ul>
+    {% endif %}
+{% endfor %}
+
+
         <b>2016</b>
         <ul>
             <li>33th Chaos Communication Congress, Hamburg, Germany, Dec 27-30,

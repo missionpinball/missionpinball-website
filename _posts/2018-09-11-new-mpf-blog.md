@@ -1,5 +1,4 @@
 ---
-layout: post
 author: jab
 title: New MPF Blog
 tags: [blog, MPF]

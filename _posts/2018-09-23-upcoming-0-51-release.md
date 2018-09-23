@@ -1,5 +1,4 @@
 ---
-layout: post
 author: jab
 title: Upcoming 0.51 Maintainance Release
 tags: [MPF, release]
