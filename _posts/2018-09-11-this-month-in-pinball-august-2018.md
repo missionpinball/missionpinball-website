@@ -1,21 +1,14 @@
 ---
 layout: post
 author: jab
+title: This Month in Pinball August 2018
+tags: [blog, MPF]
 ---
 What happened in MPF-land in August 2018?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
 and the rest of the ecosystem.
 
-We are currently preparing for the 0.51 release which will not require
-migrations for most users (unless you are using accelerometers).
-You might have to run minor cleanups if you are using non-functional/noop
-options (such as width on images) which have been removed.
-Besides that 0.51 should bring major performance improvements around switches
-and event handling.
-Furthermore, we improve the error/logging output and added a new production
-flag which optimizes the behaviour for unattended operations.
-
-# Current release 0.50
+# Current Release 0.50
 
 We released MPF 0.50.13 with bugfixes.
 
