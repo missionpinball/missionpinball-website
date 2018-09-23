@@ -11,6 +11,9 @@ collections:
 
 future: true
 
+plugins:
+  - jekyll-feed
+
 defaults:
   - scope:
       path: ""
