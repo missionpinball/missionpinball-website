@@ -80,6 +80,8 @@ We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
 * [Typos](https://github.com/missionpinball/mpf-docs/pull/177), [Typos](https://github.com/missionpinball/mpf-docs/pull/178) - travisbmartin 
 * [Improve skill shot example to prevent race condition and add timeout](https://github.com/missionpinball/mpf-docs/commit/063dd00c2b9f0db50b099528e3f2d948c7e40f28) - jab based on [question from mike wiz](https://groups.google.com/forum/#!topic/mpf-users/Fxuh95wxmjY) 
 * [Document scoring based on logic blocks](https://github.com/missionpinball/mpf-docs/commit/a843d366bed107544aebf2198f80f07a501adb5b) - jab based on [question from alex](https://groups.google.com/forum/#!topic/mpf-users/3mShvjtjfPU)
+* [Describe how to debug crashes with GDB](https://github.com/missionpinball/mpf-docs/commit/27a7c31b524f2a1890c97e6dbc86e08811e31e38) - jab
+* [How to tune eject_timeouts in ball devices](https://github.com/missionpinball/mpf-docs/commit/ec7477e5a9c3e03adf24473599c2c2909db0a75a) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 

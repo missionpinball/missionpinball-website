@@ -6,4 +6,4 @@ year: 2018
 city: Wheeling, Illinois, USA
 event_link: http://www.pinballexpo.net/
 ---
-No official booth. Some MPF users will be there.
+No official booth. Mark will bring the Nightmare before Christmas and some flyers/stickers.
