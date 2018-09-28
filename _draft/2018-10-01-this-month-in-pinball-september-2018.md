@@ -86,8 +86,10 @@ We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
 * [Describe how to debug crashes with GDB](https://github.com/missionpinball/mpf-docs/commit/27a7c31b524f2a1890c97e6dbc86e08811e31e38) - jab
 * [How to tune eject_timeouts in ball devices](https://github.com/missionpinball/mpf-docs/commit/ec7477e5a9c3e03adf24473599c2c2909db0a75a) - jab
 * [Understanding tags in MPF](https://github.com/missionpinball/mpf-docs/pull/179) - cfbenn
+* [Example for using MC with multiple screens](https://github.com/missionpinball/mpf-docs/commit/2d62878bc2a04d699e81fd12fad77d1ad4b13a52) - jab based on example from Brian Cox/cfbenn/qcapen
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
+Do you have an example which is missing there? Please send it to us!
 
 ## Open PRs/Not landed yet
 
@@ -99,12 +101,11 @@ Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 
 * [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
 * More stepper and servo hardware - jab
-* Moving slides/widget management to MPF from MPF-MC to improve the programming interface - jab
-* [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
+* [Support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
 
 ## New contributors
 
 Welcome travisbmartin and austinbgill!
 
-Did we forget anything? Please let us know.
+Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
