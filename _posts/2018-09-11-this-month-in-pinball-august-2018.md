@@ -22,7 +22,7 @@ None
 ## Documentation
 
 * [Document how to cancel a show using flipper_cancel events](https://github.com/missionpinball/mpf-docs/commit/c060d879e61195dacb29c5dcd64a4a60810a32e5) - mwiz
-* [Fix combo_switches syntax](https://github.com/missionpinball/mpf-docs/commit/721c6166b07e7dfd9b11ed53d46b9102be0fbfa5)
+* [Fix combo_switches syntax](https://github.com/missionpinball/mpf-docs/commit/721c6166b07e7dfd9b11ed53d46b9102be0fbfa5) - jab
 
 # Dev release (future 0.51)
 

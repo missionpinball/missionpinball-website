@@ -32,7 +32,7 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # Current stable release (0.50)
 
-We released MPF 0.50.15 and MPF-MC 0.50.8 with bugfixes and backports.
+We released MPF 0.50.16 and MPF-MC 0.50.8 with bugfixes and backports.
 
 ## Changes
 
@@ -42,6 +42,7 @@ No changes
 
 * [Fix mode events when starting/stopping mode from BCP](https://github.com/missionpinball/mpf/issues/1215) - jab based on report by Travis Martin (backport)
 * [Fix display_light_player crash when used in mode](https://github.com/missionpinball/mpf/pull/1224) - jab (backport)
+* [Fix crash in BCP with MPF Monitor](https://github.com/missionpinball/mpf/pull/1226) - jab based on [report from alex](https://groups.google.com/forum/#!topic/mpf-users/4anGZjhW7i4) (backport)
 
 ## Documentation
 
@@ -59,11 +60,13 @@ We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
 * [Entrance switch ignore window](https://github.com/missionpinball/mpf/pull/1216) - avanwinkle
 * [Improved README.md for the MPF project](https://github.com/missionpinball/mpf/pull/1219) - austinbgill
 * [Update kivy to version 1.10.1](https://github.com/missionpinball/mpf-mc/pull/346) - jab
+* [Prevent bad switch config for drop_targets, shots and autofires](https://github.com/missionpinball/mpf/pull/1227) - jab
 
 ## Bugfixes
 
-* [Fix mode events when starting/stopping mode from BCP](https://github.com/missionpinball/mpf/issues/1215) - jab based on report by Travis Martin
+* [Fix mode events when starting/stopping mode from BCP](https://github.com/missionpinball/mpf/issues/1215) - jab based on [report by Travis Martin](https://groups.google.com/forum/#!topic/mpf-users/u48fOP3TIx0)
 * [Fix display_light_player crash when used in mode](https://github.com/missionpinball/mpf/pull/1224) - jab
+* [Fix crash in BCP with MPF Monitor](https://github.com/missionpinball/mpf/pull/1226) - jab based on [report from alex](https://groups.google.com/forum/#!topic/mpf-users/4anGZjhW7i4)
 
 ## Documentation
 
@@ -82,6 +85,7 @@ We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
 * [Document scoring based on logic blocks](https://github.com/missionpinball/mpf-docs/commit/a843d366bed107544aebf2198f80f07a501adb5b) - jab based on [question from alex](https://groups.google.com/forum/#!topic/mpf-users/3mShvjtjfPU)
 * [Describe how to debug crashes with GDB](https://github.com/missionpinball/mpf-docs/commit/27a7c31b524f2a1890c97e6dbc86e08811e31e38) - jab
 * [How to tune eject_timeouts in ball devices](https://github.com/missionpinball/mpf-docs/commit/ec7477e5a9c3e03adf24473599c2c2909db0a75a) - jab
+* [Understanding tags in MPF](https://github.com/missionpinball/mpf-docs/pull/179) - cfbenn
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 
@@ -96,7 +100,7 @@ Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 * [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
 * More stepper and servo hardware - jab
 * Moving slides/widget management to MPF from MPF-MC to improve the programming interface - jab
-* Full support for LISY35
+* [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
 
 ## New contributors
 
