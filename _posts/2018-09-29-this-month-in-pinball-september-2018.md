@@ -100,7 +100,6 @@ Do you have an example which is missing there? Please send it to us!
 ## Upcoming changes/Not landed yet
 
 * [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
-* More stepper and servo hardware - jab
 * [Support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
 
 ## New contributors
