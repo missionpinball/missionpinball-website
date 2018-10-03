@@ -27,6 +27,7 @@ Some active publicly documented projects by MPF users.
 * [Spaceballs - The Pin](https://pinside.com/pinball/forum/topic/spaceballs-the-pin/)
 * [Queen Pinball](https://pinside.com/pinball/forum/topic/flash-retheme-project/)
 * [HotRod](https://pinside.com/pinball/forum/topic/gottlieb-hot-rod-a-tribute-to-classic-em-pinball)
+* [Gravity Falls](https://pinside.com/pinball/forum/topic/gravity-falls) (new)
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
 
