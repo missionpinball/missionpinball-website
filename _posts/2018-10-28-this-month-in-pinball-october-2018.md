@@ -10,7 +10,7 @@ and the rest of the ecosystem.
 
 # News
 
-* Actually we messed up the month in the last post. So this is the second one in October ;-).
+* Actually we messed up the month in the last post. So this is the second post for October ;-).
 
 # MPF Projects
 
@@ -33,7 +33,7 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # Current stable release (0.50)
 
-We released MPF 0.50.19 and MPF-MC 0.50.8 with bugfixes and backports.
+We released MPF 0.50.20 and MPF-MC 0.50.8 with bugfixes and backports.
 
 ## Changes
 
@@ -43,6 +43,7 @@ We released MPF 0.50.19 and MPF-MC 0.50.8 with bugfixes and backports.
 ## Bugfixes
 
 * [Prevent broken flipper rules when using multiple flipper devices in FAST/OPP](https://github.com/missionpinball/mpf/commit/a0162f9ea35abf92a4131ce4f7fa9965b8e5743b) - jab (backport)
+* [Actually use poll_hz in lisy section](https://github.com/missionpinball/mpf/pull/1240) - jab (backport)
 
 ## Documentation
 
@@ -92,19 +93,26 @@ We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
 * [Extend event documentation for game_start](https://github.com/missionpinball/mpf/pull/1242) - colemanomartin
 * [Doctor Who carousel example](https://github.com/missionpinball/mpf-docs/pull/183) - travisbmartin
 * [Document sw_flip_events and sw_release_events](https://github.com/missionpinball/mpf-docs/commit/96f0fc5158a5e12d21dffdb12760d64ed3f2b069) - jab
-* [Example game mode with multiple shots which need to be active a the same time](https://github.com/missionpinball/mpf-docs/commit/d6cf7fb5b43844a0425837bb677f473055f213b2) - jab based on [question by Cole M](https://groups.google.com/forum/#!topic/mpf-users/QnJ_1Hkd-Mk)
+* [Example game mode with multiple shots which need to be active a the same time](https://github.com/missionpinball/mpf-docs/commit/d6cf7fb5b43844a0425837bb677f473055f213b2) - jab and improvements by [coleman](https://github.com/missionpinball/mpf-docs/pull/184) based on [question by Cole M](https://groups.google.com/forum/#!topic/mpf-users/QnJ_1Hkd-Mk)
+* [Cookbook/tutorial for a super jets mode](https://github.com/missionpinball/mpf-docs/pull/185) - travisbmartin
+* [Document how to send data from MPF to MPF-MC in custom code](https://github.com/missionpinball/mpf/pull/1245) - cloudjor
+* [Added a minimal OSC plugin](https://github.com/missionpinball/mpf/pull/1200) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
 
 ## Open PRs/Not landed yet
 
+* [Move libpinproc to a separate thread](https://github.com/missionpinball/mpf/pull/1195) - jab
 * [Reusing named widgets](https://github.com/missionpinball/mpf-mc/pull/353) - avanwinkle
+* [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen
+* [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
+* [Spike 2 support in mpf-spike-bridge](https://github.com/missionpinball/mpf-spike-bridge/pull/1) - jab and wolfmarsh
 
-## Upcoming changes/Not landed yet
+## Upcoming changes
 
 * [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
-* Stern Spike 2 support - wolfmarsh and jab
+* [Stern Spike 2 support](https://github.com/missionpinball/mpf/issues/1246) - wolfmarsh and jab
 * More stepper and servo hardware - jab
 * [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
 
