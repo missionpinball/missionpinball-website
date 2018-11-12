@@ -27,12 +27,16 @@ Some active publicly documented projects by MPF users.
 * [Haggis Pinball](https://www.youtube.com/watch?v=Qezv5beKBqM)
 * [Powerman 5000](https://github.com/travisbmartin/powerman)
 * [Doctor Who Redux](https://github.com/travisbmartin/doctorwho)
+* [Forbidden Planet](https://pinside.com/pinball/forum/topic/john-treadeaus-forbidden-planet/) (new)
+* [The Lego Movie](https://thelegomoviepinball.wordpress.com/) (french) (new)
+* [Custom Raspberry](https://github.com/vgrillot/mpf) and [Arduino MPF platform](https://github.com/vgrillot/arduinball) (new)
+* [DIY Pinball CAN platform](http://diypinball.ca/) (new)
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
 
 # Current stable release (0.50)
 
-We released MPF 0.50.20 and MPF-MC 0.50.8 with bugfixes and backports.
+We released MPF 0.50.21 and MPF-MC 0.50.8 with bugfixes and backports.
 
 ## Changes
 
@@ -40,7 +44,7 @@ We released MPF 0.50.20 and MPF-MC 0.50.8 with bugfixes and backports.
 
 ## Bugfixes
 
-* 
+* [Prevent lags in LISY](https://github.com/missionpinball/mpf/pull/1249) - jab (backport; 0.50.21)
 
 ## Documentation
 
@@ -48,18 +52,22 @@ No changes
 
 # Dev release (future 0.51)
 
-We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
+We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 
 ## Changes/New features
 
-* 
+* [Add new mode_will_start hook for custom code](https://github.com/missionpinball/mpf/pull/1247) - Lamoraldus based on [discussion in forum](https://groups.google.com/forum/#!topic/mpf-users/D0W3pacTGUg)
+* [Reusing named widgets](https://github.com/missionpinball/mpf-mc/pull/353) - avanwinkle
+* [Support external platforms via entry_points](https://github.com/missionpinball/mpf/pull/1248) - jab
+* [Refresh Smartmatrix DMDs periodically](https://github.com/missionpinball/mpf/pull/1250) - jab
+
 ## Bugfixes
 
-* 
+* [Prevent lags in LISY](https://github.com/missionpinball/mpf/pull/1249) - jab
 
 ## Documentation
 
-* 
+* [Fix typos and links](https://github.com/missionpinball/mpf-docs/pull/187) - zach27
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -67,7 +75,6 @@ Do you have an example which is missing there? Please send it to us!
 ## Open PRs/Not landed yet
 
 * [Move libpinproc to a separate thread](https://github.com/missionpinball/mpf/pull/1195) - jab
-* [Reusing named widgets](https://github.com/missionpinball/mpf-mc/pull/353) - avanwinkle
 * [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
 * [Spike 2 support in mpf-spike-bridge](https://github.com/missionpinball/mpf-spike-bridge/pull/1) - jab and wolfmarsh
@@ -123,7 +130,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome xxx
+Welcome Lamoraldus and zach27.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
