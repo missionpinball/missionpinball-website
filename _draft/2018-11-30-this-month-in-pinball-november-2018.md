@@ -60,6 +60,7 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 * [Reusing named widgets](https://github.com/missionpinball/mpf-mc/pull/353) - avanwinkle
 * [Support external platforms via entry_points](https://github.com/missionpinball/mpf/pull/1248) - jab
 * [Refresh Smartmatrix DMDs periodically](https://github.com/missionpinball/mpf/pull/1250) - jab
+* [Support Servos on PD-LED](https://github.com/missionpinball/mpf/pull/1253) - jab with help by gstellenberg ([announcement](https://www.multimorphic.com/news/servo-and-stepper-motor-control-in-pd-led-v3/))
 
 ## Bugfixes
 
@@ -68,6 +69,8 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 ## Documentation
 
 * [Fix typos and links](https://github.com/missionpinball/mpf-docs/pull/187) - zach27
+* [Notes on using multiple playfields](https://github.com/missionpinball/mpf-docs/commit/ddcc16252cc783a4aab42c5f372085349914e10f) - jab based on [discussion in forum](https://groups.google.com/forum/#!topic/mpf-users/tnmvTI9J_O8)
+* [Animating a progress bar](https://github.com/missionpinball/mpf-docs/commit/b272f836598d13562f41f99007f27f13278a0f9d) - based on [discussion in forum](https://groups.google.com/forum/#!topic/mpf-users/n2Shn9wDfUc)
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -83,7 +86,6 @@ Do you have an example which is missing there? Please send it to us!
 
 * [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
 * [Stern Spike 2 support](https://github.com/missionpinball/mpf/issues/1246) - wolfmarsh and jab
-* More stepper and servo hardware - jab
 * [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
 
 ## Do you want to contribute?
