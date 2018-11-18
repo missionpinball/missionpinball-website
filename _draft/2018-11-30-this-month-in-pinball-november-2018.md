@@ -60,7 +60,10 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 * [Reusing named widgets](https://github.com/missionpinball/mpf-mc/pull/353) - avanwinkle
 * [Support external platforms via entry_points](https://github.com/missionpinball/mpf/pull/1248) - jab
 * [Refresh Smartmatrix DMDs periodically](https://github.com/missionpinball/mpf/pull/1250) - jab
-* [Support Servos on PD-LED](https://github.com/missionpinball/mpf/pull/1253) - jab with help by gstellenberg ([announcement](https://www.multimorphic.com/news/servo-and-stepper-motor-control-in-pd-led-v3/))
+* [Support Servos on PD-LED](https://github.com/missionpinball/mpf/pull/1253) - jab with help from gstellenberg ([announcement](https://www.multimorphic.com/news/servo-and-stepper-motor-control-in-pd-led-v3/))
+* [Support Steppers on PD-LED/New stepper device interface](https://github.com/missionpinball/mpf/pull/1255) - jab with help from gstellenberg
+* [Experimental external Philips Hue platform](https://github.com/missionpinball/mpf-hue-platform) - jab based on [code from  Philip D](https://groups.google.com/forum/#!topic/mpf-users/e5dv9j71BUE)
+* [Support config specs for external platforms via entry_points](https://github.com/missionpinball/mpf/pull/1252) - jab
 
 ## Bugfixes
 
@@ -71,6 +74,9 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 * [Fix typos and links](https://github.com/missionpinball/mpf-docs/pull/187) - zach27
 * [Notes on using multiple playfields](https://github.com/missionpinball/mpf-docs/commit/ddcc16252cc783a4aab42c5f372085349914e10f) - jab based on [discussion in forum](https://groups.google.com/forum/#!topic/mpf-users/tnmvTI9J_O8)
 * [Animating a progress bar](https://github.com/missionpinball/mpf-docs/commit/b272f836598d13562f41f99007f27f13278a0f9d) - based on [discussion in forum](https://groups.google.com/forum/#!topic/mpf-users/n2Shn9wDfUc)
+* [Adding a picture of a drop target bank](https://github.com/missionpinball/mpf-docs/commit/38e8e8bba4ffaead3c6c0e5a1f88300c570aa312) - coleman
+* [Fix typos](https://github.com/missionpinball/mpf-docs/pull/188) - travisbmartin
+* [Update stepper documentation](https://github.com/missionpinball/mpf-docs/commit/6f588482e0fe51a112052a16c1cd2a587d35e7c5) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -104,7 +110,6 @@ A list of things where we would love contributions (not exclusive):
   [orbits](http://docs.missionpinball.org/en/dev/mechs/loops/index.html),
   [kickbacks](http://docs.missionpinball.org/en/dev/mechs/kickbacks/index.html),
   [kicking targets](http://docs.missionpinball.org/en/dev/mechs/targets/kicking_targets/index.html),
-  [drop target banks](http://docs.missionpinball.org/en/dev/mechs/targets/drop_targets/drop_target_bank.html)
   [servos](http://docs.missionpinball.org/en/dev/mechs/servos/index.html),
   [accelerometer](http://docs.missionpinball.org/en/dev/mechs/accelerometers/index.html),
   [playfield](http://docs.missionpinball.org/en/dev/mechs/playfields/index.html),
