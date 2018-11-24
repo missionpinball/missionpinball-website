@@ -10,6 +10,7 @@ and the rest of the ecosystem.
 
 # News
 
+* [Crazy Mansion, Minions Pinball and Good vs Evil at the Dutch Pinball Open](https://www.pinballnews.com/site/2018/11/18/dpo-expo-2018/)
 
 # MPF Projects
 
@@ -77,6 +78,7 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 * [Adding a picture of a drop target bank](https://github.com/missionpinball/mpf-docs/commit/38e8e8bba4ffaead3c6c0e5a1f88300c570aa312) - coleman
 * [Fix typos](https://github.com/missionpinball/mpf-docs/pull/188) - travisbmartin
 * [Update stepper documentation](https://github.com/missionpinball/mpf-docs/commit/6f588482e0fe51a112052a16c1cd2a587d35e7c5) - jab
+* [Document PD-LED steppers, servos and serial LEDs](https://github.com/missionpinball/mpf-docs/commit/324a5cfc77061a6756f99d8a62b0ad1148aa843c) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -115,10 +117,11 @@ A list of things where we would love contributions (not exclusive):
   [playfield](http://docs.missionpinball.org/en/dev/mechs/playfields/index.html),
   [flashers](http://docs.missionpinball.org/en/dev/mechs/lights/flashers.html),
   [flippers](http://docs.missionpinball.org/en/dev/mechs/flippers/index.html),
+  [steppers](http://docs.missionpinball.org/en/dev/mechs/steppers/index.html),
   [score reels](http://docs.missionpinball.org/en/dev/mechs/score_reels/index.html),
   [diverters](http://docs.missionpinball.org/en/dev/mechs/diverters/index.html),
   [trough with optos](http://docs.missionpinball.org/en/dev/mechs/troughs/index.html) - please only send us picture where the rights belong to you
-* [Document the stepper device config options](http://docs.missionpinball.org/en/dev/config/steppers.html) and [add an initial stepper device howto](http://docs.missionpinball.org/en/dev/mechs/steppers/index.html)
+* [add an initial stepper device howto](http://docs.missionpinball.org/en/dev/mechs/steppers/index.html)
 * Document asset pools such as [video_pools](http://docs.missionpinball.org/en/dev/config/video_pools.html), [image_pools](http://docs.missionpinball.org/en/dev/config/image_pools.html) or [show_pools](http://docs.missionpinball.org/en/dev/config/show_pools.html)
 * [Create an electronical drawing for mechanical switches in matrix and on direct inputs](http://docs.missionpinball.org/en/dev/mechs/switches/mechanical_switches.html)
 * [Document motors](http://docs.missionpinball.org/en/dev/mechs/motors/index.html)
