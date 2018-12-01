@@ -1,6 +1,6 @@
 ---
 name: The Minions Pinball
-initials:
+acronym:
 team: The Pinball Amigos
 location: Netherlands
 started: 2015-08-11

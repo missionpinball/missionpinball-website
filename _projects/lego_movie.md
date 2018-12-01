@@ -1,6 +1,6 @@
 ---
 name: The Lego Movie Pinball
-initials:
+acronym:
 team:
 location: France
 started: 2016-06-06

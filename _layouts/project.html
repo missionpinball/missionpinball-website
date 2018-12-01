@@ -4,8 +4,8 @@ layout: default
 <div class="container">
 <h1>{{ page.name }}</h1>
     <table class="projects">
-    {% if page.initials %}
-        <tr><td>Initials</td><td>{{ page.initials }}</td></tr>
+    {% if page.acronym %}
+        <tr><td>Acronym</td><td>{{ page.acronym }}</td></tr>
     {% endif %}
     <tr><td>Team</td><td>{{ page.team }}
             {% if page.location %}

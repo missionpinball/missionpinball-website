@@ -1,6 +1,6 @@
 ---
 name: AF Tor Mod
-initials:
+acronym:
 team: diypinball
 location: Toronto area, Canada
 started: 2013-08-22

@@ -1,6 +1,6 @@
 ---
 name: The Last Starfighter
-initials:
+acronym:
 team: Pinteresting
 location: Santa Clarita, CA
 started: 2017-09-12

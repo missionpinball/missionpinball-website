@@ -1,6 +1,6 @@
 ---
 name: Custom Raspberry Arduino MPF platform
-initials:
+acronym:
 team: vgrillot
 location: France
 started: 2017-03-12

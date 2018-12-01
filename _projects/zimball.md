@@ -1,6 +1,6 @@
 ---
 name: Zimball
-initials:
+acronym:
 team: homechicken
 location:
 started: 2017-06-15

@@ -1,6 +1,6 @@
 ---
 name: Doctor Who Redux
-initials:
+acronym:
 team: travisbmartin
 location: Owensville, IN
 started: 2018-09-26

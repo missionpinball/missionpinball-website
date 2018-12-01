@@ -1,6 +1,6 @@
 ---
 name: Tattoo Mystique
-initials:
+acronym:
 team: Brian Cox
 location:
 started: 2013-01-01

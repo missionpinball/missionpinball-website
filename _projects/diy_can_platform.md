@@ -1,6 +1,6 @@
 ---
 name: DIY Pinball CAN MPF Platform
-initials:
+acronym:
 team: diypinball
 location: Toronto area, Canada
 started: 2013-11-05

@@ -1,6 +1,6 @@
 ---
 name: Fan-Tas-Tic Pinball
-initials:
+acronym:
 team: yetifrisstlama
 location: Berkeley
 started: 2017-09-05

@@ -1,6 +1,6 @@
 ---
 name: Gottliebs HotRod
-initials:
+acronym:
 team: jwilson
 location: Toronto, ON
 started: 2018-04-14

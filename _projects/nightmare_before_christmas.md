@@ -1,6 +1,6 @@
 ---
 name: The Nightmare Before Christmas
-initials: NBX
+acronym: NBX
 team: Mark Incitti
 location: Canada
 started: 2015-05-01
