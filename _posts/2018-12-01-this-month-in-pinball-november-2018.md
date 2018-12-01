@@ -10,7 +10,9 @@ and the rest of the ecosystem.
 
 # News
 
+* [We released MPF 0.51]({% post_url 2018-11-24-mpf-0-51-released %})
 * [Crazy Mansion, Minions Pinball and Good vs Evil at the Dutch Pinball Open](https://www.pinballnews.com/site/2018/11/18/dpo-expo-2018/)
+* There seems to be a [sound issue in 0.51](https://groups.google.com/forum/#!topic/mpf-users/K6Q8l1K9ORE). We are working on that.
 
 # MPF Projects
 
@@ -31,17 +33,22 @@ Some active publicly documented projects by MPF users.
 * [Forbidden Planet](https://pinside.com/pinball/forum/topic/john-treadeaus-forbidden-planet/) (new)
 * [The Lego Movie](https://thelegomoviepinball.wordpress.com/) (french) (new)
 * [Custom Raspberry](https://github.com/vgrillot/mpf) and [Arduino MPF platform](https://github.com/vgrillot/arduinball) (new)
-* [DIY Pinball CAN platform](http://diypinball.ca/) (new)
+* [DIY Pinball CAN Platform](http://diypinball.ca/) (new)
+* [Fan-Tas-Tic Platform](https://github.com/yetifrisstlama/Fan-Tas-Tic-Firmware) (new)
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
 
-# Current stable release (0.50)
+# Old stable release (0.50)
 
 We released MPF 0.50.21 and MPF-MC 0.50.8 with bugfixes and backports.
+It will be maintained for a while with bugfixes.
+However, upgrading should be fairly easy for most people so don't expect
+maintainance for more than a few more month.
+Let us know if you got troubles upgrading.
 
 ## Changes
 
-* 
+* No changes
 
 ## Bugfixes
 
@@ -49,11 +56,11 @@ We released MPF 0.50.21 and MPF-MC 0.50.8 with bugfixes and backports.
 
 ## Documentation
 
-No changes
+* No changes
 
-# Dev release (future 0.51)
+# 0.51 release
 
-We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
+We released MPF 0.51.1 and MPF-MC 0.51.3.
 
 ## Changes/New features
 
@@ -69,6 +76,8 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 ## Bugfixes
 
 * [Prevent lags in LISY](https://github.com/missionpinball/mpf/pull/1249) - jab
+* [Reallow playfield_active on switches in shots](https://github.com/missionpinball/mpf/commit/9c4940fb92c9c87a1d6d9aaf49531e4861ec3ce1) - jab based on feedback from Philip D. (backport)
+* [Pin to old kivy dependencies because Windows bugs](https://github.com/missionpinball/mpf-mc/commit/a8330136cd799b5ec5b92184f7f24922547f511e) - jab based on feedback by multiple users (backport; see: [Kivy bug](https://github.com/kivy/kivy/issues/5916))
 
 ## Documentation
 
@@ -80,15 +89,34 @@ We pushed MPF 0.51.0-dev-16 and MPF-MC 0.51.0-dev.3.
 * [Update stepper documentation](https://github.com/missionpinball/mpf-docs/commit/6f588482e0fe51a112052a16c1cd2a587d35e7c5) - jab
 * [Document PD-LED steppers, servos and serial LEDs](https://github.com/missionpinball/mpf-docs/commit/324a5cfc77061a6756f99d8a62b0ad1148aa843c) - jab
 
+# Dev release (future 0.52)
+
+We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
+
+## Changes/New features
+
+* [Refactor lights on a driver into separate platform](https://github.com/missionpinball/mpf/pull/1258) - jab
+* [Support StepStick/DRV8825 on digital outputs](https://github.com/missionpinball/mpf/pull/1259) - jab based on [request from Tom](https://groups.google.com/forum/#!topic/mpf-users/ZgssCKBzvnA)
+
+## Bugfixes
+
+* [Reallow playfield_active on switches in shots](https://github.com/missionpinball/mpf/commit/9c4940fb92c9c87a1d6d9aaf49531e4861ec3ce1) - jab based on feedback from Philip D. 
+* [Pin to old kivy dependencies because Windows bugs](https://github.com/missionpinball/mpf-mc/commit/a8330136cd799b5ec5b92184f7f24922547f511e) - jab based on feedback by multiple users (see: [Kivy bug](https://github.com/kivy/kivy/issues/5916))
+
+## Documentation
+
+* [Better playlist example](https://github.com/missionpinball/mpf-docs/commit/43249a87a52376230e8665ab777819ae696e4c7e) - jab based on [example from Brian C](https://groups.google.com/forum/#!topic/mpf-users/gxr5oTbmDrk) 
+
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
 
 ## Open PRs/Not landed yet
 
 * [Move libpinproc to a separate thread](https://github.com/missionpinball/mpf/pull/1195) - jab
-* [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen
+* [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen (breaking change)
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
 * [Spike 2 support in mpf-spike-bridge](https://github.com/missionpinball/mpf-spike-bridge/pull/1) - jab and wolfmarsh
+* [OSC platform to control external lights](https://github.com/missionpinball/mpf/pull/1260) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/8JZbb_X__Rc)
 
 ## Upcoming changes
 
@@ -100,7 +128,6 @@ Do you have an example which is missing there? Please send it to us!
 
 A list of things where we would love contributions (not exclusive):
 
-* [Adding more devices to the built-in service mode](https://github.com/missionpinball/mpf/issues/693)
 * Pictures for the following devices: [pop bumpers](http://docs.missionpinball.org/en/dev/mechs/pop_bumpers/index.html),
   [incandescant bulbs](http://docs.missionpinball.org/en/dev/mechs/lights/matrix_lights.html),
   [GI bulbs](http://docs.missionpinball.org/en/dev/mechs/lights/gis.html),
@@ -130,6 +157,7 @@ A list of things where we would love contributions (not exclusive):
 * [Add an example or howto for combo switches](http://docs.missionpinball.org/en/dev/game_logic/combo_switches/index.html)
 * [Add an example or howto for diverters](http://docs.missionpinball.org/en/dev/mechs/diverters/index.html)
 * [Add an example or howto for shot_profiles](http://docs.missionpinball.org/en/dev/game_logic/shots/shot_profiles.html)
+* [Adding more devices to the built-in service mode](https://github.com/missionpinball/mpf/issues/693)
 * [More good first issues in MPF](https://github.com/missionpinball/mpf/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [More TODOs in the documentation](http://docs.missionpinball.org/en/dev/search.html?q=help_us_to_write_it&check_keywords=yes&area=default)
 
