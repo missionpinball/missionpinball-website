@@ -10,7 +10,7 @@ and the rest of the ecosystem.
 
 # News
 
-* There seems to be a [sound issue in 0.51](https://groups.google.com/forum/#!topic/mpf-users/K6Q8l1K9ORE). We are working on that.
+* We created a list of [publicly documented projects by MPF users on our website]({% link projects.html %}).
 
 # MPF Projects
 
@@ -20,19 +20,21 @@ Some new projects which joined the list this month:
 * [Fan-Tas-Tic Pinball]({% link _projects/fan_tas_tic.md %})
 * [Earth Shaker Mod]({% link _projects/earth_shaker_mod.md %})
 * [AF Tor Mod]({% link _projects/af_tor_mod.md %})
+* [Tattoo Mystique]({% link _projects/tattoo_mystique.md %})
+* [Zimball]({% link _projects/zimball.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
 
 # 0.51 release
 
-We released MPF 0.51.x and MPF-MC 0.51.x.
+We released MPF 0.51.x and MPF-MC 0.51.4.
 
 ## Changes/New features
 
 * 
 ## Bugfixes
 
-*
+* [Fix audio problems](https://github.com/missionpinball/mpf-mc/commit/7751cef626cae7fe0eeba2c4138f7ab6bb7d8982) - jab (0.51.4; based on [0.50 fix](https://github.com/missionpinball/mpf-mc/commit/e9d7f3aac92489ba8f987807aad5584938d77891#diff-b1084838e78cf0dc54bddd5026e1f747))
 
 ## Documentation
 
@@ -44,10 +46,12 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 
 ## Changes/New features
 
-* 
+* [OSC platform to control external lights](https://github.com/missionpinball/mpf/pull/1260) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/8JZbb_X__Rc)
+ 
 ## Bugfixes
 
-* 
+* [Fix audio problems](https://github.com/missionpinball/mpf-mc/commit/7751cef626cae7fe0eeba2c4138f7ab6bb7d8982) - jab (based on [0.50 fix](https://github.com/missionpinball/mpf-mc/commit/e9d7f3aac92489ba8f987807aad5584938d77891#diff-b1084838e78cf0dc54bddd5026e1f747))
+
 ## Documentation
 
 * [How to change the size of switches and light in the MPF monitor](https://github.com/missionpinball/mpf-docs/commit/78bcd64254da3710423d5791ce6a067857c9c348) - jab based on questions from Jack Danger and Dan
@@ -62,7 +66,6 @@ Do you have an example which is missing there? Please send it to us!
 * [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen (breaking change)
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
 * [Spike 2 support in mpf-spike-bridge](https://github.com/missionpinball/mpf-spike-bridge/pull/1) - jab and wolfmarsh
-* [OSC platform to control external lights](https://github.com/missionpinball/mpf/pull/1260) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/8JZbb_X__Rc)
 
 ## Upcoming changes
 
