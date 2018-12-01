@@ -11,6 +11,10 @@ title: Projects
         <ul>
 {% assign projects_by_start = site.projects | sort: 'started' | reverse %}
 {% for project in projects_by_start %}
-        <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}</a> by {{ project.team }} (started: {{ project.started | date_to_string }})</li>
+        <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}
+        {% if project.initials %}
+            ({{ project.initials }})
+        {% endif %}
+        </a> by {{ project.team }} (started: {{ project.started | date_to_string }})</li>
 {% endfor %}
         </ul>

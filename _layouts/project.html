@@ -3,7 +3,10 @@ layout: default
 ---
 <div class="container">
 <h1>{{ page.name }}</h1>
-    <table>
+    <table class="projects">
+    {% if page.initials %}
+        <tr><td>Initials</td><td>{{ page.initials }}</td></tr>
+    {% endif %}
     <tr><td>Team</td><td>{{ page.team }}
             {% if page.location %}
             in {{ page.location }}

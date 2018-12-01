@@ -65,3 +65,12 @@
     .navbar-nav {
         font-weight: 600;
     }
+
+    .projects table {
+        border-collapse: collapse;
+    }
+
+    .projects table, .projects th, .projects td {
+        border: 1px solid black;
+        padding: 10px;
+    }
