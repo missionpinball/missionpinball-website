@@ -8,6 +8,9 @@ collections:
   events:
     output: true
     permalink: /event/:name.html
+  projects:
+    output: true
+    permalink: /project/:name.html
 
 future: true
 
@@ -15,6 +18,11 @@ plugins:
   - jekyll-feed
 
 defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
   - scope:
       path: ""
       type: "events"

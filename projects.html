@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+---
+<div class="container">
+        <p>A curated list of pinball machines running MPF. Most of those are in progress.</p>
+        <p>If you are building a machine with MPF let us know in the <a href=
+        "https://groups.google.com/forum/#!forum/mpf-users">MPF Users Google
+        Group</a> and we will list it here.</p>
+        <h2>Active projects</h2>
+        <ul>
+{% assign projects_by_start = site.projects | sort: 'started' | reverse %}
+{% for project in projects_by_start %}
+        <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}</a> by {{ project.team }} (started: {{ project.started | date_to_string }})</li>
+{% endfor %}
+        </ul>

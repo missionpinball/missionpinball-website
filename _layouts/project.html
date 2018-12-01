@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="container">
+<h1>{{ page.name }}</h1>
+    <table>
+    <tr><td>Team</td><td>{{ page.team }}
+            {% if page.location %}
+            in {{ page.location }}
+        {% endif %}
+    </td></tr>
+    <tr><td>Started</td><td>{{ page.started | date_to_string }}</td></tr>
+    <tr><td>Finished</td><td>{% if page.finished %}
+        {{ page.finished | date_to_string }}
+    {% else %}
+        Still in progress
+    {% endif %}</td></tr>
+    <tr><td>Links</td><td>
+        {% if page.documentation_link %}
+            <a href="{{ page.documentation_link }}">Documentation</a>
+        {% endif %}
+        {% if page.code_link %}
+            <a href="{{ page.code_link }}">Code</a>
+        {% endif %}
+        {% if page.gameplay_link %}
+            <a href="{{ page.gameplay_link }}">Gameplay Video</a>
+        {% endif %}
+    </td></tr>
+
+    </table>
+
+
+
+
+{{ content }}
+
+</div>
