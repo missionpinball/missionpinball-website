@@ -1,5 +1,6 @@
 ---
 name: The Nightmare Before Christmas
+initials: GVE
 team: Mark Incitti
 location: Canada
 started: 2015-05-01

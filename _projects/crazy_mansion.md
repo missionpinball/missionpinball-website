@@ -1,5 +1,6 @@
 ---
 name: The Crazy Mansion
+initials:
 team: The Pinball Amigos
 location: Netherlands
 started: 2017-06-09

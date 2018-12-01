@@ -1,5 +1,6 @@
 ---
 name: Forbidden Planet
+initials:
 team: Philip Dixon
 location:
 started: 2011-08-17

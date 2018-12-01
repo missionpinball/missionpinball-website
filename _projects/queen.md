@@ -1,5 +1,6 @@
 ---
 name: Queen Pinball
+initials:
 team: Doug Spata
 location: Cincinnati, OH
 started: 2016-05-07

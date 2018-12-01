@@ -1,5 +1,6 @@
 ---
 name: Good vs Evil - Head2Head Pinball
+initials: GVE
 team: K&K Pinball
 location: Hannover, Germany
 started: 2015-04-01

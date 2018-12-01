@@ -1,5 +1,6 @@
 ---
 name: Gravity Falls
+initials:
 team: Gallicus
 location:
 started: 2018-10-03

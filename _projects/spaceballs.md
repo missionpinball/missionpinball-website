@@ -1,5 +1,6 @@
 ---
 name: Spaceballs - The Pin
+initials:
 team: Wolfmarsh
 location: Charleston, SC
 started: 2013-11-06

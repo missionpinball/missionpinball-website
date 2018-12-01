@@ -1,5 +1,6 @@
 ---
 name: Fan-Tas-Tic Platform
+initials:
 team: yetifrisstlama
 location: Berkeley
 started: 2015-03-28

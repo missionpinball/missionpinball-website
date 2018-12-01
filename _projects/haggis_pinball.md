@@ -1,5 +1,6 @@
 ---
 name: Haggis Pinball
+initials:
 team: Haggis Pinball
 location: Canada
 started: 2018-10-03
