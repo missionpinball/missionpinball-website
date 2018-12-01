@@ -50,7 +50,8 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * 
 ## Documentation
 
-* 
+* [How to change the size of switches and light in the MPF monitor](https://github.com/missionpinball/mpf-docs/commit/78bcd64254da3710423d5791ce6a067857c9c348) - jab based on questions from Jack Danger and Dan
+* [Document StepStick stepper drivers in MPF](https://github.com/missionpinball/mpf-docs/commit/5f6b117f9e0cdae26514dc0e4d5846b83277a9e8) - jab based on [request from Tom](https://groups.google.com/forum/#!topic/mpf-users/ZgssCKBzvnA)
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!

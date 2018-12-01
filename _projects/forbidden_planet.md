@@ -1,5 +1,5 @@
 ---
-name: John Treadeaus Forbidden Planet
+name: Forbidden Planet
 team: Philip Dixon
 location:
 started: 2011-08-17

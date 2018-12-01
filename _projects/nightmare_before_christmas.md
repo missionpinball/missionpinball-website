@@ -1,6 +1,6 @@
 ---
 name: The Nightmare Before Christmas
-team: The Pinball Amigos
+team: Mark Incitti
 location: Canada
 started: 2015-05-01
 finished:
