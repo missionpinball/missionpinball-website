@@ -6,4 +6,4 @@ year: 2019
 city: Frisco, Texas, USA
 event_link: http://texaspinball.com/tpf/
 ---
-[Haggis Pinball]({% link _projects/haggis_pinball.md %}) will reveal their first prototype.
+[Haggis Pinball]({% link _projects/wraith.md %}) will reveal their first prototype.

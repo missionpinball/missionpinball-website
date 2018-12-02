@@ -1,5 +1,5 @@
 ---
-name: Haggis Pinball
+name: Wraith
 acronym:
 team: Haggis Pinball
 location: Canada
