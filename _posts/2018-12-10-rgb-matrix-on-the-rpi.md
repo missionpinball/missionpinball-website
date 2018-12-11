@@ -6,12 +6,12 @@ tags: [hardware, MPF]
 ---
 We just upstreamed support for RGB Matrix devices connected to a Raspberry Pi.
 
-Michael Betz, one of our fellow MPF users, build
+Michael Betz, one of our fellow MPF users, built
 [custom control boards](https://github.com/yetifrisstlama/Fan-Tas-Tic-platform)
 which he implemented as
 [external platform for MPF](https://github.com/missionpinball/mpf-demo-platform).
 It works via I2C and looks
-[like pretty cool homebrew project](https://yetifrisstlama.github.io/fan-tas-tic-firmware-upgrade/).
+[like a pretty cool homebrew project](https://yetifrisstlama.github.io/fan-tas-tic-firmware-upgrade/).
 Make sure to check it out!
 In addition to his control boards he also implemented support for
 RGB Matrix devices connected to a Raspberry Pi which can be bought
