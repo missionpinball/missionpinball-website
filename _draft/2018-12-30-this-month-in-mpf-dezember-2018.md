@@ -73,6 +73,7 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Credits mode tutorial](https://github.com/missionpinball/mpf-docs/commit/2df9021bd09fae9b6023ff9113c344ced45f5a22) - jab based on old tutorial
 * [Tutorial on debugging memory leaks](https://github.com/missionpinball/mpf-docs/commit/e49caefff47f8b1af3642f946c1cc4d4c43f3a74) - jab based on question from Brian Cox
 * [Document RPi DMD platform](https://github.com/missionpinball/mpf-docs/commit/d075be91f5592ead66469227186b0495b32d975d) - jab
+* [How to subscribe variables in config players](https://github.com/missionpinball/mpf-docs/commit/b3c95c884cc2e622a6c017421216bb8ab4fa85c5) - jab based on [question](https://groups.google.com/forum/#!topic/mpf-users/nLnz5rM3Uus)
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
