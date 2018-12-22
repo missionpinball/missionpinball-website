@@ -27,7 +27,7 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # 0.51 release
 
-We released MPF 0.51.x and MPF-MC 0.51.4.
+We released MPF 0.51.3 and MPF-MC 0.51.4.
 
 ## Changes/New features
 
@@ -35,7 +35,10 @@ We released MPF 0.51.x and MPF-MC 0.51.4.
 
 ## Bugfixes
 
-* [Fix audio problems](https://github.com/missionpinball/mpf-mc/commit/7751cef626cae7fe0eeba2c4138f7ab6bb7d8982) - jab (0.51.4; based on [0.50 fix](https://github.com/missionpinball/mpf-mc/commit/e9d7f3aac92489ba8f987807aad5584938d77891#diff-b1084838e78cf0dc54bddd5026e1f747))
+* [Fix audio problems](https://github.com/missionpinball/mpf-mc/commit/7751cef626cae7fe0eeba2c4138f7ab6bb7d8982) - jab (MPF-MC 0.51.4; based on [0.50 fix](https://github.com/missionpinball/mpf-mc/commit/e9d7f3aac92489ba8f987807aad5584938d77891#diff-b1084838e78cf0dc54bddd5026e1f747))
+* [Fix P-Roc DMD problem](https://github.com/missionpinball/mpf/commit/f48ff101d5108371e6d9058441b270d0c4a9d336) - jab
+* [Fix crash when cleaning up a player without using it](https://github.com/missionpinball/mpf/commit/c20430067fbb09946b1b0e07fd4f12c066dbd918) - jab based on report from Brian Cox (MPF 0.51.3; backport)
+* [Workaround P-Roc DMD problem](https://github.com/missionpinball/mpf/commit/f48ff101d5108371e6d9058441b270d0c4a9d336) - jab based on [error report in forum by Sean-Paul](https://groups.google.com/forum/#!topic/mpf-users/HVDf9eBFoxQ) (MPF 0.51.3)
 
 ## Documentation
 
@@ -57,12 +60,19 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Show import error for pinproc](https://github.com/missionpinball/mpf/pull/1267) - jab
 * [Add a segment display font](https://github.com/missionpinball/mpf-mc/commit/0dadad10eeaf01188e92016c90006ebb8b5b5933) - jab based on [example from BorgDog](https://groups.google.com/forum/#!topic/mpf-users/1wzjCo5pL0U)
 * [Upstream Raspberry Pi DMD support](https://github.com/missionpinball/mpf/pull/1269) - jab based on [external platform from Michael Betz](https://github.com/yetifrisstlama/Fan-Tas-Tic-platform)
+* [Support for Spike Trough via SPI Bit Bang](https://github.com/missionpinball/mpf/pull/1270) - jab
+* [Move libpinproc to a separate thread](https://github.com/missionpinball/mpf/pull/1195) - jab
+* [Score Queues for SS style scoring](https://github.com/missionpinball/mpf/pull/1273) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/4Ecj6xtveHo)
+* [Conditionals on add_to_slide animations](https://github.com/missionpinball/mpf-mc/pull/357) -  avanwinkle
 
 ## Bugfixes
 
 * [Fix audio problems](https://github.com/missionpinball/mpf-mc/commit/7751cef626cae7fe0eeba2c4138f7ab6bb7d8982) - jab (based on [0.50 fix](https://github.com/missionpinball/mpf-mc/commit/e9d7f3aac92489ba8f987807aad5584938d77891#diff-b1084838e78cf0dc54bddd5026e1f747))
 * [Fix crash in achievments_group when setting auto_select and rotating an empty group](https://github.com/missionpinball/mpf/pull/1266/commits/4b366654b9975a7d00bad5ca028f863868ef47af) - jab
 * [Only post select event of achievements on state change](https://github.com/missionpinball/mpf/pull/1266) - jab based on report from Brian Cox
+* [Missing lower case for A side switch in snux platform](https://github.com/missionpinball/mpf/commit/63cee50d2cd816565a8173b162c58135ddb9cc36) - jab based on [fix bx Snux](https://github.com/missionpinball/mpf/issues/1268)
+* [Fix crash when cleaning up a player without using it](https://github.com/missionpinball/mpf/commit/fb4b526f1a90d7046f7f3eef0ce7183ff5012c6f) - jab based on report from Brian Cox
+* [Fix problem in pypinproc which caused empty DMDs on the P-Roc](https://github.com/missionpinball/pypinproc/commit/21b19c3ba96d48ce52149fd0dd8d937dba3aaff0) + [rebuild by Quinn](https://github.com/missionpinball/mpf/pull/1272) - jab based on [error report in forum by Sean-Paul](https://groups.google.com/forum/#!topic/mpf-users/HVDf9eBFoxQ)
 
 ## Documentation
 
@@ -74,13 +84,15 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Tutorial on debugging memory leaks](https://github.com/missionpinball/mpf-docs/commit/e49caefff47f8b1af3642f946c1cc4d4c43f3a74) - jab based on question from Brian Cox
 * [Document RPi DMD platform](https://github.com/missionpinball/mpf-docs/commit/d075be91f5592ead66469227186b0495b32d975d) - jab
 * [How to subscribe variables in config players](https://github.com/missionpinball/mpf-docs/commit/b3c95c884cc2e622a6c017421216bb8ab4fa85c5) - jab based on [question](https://groups.google.com/forum/#!topic/mpf-users/nLnz5rM3Uus)
+* [Documenting the snux platform](https://github.com/missionpinball/mpf-docs/pull/193) - snux
+* [How to use a Stern Spike Trough in other platforms than Stern Spike](https://github.com/missionpinball/mpf-docs/commit/e285f58d46253262f54d10ab7837a835ad3cd608) - jab
+* [How to use Solid State Style Score Queues](https://github.com/missionpinball/mpf-docs/commit/e1bd78aa1e2b4b13de609134f141e1fea44d69a6) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/4Ecj6xtveHo)
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
 
 ## Open PRs/Not landed yet
 
-* [Move libpinproc to a separate thread](https://github.com/missionpinball/mpf/pull/1195) - jab
 * [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen (breaking change)
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
 * [Spike 2 support in mpf-spike-bridge](https://github.com/missionpinball/mpf-spike-bridge/pull/1) - jab and wolfmarsh
