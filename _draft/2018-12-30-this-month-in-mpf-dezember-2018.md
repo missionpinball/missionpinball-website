@@ -64,6 +64,8 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Move libpinproc to a separate thread](https://github.com/missionpinball/mpf/pull/1195) - jab
 * [Score Queues for SS style scoring](https://github.com/missionpinball/mpf/pull/1273) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/4Ecj6xtveHo)
 * [Conditionals on add_to_slide animations](https://github.com/missionpinball/mpf-mc/pull/357) -  avanwinkle
+* [Check for OPP firmware mismatch on start](https://github.com/missionpinball/mpf/pull/1276) - jab based on [bug report in forum](https://groups.google.com/forum/#!topic/mpf-users/umg2ZmDElog)
+* [Evaluate placeholders from service cli](https://github.com/missionpinball/mpf/pull/1277) - jab
 
 ## Bugfixes
 
@@ -87,6 +89,8 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Documenting the snux platform](https://github.com/missionpinball/mpf-docs/pull/193) - snux
 * [How to use a Stern Spike Trough in other platforms than Stern Spike](https://github.com/missionpinball/mpf-docs/commit/e285f58d46253262f54d10ab7837a835ad3cd608) - jab
 * [How to use Solid State Style Score Queues](https://github.com/missionpinball/mpf-docs/commit/e1bd78aa1e2b4b13de609134f141e1fea44d69a6) - jab based on [request in forum](https://groups.google.com/forum/#!topic/mpf-users/4Ecj6xtveHo)
+* [Document event handler priorities](https://github.com/missionpinball/mpf-docs/commit/b2b8e270d0dfb9b862190b60fa8e744e8e524905) - jab
+* [How to use multiple locks in a multiball](https://github.com/missionpinball/mpf-docs/commit/6ddb559e013c5a187dba99d293d2df88a74bf223) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
