@@ -75,6 +75,7 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Missing lower case for A side switch in snux platform](https://github.com/missionpinball/mpf/commit/63cee50d2cd816565a8173b162c58135ddb9cc36) - jab based on [fix bx Snux](https://github.com/missionpinball/mpf/issues/1268)
 * [Fix crash when cleaning up a player without using it](https://github.com/missionpinball/mpf/commit/fb4b526f1a90d7046f7f3eef0ce7183ff5012c6f) - jab based on report from Brian Cox
 * [Fix problem in pypinproc which caused empty DMDs on the P-Roc](https://github.com/missionpinball/pypinproc/commit/21b19c3ba96d48ce52149fd0dd8d937dba3aaff0) + [rebuild by Quinn](https://github.com/missionpinball/mpf/pull/1272) - jab based on [error report in forum by Sean-Paul](https://groups.google.com/forum/#!topic/mpf-users/HVDf9eBFoxQ)
+* [Fix name clashes between multiple anonymous slides](https://github.com/missionpinball/mpf-mc/pull/359) - jab based on bug report by pinballpeople
 
 ## Documentation
 
