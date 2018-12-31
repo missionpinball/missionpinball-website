@@ -11,6 +11,8 @@ and the rest of the ecosystem.
 # News
 
 * We created a list of [publicly documented projects by MPF users on our website]({% link projects.html %}).
+* [RGB Matrix DMDs on the RPi]({% post_url 2018-12-10-rgb-matrix-on-the-rpi %})
+* [Step Stick Steppers in MPF]({% post_url 2018-12-15-step-stick-steppers-in-mpf %})
 * Happy new year everybody!
 
 # MPF Projects
