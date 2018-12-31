@@ -25,7 +25,7 @@ Some new projects which joined the list this month:
 * [AF Tor Mod]({% link _projects/af_tor_mod.md %})
 * [Tattoo Mystique]({% link _projects/tattoo_mystique.md %})
 * [Zimball]({% link _projects/zimball.md %})
-* [F16]({% link _projects/f16.md %})
+* [F14]({% link _projects/f14.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
 
