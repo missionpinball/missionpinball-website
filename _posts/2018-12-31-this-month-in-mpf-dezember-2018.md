@@ -21,7 +21,7 @@ We moved [active publicly documented projects by MPF users]({% link projects.htm
 Some new projects which joined the list this month:
 
 * [Fan-Tas-Tic Pinball]({% link _projects/fan_tas_tic.md %})
-* [Earth Shaker Mod]({% link _projects/earth_shaker_mod.md %})
+* [Nitro Ground Shaker Mod]({% link _projects/nitro_ground_shaker_mod.md %})
 * [AF Tor Mod]({% link _projects/af_tor_mod.md %})
 * [Tattoo Mystique]({% link _projects/tattoo_mystique.md %})
 * [Zimball]({% link _projects/zimball.md %})
@@ -156,7 +156,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome  and .
+Welcome (back) snux.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).

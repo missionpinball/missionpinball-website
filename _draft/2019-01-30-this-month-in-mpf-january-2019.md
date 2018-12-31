@@ -1,10 +1,10 @@
 ---
 layout: post
 author: jab
-title: This Month in MPF Dezember 2018
+title: This Month in MPF January 2019
 tags: [this_month_in_mpf_land, MPF]
 ---
-What happened in MPF-land in Dezember 2018?
+What happened in MPF-land in January 2019?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
 and the rest of the ecosystem.
 
