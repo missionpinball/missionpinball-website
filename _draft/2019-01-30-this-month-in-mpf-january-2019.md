@@ -44,15 +44,28 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 
 ## Changes/New features
 
-* 
+* [Improve USB latency for I2C in pypinproc](https://github.com/missionpinball/pypinproc/pull/5) - jab based on suggestion by rosh
+* [Only enable AC relay by default during the game. Keep it off in attract](https://github.com/missionpinball/mpf/pull/1289) - snux
+* [Ball Routing device to route balls to certain devices](https://github.com/missionpinball/mpf/pull/1291) - jab
 
 ## Bugfixes
 
-* 
+* [Properly support external platforms in MC](https://github.com/missionpinball/mpf-mc/pull/361) - jab based on [report by TheLegoMoviePinball](https://groups.google.com/forum/#!topic/mpf-users/okl8PjXrlWI) 
+* [Honour -a and -A option when loading config_spec in MPF](https://github.com/missionpinball/mpf/pull/1280) and [MC](https://github.com/missionpinball/mpf-mc/pull/362) - jab based on [report by TheLegoMoviePinball](https://groups.google.com/forum/#!topic/mpf-users/okl8PjXrlWI)
+* [Honour slide parameter in inactive slides](https://github.com/missionpinball/mpf-mc/pull/363) - avanwinkle
+* [Fix crash in coil_player when using off action](https://github.com/missionpinball/mpf/pull/new/coil_player_crash) - jab based on [bug reported by snux](https://github.com/missionpinball/mpf/issues/1282)
+* [Fix iMC startup crash](https://github.com/missionpinball/mpf-mc/pull/364) - jab based on [report by snux](https://groups.google.com/forum/#!topic/mpf-users/YLrh6RKlx0s)
 
 ## Documentation
 
-* 
+* Monitorable properties for [shots](https://github.com/missionpinball/mpf/pull/1287) and [shot_groups](https://github.com/missionpinball/mpf-docs/commit/f2b1833153fb391d6316ed8afb18761eaa580854) - jab based on [question by snux](https://groups.google.com/forum/#!topic/mpf-users/cVnmhJIN1tM)  
+* [Document recycle settings for more platforms](https://github.com/missionpinball/mpf-docs/commit/cec753171700165814d0853684e6ac9c6357df76) - jab based on [question by Cole M](https://groups.google.com/forum/#!topic/mpf-users/qGVVwTbYnrA)
+* [Explain logic and modes in MPF](https://github.com/missionpinball/mpf-docs/pull/197) - colemanomartin
+* [Notes on case-sensitivity](https://github.com/missionpinball/mpf-docs/pull/195) - colemanomartin
+* [Explain A and C side preference in System11/Snux](https://github.com/missionpinball/mpf-docs/pull/194) - snux
+* [Fix typos](https://github.com/missionpinball/mpf-docs/pull/196) - travisbmartin
+* [Document monitorable properties and event in logic blocks](https://github.com/missionpinball/mpf-docs/commit/7a03143a5ebf571f6092ebf4b28a7b7282420584) - jab
+* [Example for conditionals in log](https://github.com/missionpinball/mpf-docs/commit/34e8403e29d3292d82ff768bac95c400f16191c4) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
