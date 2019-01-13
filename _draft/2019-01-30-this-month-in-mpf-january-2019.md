@@ -47,6 +47,8 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Improve USB latency for I2C in pypinproc](https://github.com/missionpinball/pypinproc/pull/5) - jab based on suggestion by rosh
 * [Only enable AC relay by default during the game. Keep it off in attract](https://github.com/missionpinball/mpf/pull/1289) - snux
 * [Ball Routing device to route balls to certain devices](https://github.com/missionpinball/mpf/pull/1291) - jab
+* [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/pull/1293) - wolfmarsh
+* [Update Smartmatrix Teensy Code Example for New Cookie](https://github.com/missionpinball/mpf/pull/1295) - aaronmatthies and eli
 
 ## Bugfixes
 
@@ -66,6 +68,7 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Fix typos](https://github.com/missionpinball/mpf-docs/pull/196) - travisbmartin
 * [Document monitorable properties and event in logic blocks](https://github.com/missionpinball/mpf-docs/commit/7a03143a5ebf571f6092ebf4b28a7b7282420584) - jab
 * [Example for conditionals in log](https://github.com/missionpinball/mpf-docs/commit/34e8403e29d3292d82ff768bac95c400f16191c4) - jab
+* [Update Smartmatrix documentation for new cookie](https://github.com/missionpinball/mpf-docs/pull/198) - aaronmatthies
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -78,7 +81,6 @@ Do you have an example which is missing there? Please send it to us!
 
 ## Upcoming changes
 
-* [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/issues/1217) - wolfmarsh
 * [Stern Spike 2 support](https://github.com/missionpinball/mpf/issues/1246) - wolfmarsh and jab
 * [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab
 
@@ -126,7 +128,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome  and .
+Welcome aaronmatthies and eli.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
