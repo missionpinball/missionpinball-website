@@ -10,7 +10,7 @@ and the rest of the ecosystem.
 
 # News
 
-* 
+* [Python 3.7 support in MPF 0.52]({% post_url 2019-01-25-python-3.7-support %}) - jab
 
 # MPF Projects
 
@@ -49,6 +49,10 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Ball Routing device to route balls to certain devices](https://github.com/missionpinball/mpf/pull/1291) - jab
 * [Support for the Pololu Tic stepper controller](https://github.com/missionpinball/mpf/pull/1293) - wolfmarsh
 * [Update Smartmatrix Teensy Code Example for New Cookie](https://github.com/missionpinball/mpf/pull/1295) - aaronmatthies and eli
+* [Placeholders in event_player based on event parameters](https://github.com/missionpinball/mpf/pull/1297) - avanwinkle
+* [Update ruamel yaml parser](https://github.com/missionpinball/mpf/pull/1298) - jab
+* [Use newer cython to support Python 3.7](https://github.com/missionpinball/mpf-debian-installer/commit/532d8757c078ef568b6a9d3473a1db63d35e84ef) - jab
+* [Add Python 3.7 support to MPF](https://github.com/missionpinball/mpf/pull/1300) - jab
 
 ## Bugfixes
 
@@ -57,6 +61,7 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Honour slide parameter in inactive slides](https://github.com/missionpinball/mpf-mc/pull/363) - avanwinkle
 * [Fix crash in coil_player when using off action](https://github.com/missionpinball/mpf/pull/new/coil_player_crash) - jab based on [bug reported by snux](https://github.com/missionpinball/mpf/issues/1282)
 * [Fix iMC startup crash](https://github.com/missionpinball/mpf-mc/pull/364) - jab based on [report by snux](https://groups.google.com/forum/#!topic/mpf-users/YLrh6RKlx0s)
+* [Fix sound_queue for on demand sounds](https://github.com/missionpinball/mpf/pull/1299) - avanwinkle
 
 ## Documentation
 
@@ -69,6 +74,9 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Document monitorable properties and event in logic blocks](https://github.com/missionpinball/mpf-docs/commit/7a03143a5ebf571f6092ebf4b28a7b7282420584) - jab
 * [Example for conditionals in log](https://github.com/missionpinball/mpf-docs/commit/34e8403e29d3292d82ff768bac95c400f16191c4) - jab
 * [Update Smartmatrix documentation for new cookie](https://github.com/missionpinball/mpf-docs/pull/198) - aaronmatthies
+* [Document start/launcher/tournament buttons](https://github.com/missionpinball/mpf-docs/commit/1073eb379d827037f094123d73d4180ab433d8e3) - jab
+* Document part numbers and voltages for [bulbs, flashers](https://github.com/missionpinball/mpf-docs/commit/59c62c471e8c9237b33bfa424f192eb332d8d500), [GIs and popbumpers](https://github.com/missionpinball/mpf-docs/commit/ddfa77cfbfd6fa37ecf2b36f911d4220f84a9d8f) and [LEDs](https://github.com/missionpinball/mpf-docs/commit/24bbc32b25a75580d9407a12676d12cd14af9136) - jab 
+* [Up-Down ramps](https://github.com/missionpinball/mpf-docs/commit/79166be8691b92e2c8f3a77c0f76ce299ad56759) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
