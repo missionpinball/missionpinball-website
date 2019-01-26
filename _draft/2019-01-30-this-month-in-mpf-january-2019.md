@@ -17,7 +17,8 @@ and the rest of the ecosystem.
 We moved [active publicly documented projects by MPF users]({% link projects.html %}).
 Some new projects which joined the list this month:
 
-* [x]({% link _projects/x.md %})
+* [The Black Hole]({% link _projects/black-hole.md %})
+* [Aziz Pinball]({% link _projects/aziz.md %})
 
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
