@@ -26,7 +26,7 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # 0.51 release
 
-We released MPF 0.51.x and MPF-MC 0.51.x.
+We released MPF-MC 0.51.5.
 
 ## Changes/New features
 
@@ -34,7 +34,7 @@ We released MPF 0.51.x and MPF-MC 0.51.x.
 
 ## Bugfixes
 
-* 
+* [Honour slide parameter in inactive slides](https://github.com/missionpinball/mpf-mc/pull/368) - avanwinkle (backport; 0.51.5)
 
 ## Documentation
 
@@ -64,6 +64,8 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Fix crash in coil_player when using off action](https://github.com/missionpinball/mpf/pull/new/coil_player_crash) - jab based on [bug reported by snux](https://github.com/missionpinball/mpf/issues/1282)
 * [Fix iMC startup crash](https://github.com/missionpinball/mpf-mc/pull/364) - jab based on [report by snux](https://groups.google.com/forum/#!topic/mpf-users/YLrh6RKlx0s)
 * [Fix sound_queue for on demand sounds](https://github.com/missionpinball/mpf/pull/1299) - avanwinkle
+* [Remove use_sound_setting from default options](https://github.com/missionpinball/mpf-mc/pull/367) - avanwinkle
+* [Fix use_sound_setting in shows](https://github.com/missionpinball/mpf/pull/1302) - avanwinkle
 
 ## Documentation
 
@@ -79,6 +81,8 @@ We pushed MPF 0.52.0-dev0 and MPF-MC 0.52.0-dev0.
 * [Document start/launcher/tournament buttons](https://github.com/missionpinball/mpf-docs/commit/1073eb379d827037f094123d73d4180ab433d8e3) - jab
 * Document part numbers and voltages for [bulbs, flashers](https://github.com/missionpinball/mpf-docs/commit/59c62c471e8c9237b33bfa424f192eb332d8d500), [GIs and popbumpers](https://github.com/missionpinball/mpf-docs/commit/ddfa77cfbfd6fa37ecf2b36f911d4220f84a9d8f) and [LEDs](https://github.com/missionpinball/mpf-docs/commit/24bbc32b25a75580d9407a12676d12cd14af9136) - jab 
 * [Up-Down ramps](https://github.com/missionpinball/mpf-docs/commit/79166be8691b92e2c8f3a77c0f76ce299ad56759) - jab
+* [Updated Mac Install Instructions](https://github.com/missionpinball/mpf-docs/pull/200) - avanwinkle
+* [Image for WS2812 LEDs](https://github.com/missionpinball/mpf-docs/pull/199) - kylenahas
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
