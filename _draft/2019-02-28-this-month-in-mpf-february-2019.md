@@ -24,7 +24,7 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # 0.52 release
 
-We released MPF 0.52.0 and MPF-MC 0.52.0.
+We released MPF 0.52.0 and MPF-MC 0.52.1.
 
 ## Changes/New features
 
@@ -32,7 +32,8 @@ We released MPF 0.52.0 and MPF-MC 0.52.0.
 
 ## Bugfixes
 
-* [Fix some yaml parsing errors](https://github.com/missionpinball/mpf/pull/1303) - jab 
+* [Fix some yaml parsing errors](https://github.com/missionpinball/mpf/pull/1303) - jab
+* [Fix error with Python 3.7](https://github.com/missionpinball/mpf-mc/pull/370) - avanwinkle 
 
 ## Documentation
 
@@ -44,11 +45,12 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 
 ## Changes/New features
 
-* 
+* [Support segment displays connected to normal light of a platform](https://github.com/missionpinball/mpf/pull/1305) - jab 
 
 ## Bugfixes
 
-* [Fix some yaml parsing errors](https://github.com/missionpinball/mpf/pull/1303) - jab 
+* [Fix some yaml parsing errors](https://github.com/missionpinball/mpf/pull/1303) - jab
+* [Fix error with Python 3.7](https://github.com/missionpinball/mpf-mc/pull/370) - avanwinkle 
 
 ## Documentation
 
