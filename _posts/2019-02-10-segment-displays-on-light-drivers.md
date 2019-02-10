@@ -11,6 +11,10 @@ is demand.
 Adding support mostly comes down to creating the right mapping table.
 Let us know if you need any other type of displays.
 
+The [Pull Request](https://github.com/missionpinball/mpf/pull/1305) includes an
+[example](https://github.com/missionpinball/mpf/pull/1305/files#diff-85620a5d9c68e38e74c8ac864298f5ca)
+as part of the unit tests.
+
 There seems to be a large number of different displays on the market so we
 expect to support all kinds of displays in the future.
 This includes types such as RGB segment displays and different connection
