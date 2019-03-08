@@ -10,15 +10,15 @@ and the rest of the ecosystem.
 
 # News
 
-* 
+* [MPF 0.52 has been released]({% post_url 2019-02-02-mpf-0-52-released %})
+* [Segment Displays on light drivers]({% post_url 2019-02-10-segment-displays-on-light-drivers %}) - jab
 
 # MPF Projects
 
-We moved [active publicly documented projects by MPF users]({% link projects.html %}).
+We collect a list of [active publicly documented projects by MPF users]({% link projects.html %}).
 Some new projects which joined the list this month:
 
 * [Celts]({% link _projects/celts.md %})
-
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well.
 
