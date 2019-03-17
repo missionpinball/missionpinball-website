@@ -69,6 +69,7 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Document showcreator](https://github.com/missionpinball/mpf-docs/commit/29f7312c4efff3ace0ed4d77f9ec255e18aa166f) - jab
 * [Fix typo](https://github.com/missionpinball/mpf-docs/pull/212) - cfbenn
 * [Docs for named_colors and example for dynamic widgets](https://github.com/missionpinball/mpf-docs/pull/213) - avanwinkle based on [request by Philip](https://groups.google.com/forum/#!topic/mpf-users/_WCjW4_9Hic)
+* [Better examples for sequence_shots](https://github.com/missionpinball/mpf-docs/pull/214) - colemanomartin
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!

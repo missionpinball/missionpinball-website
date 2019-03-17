@@ -23,7 +23,7 @@ to control all kinds of things (such as
 and [more](http://docs.missionpinball.org/en/dev/config_players/index.html)).
 Basically, shows are a list of actions combined with a duration after which
 the next element in the list is played.
-Here is an example of a light show with three light which sequentially turn
+Here is an example of a light show with three lights which sequentially turn
 blue over one second: 
 
     #show_version=5
@@ -58,7 +58,7 @@ However, imagine you want to swipe over all lights in your machine.
 That would be a lot of text and also hard to get right manually.
 Luckily, Mark, the maker of the
 [Nightmare before Christmas custom pinball machine](https://pinside.com/pinball/forum/topic/the-nightmare-before-christmas),
-created a the awesome
+created the awesome
 [MPF Lightshow generator](http://docs.missionpinball.org/en/dev/tools/showcreator/index.html).
 
 ![MPF Lightshow Creator](http://docs.missionpinball.org/en/dev/_images/showcreator.png)
@@ -89,5 +89,5 @@ If you want to render shows dynamically (using your GPU) you can also use
 but that will cost much more resources during runtime than offline generated
 shows.
 
-
-Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
+You can reach us in the [MPF-Users forum](https://groups.google.com/forum/#!forum/mpf-users).
+Questions, discussion and feedback are very welcome!
