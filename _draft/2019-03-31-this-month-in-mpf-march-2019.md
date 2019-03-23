@@ -31,7 +31,7 @@ We released MPF 0.52.1 and MPF-MC 0.52.1.
 
 ## Bugfixes
 
-* 
+* [Fix crash after config error](https://github.com/missionpinball/mpf/commit/c3a3f1f9d7b620e531c2adf78773556883be3624) - jab based on report by Wilder (backport)
 
 ## Documentation
 
@@ -53,10 +53,14 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Reliable speed/flow control in Spike](https://github.com/missionpinball/mpf/pull/1314) - jab
 * [Initial Spike 2 support for the mpf-spike bridge](https://github.com/missionpinball/mpf-spike/commit/e234336f504c40a5050220e00b5baa049d659819) - jab
 * [Limit light batch size in Spike to prevent bus desync](https://github.com/missionpinball/mpf/commit/f64d46689235bb1e4d5abaa63de6d5cf39a4c661) - jab
+* [Ignore duplicate handler warnings during init](https://github.com/missionpinball/mpf/pull/1316) - avanwinkle
+* [Add support for steppers in Spike](https://github.com/missionpinball/mpf/pull/1317) - jab
 
 ## Bugfixes
 
 * [Fix crash in debug message for duplicate priorities](https://github.com/missionpinball/mpf/commit/7a3dad3ef3366b33f4fa77e45abfa54026faa76c) - jab based on report from Dave
+* [Fix crash after config error](https://github.com/missionpinball/mpf/commit/4613cfe3b0c3d8199eaaf633f3626c228714faab) - jab based on report by Wilder
+* [Properly use priority in widget_player when the slide is not active and becomes active later](https://github.com/missionpinball/mpf-mc/pull/371) - avanwinkle
 
 ## Documentation
 
@@ -70,6 +74,10 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Fix typo](https://github.com/missionpinball/mpf-docs/pull/212) - cfbenn
 * [Docs for named_colors and example for dynamic widgets](https://github.com/missionpinball/mpf-docs/pull/213) - avanwinkle based on [request by Philip](https://groups.google.com/forum/#!topic/mpf-users/_WCjW4_9Hic)
 * [Better examples for sequence_shots](https://github.com/missionpinball/mpf-docs/pull/214) - colemanomartin
+* [More text for the showcreator](https://github.com/missionpinball/mpf-docs/commit/7a3aeb1c30ea19474b9815e55ada5e287572086f) - jab
+* [Light_player examples](https://github.com/missionpinball/mpf-docs/commit/639dbe2276e9404d4307d497ff7a065795050dbe) - jab
+* [How to use shows in shows](https://github.com/missionpinball/mpf-docs/commit/70b2d0498a1c121e8d0f7b4f0fe2885630505ab0) - jab
+* [Windows install error and fix](https://github.com/missionpinball/mpf-docs/commit/2d855b79ba24ef8492e20020d7f6dac861a50b34) - jab based on error from Jordan
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
