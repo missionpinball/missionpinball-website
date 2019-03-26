@@ -7,5 +7,5 @@ started: 2019-01-15
 finished:
 documentation_link:
 code_link:
-gameplay_link:
+gameplay_link: https://www.youtube.com/watch?v=trq7AGllWwQ
 ---
