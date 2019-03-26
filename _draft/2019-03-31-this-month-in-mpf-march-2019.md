@@ -55,6 +55,9 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Limit light batch size in Spike to prevent bus desync](https://github.com/missionpinball/mpf/commit/f64d46689235bb1e4d5abaa63de6d5cf39a4c661) - jab
 * [Ignore duplicate handler warnings during init](https://github.com/missionpinball/mpf/pull/1316) - avanwinkle
 * [Add support for steppers in Spike](https://github.com/missionpinball/mpf/pull/1317) - jab
+* [Support Spike 2 backlight](https://github.com/missionpinball/mpf/commit/3bd30788613c687674d4e3c8bbace77691e0d1f5) - jab
+* [Support Spike 1 and Spike 2 backlight in bridge](https://github.com/missionpinball/mpf-spike/commit/9ee733992c127050cb31fe79d8ab0f8d89871467) - jab
+* [Servo and Steppers as Diverters](https://github.com/missionpinball/mpf/pull/1321) - jab
 
 ## Bugfixes
 
@@ -78,6 +81,8 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Light_player examples](https://github.com/missionpinball/mpf-docs/commit/639dbe2276e9404d4307d497ff7a065795050dbe) - jab
 * [How to use shows in shows](https://github.com/missionpinball/mpf-docs/commit/70b2d0498a1c121e8d0f7b4f0fe2885630505ab0) - jab
 * [Windows install error and fix](https://github.com/missionpinball/mpf-docs/commit/2d855b79ba24ef8492e20020d7f6dac861a50b34) - jab based on error from Jordan
+* [Document common logic block questions](https://github.com/missionpinball/mpf-docs/commit/03f60656b795a775e538ea97a693960e4bcaae0b) - jab based on [question in forum from iizi](https://groups.google.com/forum/#!topic/mpf-users/X5HYU60gjoc)
+* [Document servos and steppers as diverters](https://github.com/missionpinball/mpf-docs/commit/17651d0902b1a09d6d9ff91b890b851518cc2ad3) - jab based on [question in forum](https://groups.google.com/forum/#!topic/mpf-users/YZlYmkEzAkw)
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
