@@ -83,6 +83,7 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Windows install error and fix](https://github.com/missionpinball/mpf-docs/commit/2d855b79ba24ef8492e20020d7f6dac861a50b34) - jab based on error from Jordan
 * [Document common logic block questions](https://github.com/missionpinball/mpf-docs/commit/03f60656b795a775e538ea97a693960e4bcaae0b) - jab based on [question in forum from iizi](https://groups.google.com/forum/#!topic/mpf-users/X5HYU60gjoc)
 * [Document servos and steppers as diverters](https://github.com/missionpinball/mpf-docs/commit/17651d0902b1a09d6d9ff91b890b851518cc2ad3) - jab based on [question in forum](https://groups.google.com/forum/#!topic/mpf-users/YZlYmkEzAkw)
+* [Document parameters of extra ball events](https://github.com/missionpinball/mpf/pull/1322) - avanwinkle
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
