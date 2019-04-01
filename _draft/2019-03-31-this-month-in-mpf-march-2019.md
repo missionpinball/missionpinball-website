@@ -8,19 +8,6 @@ What happened in MPF-land in March 2019?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
 and the rest of the ecosystem.
 
-# News
-
-*
-
-# MPF Projects
-
-We collect a list of [active publicly documented projects by MPF users]({% link projects.html %}).
-Some new projects which joined the list this month:
-
-* [xx]({% link _projects/xx.md %})
-
-We know that there are a lot more projects. Let us know if you want to be listed here as well.
-
 # 0.52 release
 
 We released MPF 0.52.1 and MPF-MC 0.52.1.
@@ -40,7 +27,7 @@ We released MPF 0.52.1 and MPF-MC 0.52.1.
 
 # Dev release (future 0.53)
 
-We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
+We pushed MPF 0.53.0-dev.15 and MPF-MC 0.53.0-dev.0.
 
 ## Changes/New features
 
@@ -64,6 +51,7 @@ We pushed MPF 0.53.0-dev8 and MPF-MC 0.53.0-dev2.
 * [Fix crash in debug message for duplicate priorities](https://github.com/missionpinball/mpf/commit/7a3dad3ef3366b33f4fa77e45abfa54026faa76c) - jab based on report from Dave
 * [Fix crash after config error](https://github.com/missionpinball/mpf/commit/4613cfe3b0c3d8199eaaf633f3626c228714faab) - jab based on report by Wilder
 * [Properly use priority in widget_player when the slide is not active and becomes active later](https://github.com/missionpinball/mpf-mc/pull/371) - avanwinkle
+* [Do not crash when failing to read stepper position in Spike](https://github.com/missionpinball/mpf/pull/1323) - jab
 
 ## Documentation
 
@@ -139,7 +127,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome yensho and yyy.
+Welcome yensho.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
