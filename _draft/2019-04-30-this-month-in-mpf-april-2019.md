@@ -17,9 +17,11 @@ and the rest of the ecosystem.
 We collect a list of [active publicly documented projects by MPF users]({% link projects.html %}).
 Some new projects which joined the list this month:
 
-* [xx]({% link _projects/xx.md %})
+* [Apollo 11]({% link _projects/apollo_11.md %})
+* [Judas Priest]({% link _projects/judas_priest.md %})
+* [Pincraft]({% link _projects/pincraft.md %})
 
-We know that there are a lot more projects. Let us know if you want to be listed here as well.
+We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
 
 # 0.52 release
 
