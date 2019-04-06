@@ -8,4 +8,6 @@ finished:
 documentation_link:
 code_link:
 gameplay_link: https://www.youtube.com/watch?v=trq7AGllWwQ
+boardsets: P3-Roc
+lights: PD-LED
 ---

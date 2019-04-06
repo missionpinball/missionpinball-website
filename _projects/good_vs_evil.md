@@ -8,4 +8,6 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/head2head-custom-pinball-machine-good-vs-evil
 code_link:
 gameplay_link: https://www.youtube.com/watch?v=82q2jl0rqe8
+boardsets: FAST
+lights: Fadecandy
 ---

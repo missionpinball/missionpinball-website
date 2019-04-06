@@ -8,4 +8,6 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/phoenix-retheme-project-the-black-hole
 code_link:
 gameplay_link:
+boardsets: P3-Roc
+lights: PD-LED
 ---

@@ -8,4 +8,6 @@ finished:
 documentation_link: 
 code_link: https://github.com/travisbmartin/powerman
 gameplay_link:
+boardsets:
+lights:
 ---

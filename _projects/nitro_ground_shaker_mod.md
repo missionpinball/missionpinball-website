@@ -8,4 +8,6 @@ finished:
 documentation_link: http://diypinball.ca/machines/nitro-ground-shaker/
 code_link:
 gameplay_link:
+boardsets: DIY-CAN
+lights:
 ---

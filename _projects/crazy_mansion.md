@@ -8,4 +8,6 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/the-crazy-mansion-by-the-pinball-amigos
 code_link:
 gameplay_link:
+boardsets: FAST
+lights: FAST-Serial
 ---

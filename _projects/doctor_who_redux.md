@@ -8,4 +8,6 @@ finished:
 documentation_link:
 code_link: https://github.com/travisbmartin/doctorwho
 gameplay_link:
+boardsets: P-Roc
+lights: P-Roc
 ---
