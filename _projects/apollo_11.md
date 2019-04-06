@@ -1,7 +1,7 @@
 ---
 name: Apollo 11 Landing on the Moon
 acronym:
-team: MythPinball
+team: JLay
 location: San Francisco, CA, USA
 started: 2019-03-11
 finished:
