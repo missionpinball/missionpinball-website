@@ -1,6 +1,6 @@
 ---
 layout: post
-author: jab
+author: jab and markinc
 title: The Awesome But Little Known Lightshow Creator For MPF
 tags: [lightshow, MPF]
 ---
@@ -59,35 +59,55 @@ That would be a lot of text and also hard to get right manually.
 Luckily, Mark, the maker of the
 [Nightmare before Christmas custom pinball machine](https://pinside.com/pinball/forum/topic/the-nightmare-before-christmas),
 created the awesome
-[MPF Lightshow generator](http://docs.missionpinball.org/en/dev/tools/showcreator/index.html).
+[MPF Lightshow Creator](http://docs.missionpinball.org/en/dev/tools/showcreator/index.html).
 
 ![MPF Lightshow Creator](http://docs.missionpinball.org/en/dev/_images/showcreator.png)
 
-The tool allows you to set a shape (i.e. a star in the example), choose a start
-and an end position and color.
-Based on that it will create a light show for you which contains one section
-per step (at a defined frame rate). 
-Neat right?
+The tool allows you to animate shapes (i.e. a star in the example) across your playfield lights.
+
 You might ask: How does it know where my lights are located on the playfield?
 
 Luckily, you probably already have them set if you used the MPF Monitor: 
 
 ![MPF Monitor](http://docs.missionpinball.org/en/dev/_images/mpf-monitor.jpg)
 
-It allows you to use drag an drop to position all your switches and lights on
+It allows you to use drag and drop to position all your switches and lights on
 a playfield image.
 Those positions are then saved to the ``monitor/monitor.yaml`` file in your
 machine folder.
-All you have to do is to copy the lights to the ``ledsloc.txt`` file in the
-show creator and your are good to go (this might become unnecessary in the
-future).
+
+All you have to do is point the light show creator to the ``monitor/monitor.yaml`` file on startup.
+
+You set the start and end positions, rotations, scales and colors of that shape
+anywhere you want over the playfield.
+
+Here we start with a gradient bar at the top of the playfield in a pink color.
+![MPF Lightshow Creator](http://docs.missionpinball.org/en/dev/_images/showcreator_start.png)
+
+We want the final position to be here at the bottom, in a darker red shade.
+![MPF Lightshow Creator](http://docs.missionpinball.org/en/dev/_images/showcreator_end.png)
+
+You can then adjust the length of the animation in milliseconds and hence the number of steps in the final show.
+In this example, the shape will be moved from the start to finish in 24 steps.
+
+Based on these settings, it will create a light show for you which contains all needed commands 
+per step for each of the lights the shape passes over. Lightshow playback speed can be adjusted in MPF.
+
+You're not restricted to just the included shapes.  You can make your own shapes and drop them in the shapes folder.
+![MPF Lightshow Creator](http://docs.missionpinball.org/en/dev/_images/showcreator_shapes.png)
+
+Once you get the hang of animating a single shape, you can go further by adding in more shapes.
+You can add a total of 256 shapes in animation segments.
+Each segment can be set to ``concurrent`` (start and end same time as the previous segment) 
+or ``follow`` (start after previous segment)
+This allows for more interesting multipart shows. For example you could have several color swipes coming from different directions 
+one after the other or effects like multiple spotlights moving across the playfield like a hollywood premiere.
 
 The tool is still evolving and will probably gain more features over time.
-It is good to render static shows which will not change during runtime.
+It is handy for rendering static shows which will not change during runtime.
 If you want to render shows dynamically (using your GPU) you can also use
 [your lights as display in MC](http://docs.missionpinball.org/en/dev/config_players/display_light_player.html)
-but that will cost much more resources during runtime than offline generated
-shows.
+but that will cost you much more in resources during runtime than offline generated shows.
 
 You can reach us in the [MPF-Users forum](https://groups.google.com/forum/#!forum/mpf-users).
 Questions, discussion and feedback are very welcome!
