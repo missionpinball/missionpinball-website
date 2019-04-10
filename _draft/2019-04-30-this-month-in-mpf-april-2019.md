@@ -10,7 +10,7 @@ and the rest of the ecosystem.
 
 # News
 
-* 
+* [The Awesome But Little Known Lightshow Creator For MPF]({% post_url 2019-04-07-the-awesome-but-little-known-lightshow-creator-for-mpf %}) 
 
 # MPF Projects
 
@@ -25,18 +25,15 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # 0.52 release
 
-We released MPF 0.52.1 and MPF-MC 0.52.1.
+We released MPF 0.52.2 and MPF-MC 0.52.1.
 
-## Changes/New features
+## Changes
 
 * No changes
 
 ## Bugfixes
 
-* 
-## Documentation
-
-* No changes
+* [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1326) - avanwinkle (backport; 0.52.2) 
 
 # Dev release (future 0.53)
 
@@ -47,7 +44,7 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * 
 ## Bugfixes
 
-* 
+* [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1325) - avanwinkle 
 
 ## Documentation
 
@@ -56,6 +53,11 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [More tags vs tokens in shows](https://github.com/missionpinball/mpf-docs/commit/3441c61471772745c299389481ff7d03945e5872) - jab
 * [How to embed high score in attract mode](https://github.com/missionpinball/mpf-docs/commit/aa7fb941fbd39ab9d10c66735f4bb5de7493a94a) - jab based on [example by Greg](https://groups.google.com/forum/#!topic/mpf-users/TGp86erLGKc)
 * [How to display a timer on a slide](https://github.com/missionpinball/mpf-docs/commit/5f9b640d36af055051adf15dba0ea2a0735f1dcd) - jab based on example from Coleman
+* [Common pitfall with accruals](https://github.com/missionpinball/mpf-docs/pull/215) - colemanomartin
+* [Enable of StepStick needs to be low not high](https://github.com/missionpinball/mpf-docs/pull/207) - colemanomartin
+* [Add Multimorphic part numbers for breakout boards and LEDs](https://github.com/missionpinball/mpf-docs/commit/3482321d29872d1555399d345e2cc9e5c62f08c7) - jab
+* [Document breakout boards for switches](https://github.com/missionpinball/mpf-docs/commit/7a6afed328a0ebfbe61bdafcd4cc5d7a9f51edef) - jab
+* [More homebrew part numbers](https://github.com/missionpinball/mpf-docs/commit/49b398350341a8f781cbcf1e96647f8684c34cc8) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
