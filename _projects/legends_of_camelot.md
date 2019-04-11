@@ -1,7 +1,7 @@
 ---
 name: Legends of Camelot
 acronym:
-team: Matt Irwin with kids
+team: Matt Irwin and kids
 location: Elkton, MD, USA
 started: 2017-03-03
 finished:
