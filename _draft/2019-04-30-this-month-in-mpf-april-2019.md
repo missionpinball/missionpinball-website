@@ -44,10 +44,12 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Separate event handlers and code to catch incorrect arguments in custom code](https://github.com/missionpinball/mpf/pull/1327) - jab
 * [Auto launch when machine is tilted](https://github.com/missionpinball/mpf/pull/1330) - jab based on [question from Philip D](https://groups.google.com/forum/#!topic/mpf-users/rjDghM-2XXk)
 * [Show player and machine variables in the Text UI](https://github.com/missionpinball/mpf/pull/1328) - woosle1234
+* [Allow dynamic values in timer control events](https://github.com/missionpinball/mpf/pull/1337) - avanwinkle based on report by wilder
 
 ## Bugfixes
 
-* [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1325) - avanwinkle 
+* [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1325) - avanwinkle
+* [Do not start highscore mode without a game](https://github.com/missionpinball/mpf/pull/1331) - jab based on report by wilder
 
 ## Documentation
 
