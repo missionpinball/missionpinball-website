@@ -41,7 +41,10 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 
 ## Changes/New features
 
-* 
+* [Separate event handlers and code to catch incorrect arguments in custom code](https://github.com/missionpinball/mpf/pull/1327) - jab
+* [Auto launch when machine is tilted](https://github.com/missionpinball/mpf/pull/1330) - jab based on [question from Philip D](https://groups.google.com/forum/#!topic/mpf-users/rjDghM-2XXk)
+* [Show player and machine variables in the Text UI](https://github.com/missionpinball/mpf/pull/1328) - woosle1234
+
 ## Bugfixes
 
 * [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1325) - avanwinkle 
