@@ -45,11 +45,16 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Auto launch when machine is tilted](https://github.com/missionpinball/mpf/pull/1330) - jab based on [question from Philip D](https://groups.google.com/forum/#!topic/mpf-users/rjDghM-2XXk)
 * [Show player and machine variables in the Text UI](https://github.com/missionpinball/mpf/pull/1328) - woosle1234
 * [Allow dynamic values in timer control events](https://github.com/missionpinball/mpf/pull/1337) - avanwinkle based on report by wilder
+* [Reduce default batch size for Spike LEDs](https://github.com/missionpinball/mpf/commit/e3ad5dded06c820db2ec38cbccdc3ed8f683480a) - jab based on tests by Dave
+* [Custom events_when_added and events_when_removed for widgets](https://github.com/missionpinball/mpf-mc/pull/372) [[2]](https://github.com/missionpinball/mpf/pull/1338) - qcapen based on [feature request by cfbenn](https://github.com/missionpinball/mpf/issues/1332)
+* [Better cache invalidation of config_spec cache](https://github.com/missionpinball/mpf/commit/d806ceecb0a53e61d3726471008611b229fb4fd7) - jab
+* [Refactor Text UI to prevent text clutter]() - jab
 
 ## Bugfixes
 
 * [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1325) - avanwinkle
 * [Do not start highscore mode without a game](https://github.com/missionpinball/mpf/pull/1331) - jab based on report by wilder
+* [Properly save window positions in MPF Monitor](https://github.com/missionpinball/mpf-monitor/commit/79bb049101b62bf846c4451ac462b0d0a4a7acaf) - jab based on [report by Greg](https://groups.google.com/forum/#!topic/mpf-users/JXB5Pv26Ces)
 
 ## Documentation
 
@@ -63,6 +68,12 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Add Multimorphic part numbers for breakout boards and LEDs](https://github.com/missionpinball/mpf-docs/commit/3482321d29872d1555399d345e2cc9e5c62f08c7) - jab
 * [Document breakout boards for switches](https://github.com/missionpinball/mpf-docs/commit/7a6afed328a0ebfbe61bdafcd4cc5d7a9f51edef) - jab
 * [More homebrew part numbers](https://github.com/missionpinball/mpf-docs/commit/49b398350341a8f781cbcf1e96647f8684c34cc8) - jab
+* [Thermal considerations about resistors on Optos](https://github.com/missionpinball/mpf-docs/pull/216) - colemanomartin
+* [Document rotation on widgets](https://github.com/missionpinball/mpf-docs/pull/218) - colemanomartin based on [question in forum](https://groups.google.com/forum/#!topic/mpf-users/v2uAIPbz8nA)
+* [Update notes on rotation of widgets](https://github.com/missionpinball/mpf-docs/pull/217) - colemanomartin
+* [Document custom widget events](https://github.com/missionpinball/mpf-docs/commit/497a4f53cf174bb2814680a1ded7875194ca9d0a) - qcapen 
+* [How to configure tilt and change tilt slides](https://github.com/missionpinball/mpf-docs/commit/ec47267b2ace174480f7e90dc6875bafcc863203) - jab based on [example/question in the forum](https://groups.google.com/forum/#!topic/mpf-users/iHZxy9_eHPk)
+* [Stern Spike Steppers](https://github.com/missionpinball/mpf-docs/commit/3aa75dc6c3bc47b5b56d32ee89f18b900b135e68) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -120,7 +131,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome gregsealby and densminger.
+Welcome woosle1234 and xxx.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
