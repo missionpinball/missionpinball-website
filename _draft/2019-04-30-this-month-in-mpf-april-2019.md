@@ -20,6 +20,9 @@ Some new projects which joined the list this month:
 * [Apollo 11]({% link _projects/apollo_11.md %})
 * [Judas Priest]({% link _projects/judas_priest.md %})
 * [Pincraft]({% link _projects/pincraft.md %})
+* [Metroid]({% link _projects/metroid.md %})
+* [The Binding of Isaac]({% link _projects/binding_of_isaac.md %})
+* [Legends of Camelot]({% link _projects/legends_of_camelot.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
 
@@ -48,7 +51,9 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Reduce default batch size for Spike LEDs](https://github.com/missionpinball/mpf/commit/e3ad5dded06c820db2ec38cbccdc3ed8f683480a) - jab based on tests by Dave
 * [Custom events_when_added and events_when_removed for widgets](https://github.com/missionpinball/mpf-mc/pull/372) [[2]](https://github.com/missionpinball/mpf/pull/1338) - qcapen based on [feature request by cfbenn](https://github.com/missionpinball/mpf/issues/1332)
 * [Better cache invalidation of config_spec cache](https://github.com/missionpinball/mpf/commit/d806ceecb0a53e61d3726471008611b229fb4fd7) - jab
-* [Refactor Text UI to prevent text clutter]() - jab
+* [Refactor Text UI to prevent text clutter](https://github.com/missionpinball/mpf/pull/1339) - jab
+* [Allow user to disable ball search in a ball device](https://github.com/missionpinball/mpf/pull/1341) -  dziedada
+* [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
 
 ## Bugfixes
 
@@ -131,7 +136,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome woosle1234 and xxx.
+Welcome woosle1234 and dziedada.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
