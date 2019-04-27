@@ -54,6 +54,10 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Refactor Text UI to prevent text clutter](https://github.com/missionpinball/mpf/pull/1339) - jab
 * [Allow user to disable ball search in a ball device](https://github.com/missionpinball/mpf/pull/1341) -  dziedada
 * [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
+* [Better signal handlers and shutdown logging during crashes](https://github.com/missionpinball/mpf/pull/1347) - jab to fix [some exit issues](https://groups.google.com/forum/#!topic/mpf-users/98apwhX_rMo)
+* [Improve show and lights performance](https://github.com/missionpinball/mpf/pull/1346) - jab
+* [Refactor DelayManager](https://github.com/missionpinball/mpf/pull/1344) - jab
+* [Exit MPF when the FAST Nano reboots/crashes during a game](https://github.com/missionpinball/mpf/pull/1343) - jab
 
 ## Bugfixes
 
