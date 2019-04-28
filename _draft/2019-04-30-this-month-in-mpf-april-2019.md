@@ -64,6 +64,9 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Allow carousel mode during attract](https://github.com/missionpinball/mpf/pull/1325) - avanwinkle
 * [Do not start highscore mode without a game](https://github.com/missionpinball/mpf/pull/1331) - jab based on report by wilder
 * [Properly save window positions in MPF Monitor](https://github.com/missionpinball/mpf-monitor/commit/79bb049101b62bf846c4451ac462b0d0a4a7acaf) - jab based on [report by Greg](https://groups.google.com/forum/#!topic/mpf-users/JXB5Pv26Ces)
+* [Lock with physical_only strategy would never be full and count is off by one](https://github.com/missionpinball/mpf/pull/1350) - jab based on [report by Coleman](https://groups.google.com/forum/#!topic/mpf-users/SVCfuA5jll8)
+* [Do not keep ball in outhole after tilt](https://github.com/missionpinball/mpf/pull/1351) - jab based on [report by Matt](https://groups.google.com/forum/#!topic/mpf-users/0FTPmHuB734)
+* [Fix crash in bonus mode with uvloop](https://github.com/missionpinball/mpf/pull/1352) - jab based on [report by Matt](https://groups.google.com/forum/#!topic/mpf-users/OwL2cT3lGq4)
 
 ## Documentation
 
@@ -83,6 +86,11 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Document custom widget events](https://github.com/missionpinball/mpf-docs/commit/497a4f53cf174bb2814680a1ded7875194ca9d0a) - qcapen 
 * [How to configure tilt and change tilt slides](https://github.com/missionpinball/mpf-docs/commit/ec47267b2ace174480f7e90dc6875bafcc863203) - jab based on [example/question in the forum](https://groups.google.com/forum/#!topic/mpf-users/iHZxy9_eHPk)
 * [Stern Spike Steppers](https://github.com/missionpinball/mpf-docs/commit/3aa75dc6c3bc47b5b56d32ee89f18b900b135e68) - jab
+* [More examples for delaying game/ball ending](https://github.com/missionpinball/mpf-docs/commit/5477f6f2313507aa0f992bc56cffa7a60f1eec81) - jab based on [question by Coleman](https://groups.google.com/forum/#!topic/mpf-users/3FZqX4w_ROM)
+* [DIP 6 and Servos on the PD-LED](https://github.com/missionpinball/mpf-docs/pull/220) - colemanomartin
+* [How to add a slam_tilt slide](https://github.com/missionpinball/mpf-docs/commit/817a3cbca08b1b9f9fd5284f11ebf0ade2d8d5ee) - jab based on [suggestion in forum](https://groups.google.com/forum/#!topic/mpf-users/iHZxy9_eHPk)
+* [How to use sequence_shots in shot_groups](https://github.com/missionpinball/mpf-docs/commit/6916cab9dd1650d6ae7749adb70c4947432721c9) - jab based on [example by Greg](https://groups.google.com/forum/#!topic/mpf-users/FUephO5O-TE)
+* [Document shot_profiles](https://github.com/missionpinball/mpf-docs/commit/b228792be0f2244ea316b8ce5e5d2fa11e780bdf) - jab based on [question by Jordy](https://groups.google.com/forum/#!topic/mpf-users/UQHGAJ-hips)
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
