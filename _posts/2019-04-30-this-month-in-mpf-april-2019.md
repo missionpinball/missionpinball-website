@@ -10,7 +10,8 @@ and the rest of the ecosystem.
 
 # News
 
-* [The Awesome But Little Known Lightshow Creator For MPF]({% post_url 2019-04-07-the-awesome-but-little-known-lightshow-creator-for-mpf %}) 
+* [The Awesome But Little Known Lightshow Creator For MPF]({% post_url 2019-04-07-the-awesome-but-little-known-lightshow-creator-for-mpf %})
+* [Stern Spike Steppers]({% post_url 2019-04-21-stern-spike-steppers %}) 
 
 # MPF Projects
 
@@ -40,7 +41,7 @@ We released MPF 0.52.2 and MPF-MC 0.52.1.
 
 # Dev release (future 0.53)
 
-We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
+We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 
 ## Changes/New features
 
@@ -58,7 +59,7 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Improve show and lights performance](https://github.com/missionpinball/mpf/pull/1346) - jab
 * [Refactor DelayManager](https://github.com/missionpinball/mpf/pull/1344) - jab
 * [Exit MPF when the FAST Nano reboots/crashes during a game](https://github.com/missionpinball/mpf/pull/1343) - jab
-* [Add a setting for free play to service mode by when credits mode is loaded](https://github.com/missionpinball/mpf/pull/1354) - jab based on [request by Greg](https://groups.google.com/forum/#!topic/mpf-users/Q18AvoEaVRw)
+* [Add a setting for free play to service mode when credits mode is loaded](https://github.com/missionpinball/mpf/pull/1354) - jab based on [request by Greg](https://groups.google.com/forum/#!topic/mpf-users/Q18AvoEaVRw)
 
 ## Bugfixes
 
@@ -105,6 +106,7 @@ Do you have an example which is missing there? Please send it to us!
 
 * [Stern Spike 2 support](https://github.com/missionpinball/mpf/issues/1246) - wolfmarsh and jab
 * [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab and bontango
+* [Support for the APC platform](https://github.com/missionpinball/mpf/issues/1345) - jab, bontango and blackknight
 
 ## Do you want to contribute?
 
