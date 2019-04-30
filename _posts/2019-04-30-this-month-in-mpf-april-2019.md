@@ -58,6 +58,7 @@ We pushed MPF 0.53.0-dev0 and MPF-MC 0.53.0-dev0.
 * [Improve show and lights performance](https://github.com/missionpinball/mpf/pull/1346) - jab
 * [Refactor DelayManager](https://github.com/missionpinball/mpf/pull/1344) - jab
 * [Exit MPF when the FAST Nano reboots/crashes during a game](https://github.com/missionpinball/mpf/pull/1343) - jab
+* [Add a setting for free play to service mode by when credits mode is loaded](https://github.com/missionpinball/mpf/pull/1354) - jab based on [request by Greg](https://groups.google.com/forum/#!topic/mpf-users/Q18AvoEaVRw)
 
 ## Bugfixes
 
