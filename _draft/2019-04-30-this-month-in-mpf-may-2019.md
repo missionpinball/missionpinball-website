@@ -18,6 +18,7 @@ We collect a list of [active publicly documented projects by MPF users]({% link 
 Some new projects which joined the list this month:
 
 * [ESCAPE!]({% link _projects/escape.md %})
+* [Zelda]({% link _projects/zelda.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
 
