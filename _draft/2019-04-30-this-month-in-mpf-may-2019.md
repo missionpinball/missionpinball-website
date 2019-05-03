@@ -10,7 +10,7 @@ and the rest of the ecosystem.
 
 # News
 
-* 
+* We added hardware platforms to the [MPF Projects List](https://missionpinball.org/projects.html). Please have a look if we got it right for your machine (or let us know if it is missing).
 
 # MPF Projects
 
