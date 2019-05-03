@@ -3,6 +3,9 @@ layout: default
 ---
 <div class="container">
 <h1>{{ page.name }}</h1>
+
+    {{ content }}
+
     <table class="projects">
     {% if page.acronym %}
         <tr><td>Acronym</td><td>{{ page.acronym }}</td></tr>
@@ -29,12 +32,26 @@ layout: default
             <a href="{{ page.gameplay_link }}">Gameplay Video</a>
         {% endif %}
     </td></tr>
+    {% if page.boardsets or page.lights %}
+    <tr>
+        <td>Hardware</td>
+        <td>
+            {% if page.boardsets %}
+            {% assign board = site["hardware_platforms"] | where:"name", page.boardsets | first %}
+            Main boardset: <a href="{{ board.url | prepend: site.baseurl }}">{{ board.label }}</a>
+            {% endif %}
+            {% if page.lights %}
+            {% assign board = site["hardware_platforms"] | where:"name", page.lights | first %}
+            Lights: <a href="{{ board.url | prepend: site.baseurl }}">{{ board.label }}</a>
+            {% endif %}
+        </td>
+    </tr>
+    {% endif %}
 
     </table>
 
-
-
-
-{{ content }}
+    <p>Is anything wrong or missing in this entry? Want to add more details/links? Let us know in the <a href=
+    "https://groups.google.com/forum/#!forum/mpf-users">MPF Users Google
+        Group</a> or create a <a href="https://github.com/missionpinball/missionpinball-website/tree/master/_projects">Pull Request</a>.</p>
 
 </div>

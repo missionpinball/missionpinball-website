@@ -8,6 +8,6 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/the-first-rule-is-fight-club-homebrew-build
 code_link:
 gameplay_link:
-boardsets:
+boardsets: FAST
 lights:
 ---

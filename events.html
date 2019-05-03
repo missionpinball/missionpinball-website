@@ -11,15 +11,15 @@ title: Events
         Group</a> and let's meet up!</p>
         <h2>Future events we'll be attending</h2>
 {% assign events_by_year = site.events | sort: 'year' | reverse | group_by: 'year' %}
-{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
-{% capture year %}{{'now' | date: '%Y' | plus: 0 %}}{% endcapture %}
+{% capture now %}{{ 'now' | date: '%s' | plus: 0 }}{% endcapture %}
+{% capture year %}{{ 'now' | date: '%Y' | plus: 0 }}{% endcapture %}
 {% for group in events_by_year %}
-    {% capture group_year %}{{group.items[0].date | date: '%Y' | plus: 0 %}}{% endcapture %}
+    {% capture group_year %}{{ group.items[0].date | date: '%Y' | plus: 0 }}{% endcapture %}
     {% if group_year >= year %}
         <b>{{ group_year }}</b>
         <ul>
         {% for event in group.items %}
-            {% capture date %}{{event.date | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
             {% if date > now %}
             <li><a href="{{ event.url | prepend: site.baseurl }}">{{ event.name }}</a>, {{ event.location }}, {{ event.city }}, {{ event.duration }}, {{ event.year }}</li>
             {% endif %}
@@ -30,12 +30,12 @@ title: Events
 
         <h2>Past events</h2>
 {% for group in events_by_year %}
-    {% capture group_year %}{{group.items[0].date | date: '%Y' | plus: 0 %}}{% endcapture %}
+    {% capture group_year %}{{ group.items[0].date | date: '%Y' | plus: 0 }}{% endcapture %}
     {% if group_year <= year %}
         <b>{{ group_year }}</b>
         <ul>
         {% for event in group.items %}
-            {% capture date %}{{event.date | date: '%s' | plus: 0 %}}{% endcapture %}
+            {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
             {% if date <= now %}
             <li><a href="{{ event.url | prepend: site.baseurl }}">{{ event.name }}</a>, {{ event.location }}, {{ event.city }}, {{ event.duration }}, {{ event.year }}</li>
             {% endif %}

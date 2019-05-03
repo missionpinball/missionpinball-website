@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="container">
+<h1>{{ page.name }}</h1>
+
+    {{ content }}
+
+    <table class="projects">
+    <tr><td>Name</td><td>{{ page.name }}</td></tr>
+        <tr><td>Manufacturer</td><td><a href="{{ page.link }}">{{ page.manufacturer }}</a></td></tr>
+    <tr><td>Links</td><td>
+        {% if page.documentation_link %}
+            <a href="{{ page.documentation_link }}">Documentation</a>
+        {% endif %}
+    </td></tr>
+
+    </table>
+
+    <h2>Projects using {{ page.name }}</h2>
+    {% assign projects_main = site["projects"] | where:"boardsets", page.name %}
+    {% assign projects_lights = site["projects"] | where:"lights", page.name %}
+    {% assign projects = projects_main | concat: projects_lights | uniq %}
+    {% for project in projects %}
+        <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}
+        {% if project.acronym %}
+            ({{ project.acronym }})
+        {% endif %}
+        </a> by {{ project.team }}</li>
+    {% endfor %}
+
+    <p>Is anything wrong or missing in this entry? Want to add more details/links? Let us know in the <a href=
+    "https://groups.google.com/forum/#!forum/mpf-users">MPF Users Google
+        Group</a> or create a <a href="https://github.com/missionpinball/missionpinball-website/tree/master/_hardware_platforms">Pull Request</a>.</p>
+
+
+</div>

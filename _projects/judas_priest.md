@@ -8,6 +8,6 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/time-to-lift-the-curtain-or-another-music-related-pin-really
 code_link:
 gameplay_link:
-boardsets:
+boardsets: OPP
 lights:
 ---

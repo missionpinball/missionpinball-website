@@ -11,6 +11,9 @@ collections:
   projects:
     output: true
     permalink: /project/:name.html
+  hardware_platforms:
+    output: true
+    permalink: /hardware_platform/:name.html
 
 future: true
 
@@ -28,6 +31,11 @@ defaults:
       type: "events"
     values:
       layout: event
+  - scope:
+      path: ""
+      type: "hardware_platforms"
+    values:
+      layout: hardware_platform
   - scope:
       path: ""
       type: "posts"

@@ -8,6 +8,6 @@ finished:
 documentation_link: http://diypinball.ca/machines/af-tor/
 code_link:
 gameplay_link:
-boardsets: DIY-CAN
+boardsets: DIY Pinball CAN MPF Platform
 lights:
 ---

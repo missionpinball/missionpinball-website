@@ -2,12 +2,12 @@
 name: Powerman 5000
 acronym:
 team: travisbmartin
-location: Owensville, IN
+location: Owensville, IN, USA
 started: 2018-09-16
 finished:
 documentation_link: 
 code_link: https://github.com/travisbmartin/powerman
 gameplay_link:
-boardsets:
+boardsets: OPP
 lights:
 ---

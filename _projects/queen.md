@@ -8,6 +8,6 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/flash-retheme-project/
 code_link:
 gameplay_link: https://www.youtube.com/watch?v=_I2-apQJILw
-boardsets:
-lights:
+boardsets: P-Roc
+lights: P-Roc
 ---

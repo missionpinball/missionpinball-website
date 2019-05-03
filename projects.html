@@ -3,6 +3,7 @@ layout: default
 title: Projects
 ---
 <div class="container">
+    <h1>MPF Projects</h1>
     <p>A curated list of pinball machines running MPF. Most of those are in progress.</p>
     <p>If you are building a machine with MPF let us know in the <a href=
     "https://groups.google.com/forum/#!forum/mpf-users">MPF Users Google
@@ -32,4 +33,13 @@ title: Projects
     {% endif %}
 {% endfor %}
         </ul>
+
+    <h2>Hardware platforms in Use</h2>
+{% assign platforms = site.hardware_platforms | sort: 'name' %}
+    <ul>
+{% for platform in platforms %}
+        <li><a href="{{ platform.url | prepend: site.baseurl }}">{{ platform.label }}</a></li>
+{% endfor %}
+    </ul>
+
 </div>

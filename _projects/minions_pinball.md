@@ -9,5 +9,5 @@ documentation_link: https://pinside.com/pinball/forum/topic/we-are-building-a-mi
 code_link:
 gameplay_link:
 boardsets: FAST
-lights: FAST-Serial
+lights: FAST
 ---

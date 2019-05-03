@@ -9,5 +9,5 @@ documentation_link: https://pinside.com/pinball/forum/topic/the-crazy-mansion-by
 code_link:
 gameplay_link:
 boardsets: FAST
-lights: FAST-Serial
+lights: FAST
 ---
