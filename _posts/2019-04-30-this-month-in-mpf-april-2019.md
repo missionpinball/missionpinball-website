@@ -54,7 +54,6 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Better cache invalidation of config_spec cache](https://github.com/missionpinball/mpf/commit/d806ceecb0a53e61d3726471008611b229fb4fd7) - jab
 * [Refactor Text UI to prevent text clutter](https://github.com/missionpinball/mpf/pull/1339) - jab
 * [Allow user to disable ball search in a ball device](https://github.com/missionpinball/mpf/pull/1341) -  dziedada
-* [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
 * [Better signal handlers and shutdown logging during crashes](https://github.com/missionpinball/mpf/pull/1347) - jab to fix [some exit issues](https://groups.google.com/forum/#!topic/mpf-users/98apwhX_rMo)
 * [Improve show and lights performance](https://github.com/missionpinball/mpf/pull/1346) - jab
 * [Refactor DelayManager](https://github.com/missionpinball/mpf/pull/1344) - jab

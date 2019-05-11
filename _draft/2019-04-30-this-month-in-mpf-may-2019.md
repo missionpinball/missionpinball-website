@@ -41,15 +41,27 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 ## Changes/New features
 
 * [Allow newer FAST firmware versions](https://github.com/missionpinball/mpf/pull/1356) - jab based on problems with Firmware 1.05 by Brian Cox
+* [Support inverted switches and non-numeric drivers in Virtual Pinball](https://github.com/missionpinball/mpf/pull/1360) - mfuegemann
+* [Extend README and add hardware rules to VPX Bridge](https://github.com/missionpinball/mpf-vpcom-bridge/pull/1) and [Test](https://github.com/missionpinball/mpf-vpcom-bridge/pull/2)- mfuegemann
+* [Placeholders in credits mode](https://github.com/missionpinball/mpf/pull/1357) - jab
+* [Placeholders in tilt mode](https://github.com/missionpinball/mpf/pull/1358) - jab
+* [RGB LEDs and flashers in Virtal Pinball](https://github.com/missionpinball/mpf/pull/1363) - mfuegemann
+* [Update asciimatics](https://github.com/missionpinball/mpf/pull/1362) - jab
+* [Add --vpx commandline option to mpf](https://github.com/missionpinball/mpf/pull/1364) and [mc](https://github.com/missionpinball/mpf-mc/pull/373)- jab
+* [Add VPX demo table with MPF config](https://github.com/missionpinball/mpf-vpcom-bridge/pull/3) - mfuegemann
 
 ## Bugfixes
 
 * [Prevent shutdown glitches in FAST](https://github.com/missionpinball/mpf/commit/90acd6c60da1c0b4a4922edbeaca247228a54d41) - jab with the help of Dave
 * [Prevent crash during early errors in P-Roc](https://github.com/missionpinball/mpf/commit/95ac7c6eb8cd60712fa1c3cad557fcd9ffaa529a) - jab based on report by Coleman
- 
+
 ## Documentation
 
 * [How to use virtual env on Mac with Kivy](https://github.com/missionpinball/mpf/pull/1355) - driskel
+* [Improve dynamic values example](https://github.com/missionpinball/mpf-docs/pull/223) - MarkInc666
+* [How to add credits settings to service mode](https://github.com/missionpinball/mpf-docs/commit/744f29f861a243d9e6c95a9d81aa56fa7f32feec) - jab
+* [How to add tilt settings to service mode](https://github.com/missionpinball/mpf-docs/commit/8e05a161cfc21141a1e961f2a65ad8fa5b214d4c) - jab
+
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -58,6 +70,8 @@ Do you have an example which is missing there? Please send it to us!
 
 * [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen (breaking change)
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
+* [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
+* [Preserve curly brakets in string_to_list](https://github.com/missionpinball/mpf/pull/1361) - avanwinkle
 
 ## Upcoming changes
 
