@@ -19,6 +19,7 @@ Some new projects which joined the list this month:
 
 * [ESCAPE!]({% link _projects/escape.md %})
 * [Zelda]({% link _projects/zelda.md %})
+* [Mass Effects]({% link _projects/mass_effects.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
 
@@ -49,6 +50,9 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Update asciimatics](https://github.com/missionpinball/mpf/pull/1362) - jab
 * [Add --vpx commandline option to mpf](https://github.com/missionpinball/mpf/pull/1364) and [mc](https://github.com/missionpinball/mpf-mc/pull/373)- jab
 * [Add VPX demo table with MPF config](https://github.com/missionpinball/mpf-vpcom-bridge/pull/3) - mfuegemann
+* [Placeholders for StateMachine devices](https://github.com/missionpinball/mpf/pull/1365) - jab
+* [Initial support for the Arduino Pinball Platform](https://github.com/missionpinball/mpf/commit/0021aa4c80c3f5c4db02c7ed0e797f0f2419340e) - jab, bontango and blackknight
+* [More debug in FAST platform](https://github.com/missionpinball/mpf/commit/c79a36b312d33c5cc546e4d9637f51ccef3ddcaf) and [longer wait times](https://github.com/missionpinball/mpf/commit/e031cb047dcecaaeb9eb37fc11422ea657e2ed71) - jab to support more FAST firmwares
 
 ## Bugfixes
 
@@ -61,7 +65,9 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Improve dynamic values example](https://github.com/missionpinball/mpf-docs/pull/223) - MarkInc666
 * [How to add credits settings to service mode](https://github.com/missionpinball/mpf-docs/commit/744f29f861a243d9e6c95a9d81aa56fa7f32feec) - jab
 * [How to add tilt settings to service mode](https://github.com/missionpinball/mpf-docs/commit/8e05a161cfc21141a1e961f2a65ad8fa5b214d4c) - jab
-
+* [Document placeholders for StateMachine devices](https://github.com/missionpinball/mpf-docs/pull/224) - jab
+* [Document state machine configs](https://github.com/missionpinball/mpf-docs/commit/aadea2392c08c0d79ee96a8bc23b4d6639f6ae5e) - jab
+* [Add more config links and document timer transitions](https://github.com/missionpinball/mpf-docs/commit/e797a5fc8457d521bfd4263908a0c226171ff2f7) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -120,7 +126,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome driskel and .
+Welcome driskel and mfuegemann.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
