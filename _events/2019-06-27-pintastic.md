@@ -6,4 +6,4 @@ year: 2019
 city: Sturbridge, MA, USA
 event_link: https://pintasticnewengland.com/
 ---
-Mark Seiden will be on a homebrew panel.
+Mark Seiden will be on a homebrew panel and bring [Metroid]({% link _projects/metroid.md %}).
