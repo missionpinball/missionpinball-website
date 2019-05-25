@@ -53,11 +53,16 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Placeholders for StateMachine devices](https://github.com/missionpinball/mpf/pull/1365) - jab
 * [Initial support for the Arduino Pinball Platform](https://github.com/missionpinball/mpf/commit/0021aa4c80c3f5c4db02c7ed0e797f0f2419340e) - jab, bontango and blackknight
 * [More debug in FAST platform](https://github.com/missionpinball/mpf/commit/c79a36b312d33c5cc546e4d9637f51ccef3ddcaf) and [longer wait times](https://github.com/missionpinball/mpf/commit/e031cb047dcecaaeb9eb37fc11422ea657e2ed71) - jab to support more FAST firmwares
+* [Generic System 11 A/C Relay handling (for APC and Snux)](https://github.com/missionpinball/mpf/pull/1370) - jab
 
 ## Bugfixes
 
 * [Prevent shutdown glitches in FAST](https://github.com/missionpinball/mpf/commit/90acd6c60da1c0b4a4922edbeaca247228a54d41) - jab with the help of Dave
 * [Prevent crash during early errors in P-Roc](https://github.com/missionpinball/mpf/commit/95ac7c6eb8cd60712fa1c3cad557fcd9ffaa529a) - jab based on report by Coleman
+* [Preserve curly brakets in string_to_list](https://github.com/missionpinball/mpf/pull/1361) - avanwinkle
+* [Fix bug preventing access to settings in custom code](https://github.com/missionpinball/mpf/pull/1369) - avanwinkle
+* [Properly implement disable_random event in random_event_player](https://github.com/missionpinball/mpf/pull/1374) - avanwinkle
+* [Fix enable attribute for placeholders in devices](https://github.com/missionpinball/mpf/pull/1372) - avanwinkle
 
 ## Documentation
 
@@ -68,6 +73,12 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Document placeholders for StateMachine devices](https://github.com/missionpinball/mpf-docs/pull/224) - jab
 * [Document state machine configs](https://github.com/missionpinball/mpf-docs/commit/aadea2392c08c0d79ee96a8bc23b4d6639f6ae5e) - jab
 * [Add more config links and document timer transitions](https://github.com/missionpinball/mpf-docs/commit/e797a5fc8457d521bfd4263908a0c226171ff2f7) - jab
+* [Fixes in the tutorial](https://github.com/missionpinball/mpf-docs/pull/227) and [more](https://github.com/missionpinball/mpf-docs/pull/228) - ironspider
+* [Document LISY protocol](https://github.com/missionpinball/mpf-docs/commit/cbb65ff49253befb1fb116d8d72d2f67a945f090) - jab
+* [Update example links](https://github.com/missionpinball/mpf-docs/commit/8e0f5334f6df40733810c2627e71fc0db063808b) - GabeKnuth
+* [Fix Mac install instructions](https://github.com/missionpinball/mpf-docs/commit/8016c8daf9c83ba2dafcde5ffef1244a02219a69) - GabeKnuth
+* [Typos](https://github.com/missionpinball/mpf-docs/pull/232), [Bad English](https://github.com/missionpinball/mpf-docs/pull/230) and [more](https://github.com/missionpinball/mpf-docs/pull/229) - ironspider
+* [Rotation is counter-clock wise not clockwise](https://github.com/missionpinball/mpf-docs/pull/231) - colemanomartin
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -77,7 +88,6 @@ Do you have an example which is missing there? Please send it to us!
 * [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen (breaking change)
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
 * [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
-* [Preserve curly brakets in string_to_list](https://github.com/missionpinball/mpf/pull/1361) - avanwinkle
 
 ## Upcoming changes
 
@@ -126,7 +136,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome driskel and mfuegemann.
+Welcome driskel, mfuegemann and ironspider.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
