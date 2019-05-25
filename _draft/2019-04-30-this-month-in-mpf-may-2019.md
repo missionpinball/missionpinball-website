@@ -11,6 +11,9 @@ and the rest of the ecosystem.
 # News
 
 * We added hardware platforms to the [MPF Projects List](https://missionpinball.org/projects.html). Please have a look if we got it right for your machine (or let us know if it is missing).
+* [Want to meet us?]({% post_url 2019-05-18-want-to-meet-us %}) - jab
+* [Virtual Pinball (VPX) support]({% post_url 2019-05-25-virtual-pinball-and-mpf %}) - mfuegemann
+
 
 # MPF Projects
 
@@ -20,6 +23,9 @@ Some new projects which joined the list this month:
 * [ESCAPE!]({% link _projects/escape.md %})
 * [Zelda]({% link _projects/zelda.md %})
 * [Mass Effects]({% link _projects/mass_effects.md %})
+* [Archer]({% link _projects/archer.md %})
+* [Greek Gods]({% link _projects/greek_gods.md %})
+* [Genie]({% link _projects/genie.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
 
@@ -54,6 +60,7 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Initial support for the Arduino Pinball Platform](https://github.com/missionpinball/mpf/commit/0021aa4c80c3f5c4db02c7ed0e797f0f2419340e) - jab, bontango and blackknight
 * [More debug in FAST platform](https://github.com/missionpinball/mpf/commit/c79a36b312d33c5cc546e4d9637f51ccef3ddcaf) and [longer wait times](https://github.com/missionpinball/mpf/commit/e031cb047dcecaaeb9eb37fc11422ea657e2ed71) - jab to support more FAST firmwares
 * [Generic System 11 A/C Relay handling (for APC and Snux)](https://github.com/missionpinball/mpf/pull/1370) - jab
+* [Improve duplicate event handler message](https://github.com/missionpinball/mpf/commit/bebf593f97b068f07b3af69e93f48b3c8e595974) - jab as it [caused confusion for Sepp](https://groups.google.com/forum/#!topic/mpf-users/epVKlaU9Yo8)
 
 ## Bugfixes
 

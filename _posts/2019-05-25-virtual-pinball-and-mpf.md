@@ -1,7 +1,7 @@
 ---
 layout: post
 author: mfuegemann
-title: Powering a Virtual Pinball Table Using MPF
+title: Running your MPF game on a VPX Virtual Pinball Table
 tags: [Rust, Spike, MPF]
 ---
 After some months the MPF-VPX bridge proof of concept has been brought to live for real.
