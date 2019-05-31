@@ -22,7 +22,7 @@ Some new projects which joined the list this month:
 
 * [ESCAPE!]({% link _projects/escape.md %})
 * [Zelda]({% link _projects/zelda.md %})
-* [Mass Effects]({% link _projects/mass_effects.md %})
+* [Mass Effect]({% link _projects/mass_effect.md %})
 * [Archer]({% link _projects/archer.md %})
 * [Greek Gods]({% link _projects/greek_gods.md %})
 * [Genie]({% link _projects/genie.md %})
