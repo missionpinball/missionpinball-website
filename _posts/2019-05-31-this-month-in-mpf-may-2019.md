@@ -39,7 +39,7 @@ We released MPF 0.52.2 and MPF-MC 0.52.1.
 
 ## Bugfixes
 
-* 
+* No changes
 
 # Dev release (future 0.53)
 
@@ -61,6 +61,7 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [More debug in FAST platform](https://github.com/missionpinball/mpf/commit/c79a36b312d33c5cc546e4d9637f51ccef3ddcaf) and [longer wait times](https://github.com/missionpinball/mpf/commit/e031cb047dcecaaeb9eb37fc11422ea657e2ed71) - jab to support more FAST firmwares
 * [Generic System 11 A/C Relay handling (for APC and Snux)](https://github.com/missionpinball/mpf/pull/1370) - jab
 * [Improve duplicate event handler message](https://github.com/missionpinball/mpf/commit/bebf593f97b068f07b3af69e93f48b3c8e595974) - jab as it [caused confusion for Sepp](https://groups.google.com/forum/#!topic/mpf-users/epVKlaU9Yo8)
+* [Better error message when number is empty]() - jab based on [report by Sepp](https://groups.google.com/forum/#!msg/mpf-users/oHsUeEJr2yI/Y1hg21iNBAAJ) 
 
 ## Bugfixes
 
@@ -86,6 +87,10 @@ We pushed MPF 0.53.0-dev20 and MPF-MC 0.53.0-dev0.
 * [Fix Mac install instructions](https://github.com/missionpinball/mpf-docs/commit/8016c8daf9c83ba2dafcde5ffef1244a02219a69) - GabeKnuth
 * [Typos](https://github.com/missionpinball/mpf-docs/pull/232), [Bad English](https://github.com/missionpinball/mpf-docs/pull/230) and [more](https://github.com/missionpinball/mpf-docs/pull/229) - ironspider
 * [Rotation is counter-clock wise not clockwise](https://github.com/missionpinball/mpf-docs/pull/231) - colemanomartin
+* [Document game variables](https://github.com/missionpinball/mpf-docs/pull/233) - cfbenn
+* [Placeholders in show_tokens in show_player](https://github.com/missionpinball/mpf/pull/1379) - jab to [allow dynamic values in all widgets](https://groups.google.com/forum/#!topic/mpf-users/lUd6Z2lU_eo)
+* [More useful and accurate validation errors in dicts](https://github.com/missionpinball/mpf/commit/240c4f9faabd58b8e96b3509b9a7d28ad0fc13fc) - jab
+* [Improve tutorial](https://github.com/missionpinball/mpf-docs/pull/235) and [fix typos](https://github.com/missionpinball/mpf-docs/pull/236) - soraxxo
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -143,7 +148,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome driskel, mfuegemann and ironspider.
+Welcome driskel, mfuegemann, ironspider and soraxxo.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
