@@ -42,15 +42,21 @@ We pushed MPF 0.53.0-dev34 and MPF-MC 0.53.0-dev4.
 
 * [Add links to the docs to warnings and errors](https://github.com/missionpinball/mpf/pull/1380) - jab
 * [Improve fake game in tests to handle multiball drains](https://github.com/missionpinball/mpf/commit/458927fca909510ef5df643e6947a886862a2aa9) - jab
+* [Remove Windows Python 3.4 build of MPF-MC](https://github.com/missionpinball/mpf-mc/commit/ad6e0fdb5bcd4bdad142b1ac563696f61b60733d) - qcapen
+* [Improve sound_loop_player design](https://github.com/missionpinball/mpf-mc/pull/374) - qcapen
+* [Python 3.7 support for Windows in MPF-MC](https://github.com/missionpinball/mpf-mc/commit/4dda4261fe527fec829e9e3e3488af8e407a7daf) - qcapen
  
 ## Bugfixes
 
 * [Fix regression in multiball counting](https://github.com/missionpinball/mpf/pull/1377) - avanwinkle
-
+* [Fix sound_loop_player bugs](https://github.com/missionpinball/mpf-mc/commit/f14b5214246188e3cd61d9eef2193f17ff9548e5) - qcapen
+* [Fix Mac build](https://github.com/missionpinball/mpf-mc/commit/2bd209465b6b599f2ae937892e909cf1470fd5fd) - qcapen
 
 ## Documentation
 
-* 
+* [Log mesage reference section](https://github.com/missionpinball/mpf-docs/commit/30258abce59ea1d810827fdcc178938073394f26) - jab
+* [Add score slide to tutorial step 17](https://github.com/missionpinball/mpf-docs/pull/237) - Coleman
+* [Fix instructions on how to install a specific MPF version](https://github.com/missionpinball/mpf-docs/pull/238) [2](https://github.com/missionpinball/mpf-docs/pull/239) - mfulleratlassian
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -108,7 +114,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome driskel, mfuegemann, ironspider and soraxxo.
+Welcome mfulleratlassian and .
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
