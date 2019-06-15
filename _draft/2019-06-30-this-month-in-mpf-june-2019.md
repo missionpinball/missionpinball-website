@@ -10,7 +10,8 @@ and the rest of the ecosystem.
 
 # News
 
-* 
+* Some users experienced problems installing MPF 0.52.x because of changes in Kivy 1.11.
+  To mitigate this we pinned kivy to 1.10.x in 0.52.3.
 
 
 # MPF Projects
@@ -32,7 +33,7 @@ We released MPF 0.52.2 and MPF-MC 0.52.1.
 
 ## Bugfixes
 
-* No changes
+* [Pin Kivy to 1.10.x for 0.52.x](https://github.com/missionpinball/mpf-mc/commit/1367d64240873513ca6faa6908b96d5484c5229a) - jab
 
 # Dev release (future 0.53)
 
@@ -45,6 +46,7 @@ We pushed MPF 0.53.0-dev34 and MPF-MC 0.53.0-dev4.
 * [Remove Windows Python 3.4 build of MPF-MC](https://github.com/missionpinball/mpf-mc/commit/ad6e0fdb5bcd4bdad142b1ac563696f61b60733d) - qcapen
 * [Improve sound_loop_player design](https://github.com/missionpinball/mpf-mc/pull/374) - qcapen
 * [Python 3.7 support for Windows in MPF-MC](https://github.com/missionpinball/mpf-mc/commit/4dda4261fe527fec829e9e3e3488af8e407a7daf) - qcapen
+* [Add placeholder conditions for items in carousel mode](https://github.com/missionpinball/mpf/pull/1381) - avanwinkle
  
 ## Bugfixes
 
