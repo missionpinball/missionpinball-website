@@ -47,18 +47,29 @@ We pushed MPF 0.53.0-dev34 and MPF-MC 0.53.0-dev4.
 * [Improve sound_loop_player design](https://github.com/missionpinball/mpf-mc/pull/374) - qcapen
 * [Python 3.7 support for Windows in MPF-MC](https://github.com/missionpinball/mpf-mc/commit/4dda4261fe527fec829e9e3e3488af8e407a7daf) - qcapen
 * [Add placeholder conditions for items in carousel mode](https://github.com/missionpinball/mpf/pull/1381) - avanwinkle
+* [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
+* [Support for the APC platform](https://github.com/missionpinball/mpf/issues/1345) - jab, bontango and blackknight
+* [Validate switch numbers in LISY/APC](https://github.com/missionpinball/mpf/commit/b39bc2759eb83bb1160ca0b3a70247ddeb4aa7a9) - jab
+* [Set DTS to low on connect for APC](https://github.com/missionpinball/mpf/commit/43f0585fcc75535435085189ec1f66128c308db5) and [clear serial after reset](https://github.com/missionpinball/mpf/commit/4f1198fd3302ebd1fe8aefa2455056975ac1d065) - jab
+* [Modern lights for LISY/APC](https://github.com/missionpinball/mpf/commit/39642c7b3540005e8a4f775805302a8e4dadb484) - jab
+* [Refactor sound loop](https://github.com/missionpinball/mpf-mc/pull/374) - qcapen
+* [Allow tokens for widgets in shows](https://github.com/missionpinball/mpf/commit/4782dde5fca0f57603d0c82d221a1947887a6cd6) - jab based on [request from Sean-Paul](https://groups.google.com/forum/#!topic/mpf-users/lUd6Z2lU_eo)
+* [Don't activate diverter if activate_event present](https://github.com/missionpinball/mpf/pull/1386) - GabeKnuth
  
 ## Bugfixes
 
 * [Fix regression in multiball counting](https://github.com/missionpinball/mpf/pull/1377) - avanwinkle
 * [Fix sound_loop_player bugs](https://github.com/missionpinball/mpf-mc/commit/f14b5214246188e3cd61d9eef2193f17ff9548e5) - qcapen
 * [Fix Mac build](https://github.com/missionpinball/mpf-mc/commit/2bd209465b6b599f2ae937892e909cf1470fd5fd) - qcapen
+* [Fix Kivy recursion erros in Kivy 1.11](https://github.com/missionpinball/mpf-mc/commit/2fb90742c458d45be17388b0932d29569ba472c3) - qcapen
 
 ## Documentation
 
 * [Log mesage reference section](https://github.com/missionpinball/mpf-docs/commit/30258abce59ea1d810827fdcc178938073394f26) - jab
 * [Add score slide to tutorial step 17](https://github.com/missionpinball/mpf-docs/pull/237) - Coleman
 * [Fix instructions on how to install a specific MPF version](https://github.com/missionpinball/mpf-docs/pull/238) [2](https://github.com/missionpinball/mpf-docs/pull/239) - mfulleratlassian
+* [Improved and test multiball example](https://github.com/missionpinball/mpf-docs/commit/c5fef8549bd30a2287fe6ef4fb6a31bf4205e27b) - jab based on [question by Sepp](https://groups.google.com/forum/#!topic/mpf-users/bn-U8Q91K0U)
+* [Fix typos](https://github.com/missionpinball/mpf-docs/pull/240) - nhardt
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -67,13 +78,11 @@ Do you have an example which is missing there? Please send it to us!
 
 * [Multiply volumes instead of overwriting them in sound_player and sound_loop_player](https://github.com/missionpinball/mpf-mc/pull/333) - qcapen (breaking change)
 * [Multi display updates improvements](https://github.com/missionpinball/mpf-mc/pull/323) - qcapen
-* [Add control events to counters](https://github.com/missionpinball/mpf/pull/1342) - dziedada
 
 ## Upcoming changes
 
 * [Stern Spike 2 support](https://github.com/missionpinball/mpf/issues/1246) - wolfmarsh and jab
 * [Full support for LISY35](https://github.com/missionpinball/mpf/issues/1218) - jab and bontango
-* [Support for the APC platform](https://github.com/missionpinball/mpf/issues/1345) - jab, bontango and blackknight
 
 ## Do you want to contribute?
 
@@ -116,7 +125,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome mfulleratlassian and .
+Welcome mfulleratlassian and nhardt. Welcome back GabeKnuth.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
