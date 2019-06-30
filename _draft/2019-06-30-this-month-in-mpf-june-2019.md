@@ -13,19 +13,20 @@ and the rest of the ecosystem.
 * Some users experienced problems installing MPF 0.52.x because of changes in Kivy 1.11.
   To mitigate this we pinned kivy to 1.10.x in 0.52.3.
 
-
 # MPF Projects
 
 We collect a list of [active publicly documented projects by MPF users]({% link projects.html %}).
 Some new projects which joined the list this month:
 
-* [xxx!]({% link _projects/xxx.md %})
+* [NOBS]({% link _projects/nobs.md %})
+* [Pitchfork Music Festival Paris]({% link _projects/pitchfork_music_festival_paris.md %})
+* [Taxi]({% link _projects/taxi_rewrite.md %})
 
 We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
 
 # 0.52 release
 
-We released MPF 0.52.2 and MPF-MC 0.52.1.
+We released MPF 0.52.3 and MPF-MC 0.52.4.
 
 ## Changes
 
@@ -37,7 +38,7 @@ We released MPF 0.52.2 and MPF-MC 0.52.1.
 
 # Dev release (future 0.53)
 
-We pushed MPF 0.53.0-dev34 and MPF-MC 0.53.0-dev4.
+We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
 
 ## Changes/New features
 
@@ -55,6 +56,9 @@ We pushed MPF 0.53.0-dev34 and MPF-MC 0.53.0-dev4.
 * [Refactor sound loop](https://github.com/missionpinball/mpf-mc/pull/374) - qcapen
 * [Allow tokens for widgets in shows](https://github.com/missionpinball/mpf/commit/4782dde5fca0f57603d0c82d221a1947887a6cd6) - jab based on [request from Sean-Paul](https://groups.google.com/forum/#!topic/mpf-users/lUd6Z2lU_eo)
 * [Don't activate diverter if activate_event present](https://github.com/missionpinball/mpf/pull/1386) - GabeKnuth
+* [Add enabled and rotation_enabled to placeholders for shots/shot_groups](https://github.com/missionpinball/mpf/pull/1387) - jab based on [request from Mike](https://groups.google.com/forum/#!topic/mpf-users/_EBF2tkfabI)
+* [Throws Error when attempting to define more than one default display](https://github.com/missionpinball/mpf-mc/pull/376) - GranolaDaniel
+* [Update unity-bcp-server to latest version](https://github.com/missionpinball/unity-bcp-server/commit/61a827fcf6136bd9237678f6b9ccebecc8356737) - qcapen
  
 ## Bugfixes
 
@@ -116,7 +120,7 @@ A list of things where we would love contributions (not exclusive):
 * [Good first issues in MPF](https://github.com/missionpinball/mpf/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [Good first issues in MPF-MC](https://github.com/missionpinball/mpf-mc/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 * [Good first issues in MPF-Monitor](https://github.com/missionpinball/mpf-monitor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-* [More TODOs in the documentation](http://docs.missionpinball.org/en/dev/search.html?q=help_us_to_write_it&check_keywords=yes&area=default)
+* [More TODOs in the documentation](http://docs.missionpinball.org/en/dev/search.html?q="Help+us+to+write+it"&check_keywords=yes&area=default)
 
 Other contributions are welcome as well.
 Those are meant as starting point.
@@ -125,7 +129,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome mfulleratlassian and nhardt. Welcome back GabeKnuth.
+Welcome mfulleratlassian, GranolaDaniel and nhardt. Welcome back GabeKnuth.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
