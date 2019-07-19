@@ -40,14 +40,24 @@ We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
 
 ## Changes/New features
 
-* 
+* [Segment display support for APC](https://github.com/missionpinball/mpf/pull/1388) - jab
+* [Add token to slide_player to pass variables](https://github.com/missionpinball/mpf/pull/1389) and [MC](https://github.com/missionpinball/mpf-mc/pull/377) - jab based on [request in the forum by Greg](https://groups.google.com/forum/#!topic/mpf-users/ln2y_qxGRg4)
+* [Increased light update throughput](https://github.com/missionpinball/mpf/pull/1390) - jab
+* [Add express syntax for sound_player](https://github.com/missionpinball/mpf-mc/pull/378) - jab
+* [Refactor machine variables](https://github.com/missionpinball/mpf/pull/1394) - pmansukhani
+* [Tune shows and events](https://github.com/missionpinball/mpf/pull/1392) - jab
+* [Setup improvements and wheels for OSX](https://github.com/missionpinball/mpf-mc/pull/379) - qcapen
 
 ## Bugfixes
 
-* 
+* [Fix events_when_xxx on sounds](https://github.com/missionpinball/mpf-mc/pull/378) and [2](https://github.com/missionpinball/mpf/pull/1393) - qcapen and jab based on [report by Greg](https://groups.google.com/forum/#!topic/mpf-users/B8PF2WqFpYo)
+
 ## Documentation
 
-* 
+* [Document wire-to-wire connectors](https://github.com/missionpinball/mpf-docs/pull/242) - ironspider
+* [Add wiresheet for 7-segment displays with mypinballs controller](https://github.com/missionpinball/mpf-docs/pull/241) - unRARed
+* [When Two Drop Targets Are Hit Simultaneously How Do I Keep Two Sounds From Playing](https://github.com/missionpinball/mpf-docs/commit/7909751f5f0b09727e0c68e8b561d76b3e4e4ef3) - qcapen
+* [Typos](https://github.com/missionpinball/mpf-docs/pull/243), [2](https://github.com/missionpinball/mpf-docs/pull/244), [3](https://github.com/missionpinball/mpf-docs/pull/245) - ironspider
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -103,7 +113,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome xxx.
+Welcome unRARed and pmansukhani.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
