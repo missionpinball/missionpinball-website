@@ -24,7 +24,7 @@ We know that there are a lot more projects. Let us know if you want to be listed
 
 # 0.52 release
 
-We released MPF 0.52.3 and MPF-MC 0.52.4.
+We released MPF 0.52.3 and MPF-MC 0.52.5.
 
 ## Changes
 
@@ -32,7 +32,7 @@ We released MPF 0.52.3 and MPF-MC 0.52.4.
 
 ## Bugfixes
 
-* 
+* [Back-porting some audio system bug fixes](https://github.com/missionpinball/mpf-mc/pull/380) - qcapen (backport to 0.52.5)
 
 # Dev release (future 0.53)
 
@@ -47,10 +47,16 @@ We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
 * [Refactor machine variables](https://github.com/missionpinball/mpf/pull/1394) - pmansukhani
 * [Tune shows and events](https://github.com/missionpinball/mpf/pull/1392) - jab
 * [Setup improvements and wheels for OSX](https://github.com/missionpinball/mpf-mc/pull/379) - qcapen
+* [Nicer errors on syntax errors in conditions](https://github.com/missionpinball/mpf/commit/5ce27ba9d7c2392d47fd1598790a89fdd43d9063) - jab
+* [Improve debug log of early messages in OPP](https://github.com/missionpinball/mpf/commit/9262983dd8b207aa5ae546cd6d9e7672b1b9d64c) - jab
+* [Option to send length bytes in LISY protocol](https://github.com/missionpinball/mpf/commit/e61c548efd3f2bfdc3af70338f4016f1ceab28ea) - jab
+* [Better error message on invalid displays in LISY](https://github.com/missionpinball/mpf/commit/2bbc750cfc27df04b83f57680fe27003484b1ef1) - jab
 
 ## Bugfixes
 
 * [Fix events_when_xxx on sounds](https://github.com/missionpinball/mpf-mc/pull/378) and [2](https://github.com/missionpinball/mpf/pull/1393) - qcapen and jab based on [report by Greg](https://groups.google.com/forum/#!topic/mpf-users/B8PF2WqFpYo)
+* [Fix parsing regression in OPP with matrix input cards](https://github.com/missionpinball/mpf/commit/42d893f93f95c87f54c8c2ec7aed07de02533740) and [more](https://github.com/missionpinball/mpf/commit/de7dc636ee23007c36a4f3df6a0cd3d25cca9b6f) - jab
+* [Fix sound about to finish notification bug](https://github.com/missionpinball/mpf-mc/commit/3b4df51a9ed5776456d6b2c9e7e7a6e42d60f76e) - qcapen
 
 ## Documentation
 
@@ -58,6 +64,7 @@ We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
 * [Add wiresheet for 7-segment displays with mypinballs controller](https://github.com/missionpinball/mpf-docs/pull/241) - unRARed
 * [When Two Drop Targets Are Hit Simultaneously How Do I Keep Two Sounds From Playing](https://github.com/missionpinball/mpf-docs/commit/7909751f5f0b09727e0c68e8b561d76b3e4e4ef3) - qcapen
 * [Typos](https://github.com/missionpinball/mpf-docs/pull/243), [2](https://github.com/missionpinball/mpf-docs/pull/244), [3](https://github.com/missionpinball/mpf-docs/pull/245) - ironspider
+* [Notes on Mac install](https://github.com/missionpinball/mpf-docs/pull/246) - bowilliams
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
@@ -113,7 +120,7 @@ if you want to work on something or got questions.
 
 ## New contributors
 
-Welcome unRARed and pmansukhani.
+Welcome unRARed, pmansukhani and bowilliams.
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
