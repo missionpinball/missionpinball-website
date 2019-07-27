@@ -10,17 +10,20 @@ and the rest of the ecosystem.
 
 # News
 
-* xx
+* There is a new [Arduino Pinball Controller](https://pinside.com/pinball/forum/topic/arduino-pinball-controller) platform which supports MPF.
 
 # MPF Projects
 
 We collect a list of [active publicly documented projects by MPF users]({% link projects.html %}).
 Some new projects which joined the list this month:
 
-* [xxx]({% link _projects/xxx.md %})
+* [Polyjuice Pinball]({% link _projects/polyjuice.md %})
 
-
-We know that there are a lot more projects. Let us know if you want to be listed here as well (it does not matter in which stage your project is).
+We know that there are a lot more projects.
+Let us know if you want to be listed here as well (it does not matter in which
+stage your project is).
+If we got anthing wrong or your project has been finished in the meantime
+please tell us as well and we will update your entry.
 
 # 0.52 release
 
@@ -51,6 +54,7 @@ We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
 * [Improve debug log of early messages in OPP](https://github.com/missionpinball/mpf/commit/9262983dd8b207aa5ae546cd6d9e7672b1b9d64c) - jab
 * [Option to send length bytes in LISY protocol](https://github.com/missionpinball/mpf/commit/e61c548efd3f2bfdc3af70338f4016f1ceab28ea) - jab
 * [Better error message on invalid displays in LISY](https://github.com/missionpinball/mpf/commit/2bbc750cfc27df04b83f57680fe27003484b1ef1) - jab
+* [Load modes from subfolders](https://github.com/missionpinball/mpf/pull/1396) - pmansukhani
 
 ## Bugfixes
 
@@ -65,6 +69,7 @@ We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
 * [When Two Drop Targets Are Hit Simultaneously How Do I Keep Two Sounds From Playing](https://github.com/missionpinball/mpf-docs/commit/7909751f5f0b09727e0c68e8b561d76b3e4e4ef3) - qcapen
 * [Typos](https://github.com/missionpinball/mpf-docs/pull/243), [2](https://github.com/missionpinball/mpf-docs/pull/244), [3](https://github.com/missionpinball/mpf-docs/pull/245) - ironspider
 * [Notes on Mac install](https://github.com/missionpinball/mpf-docs/pull/246) - bowilliams
+* [Remind users about venv when installing pypinproc](https://github.com/missionpinball/mpf-docs/pull/248) - bowilliams
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
