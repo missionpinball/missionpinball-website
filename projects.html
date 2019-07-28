@@ -23,7 +23,8 @@ title: Projects
     </ul>
     <h2>Finished projects</h2>
     <ul>
-{% for project in projects_by_start %}
+{% assign projects_by_finish = site.projects | sort: 'finished' | reverse %}
+{% for project in projects_by_finish %}
     {% if project.finished %}
         <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}
         {% if project.acronym %}
