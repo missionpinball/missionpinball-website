@@ -729,8 +729,8 @@ title: Home
                     </div>
                     <div class="panel-footer">
                         <ul>
-                        {% assign sorted_event = site.events | sort: 'date' | reverse %}
-                        {% for event in sorted_event limit: 5 %}
+                        {% assign sorted_event = site.events | sort: 'date' | reverse | slice:0,5 | reverse %}
+                        {% for event in sorted_event %}
                             <li><a href="{{ event.url | prepend: site.baseurl }}">{{ event.name }}</a>, {{ event.location }}, {{ event.city }}, {{ event.duration }}, {{ event.year }}</li>
                         {% endfor %}
                         </ul>
