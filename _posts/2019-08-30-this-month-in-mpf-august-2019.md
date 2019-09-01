@@ -8,9 +8,6 @@ What happened in MPF-land in August 2019?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
 and the rest of the ecosystem.
 
-# News
-
-* 
 
 # MPF Projects
 
@@ -35,23 +32,41 @@ We released MPF 0.52.3 and MPF-MC 0.52.5.
 
 ## Bugfixes
 
-* 
+* No changes
 
 # Dev release (future 0.53)
 
-We pushed MPF 0.53.0-dev42 and MPF-MC 0.53.0-dev5.
+We pushed MPF 0.53.0-dev55 and MPF-MC 0.53.0-dev5.
 
 ## Changes/New features
 
 * [Move code out of the hot path for light updates](https://github.com/missionpinball/mpf/pull/1397) - jab
+* [Reserve all show_player options in show_tokens to prevent indent mistakes](https://github.com/missionpinball/mpf/pull/1399) - jab based on [bug report by Alex](https://groups.google.com/forum/#!topic/mpf-users/J0UBP81ppfg)
+* [Improve linter and remove previously undetected unused imports](https://github.com/missionpinball/mpf/pull/1400) - jab
+* [Better debug output for LISY platform](https://github.com/missionpinball/mpf/commit/b28c83fdcf860a3da90e3791d6ae82e1211db1b2) - jab
+* [Fix segment display mapping for APC](https://github.com/missionpinball/mpf/commit/d8232883fc614177b188bc33f6794bc1fb72ce81) - jab
+* [Configuration setting for player_vars and machine_vars to show in text ui](https://github.com/missionpinball/mpf/pull/1406) - avanwinkle
+* [Better command logging for the P/P3-Roc](https://github.com/missionpinball/mpf/commit/163e769fa63bc745ffecce1497458942339212e6) - jab
+
 
 ## Bugfixes
 
-* 
+* [Fixes for latest Spike Firmware](https://github.com/missionpinball/mpf/commit/f235b9a70f8d81d38e4e77c0571690aef7bd35b0) and [bridge](https://github.com/missionpinball/mpf-spike/commit/dde2bd367e7dcbdc84e5e7433e900dee4f652810) - jab
+* [Always send a multiple of three LEDs to the Fadecandy to fix RGBW](https://github.com/missionpinball/mpf/commit/bae40db64e1496506f44596d24b58dbe85241b09) - jab based on [bug report by Cadrion](https://groups.google.com/forum/#!topic/mpf-users/inJzJVlWVWU)
+* [Fix polarity issue on P-Roc with WPC hardware](https://github.com/missionpinball/mpf/commit/2aafe828656d09921e959f4c2f0208ac70f6a23e) - jab
+* [LISY command fixes in protocol v0.9](https://github.com/missionpinball/mpf/commit/3bf547d0bf18005b56a1387b73cae013cd9d8774) and [2](https://github.com/missionpinball/mpf/commit/3058fc6c599ca2db8cd088520327493160480752) - jab
+* [Fix image unload crash in MC](https://github.com/missionpinball/mpf-mc/pull/384) - avanwinkle
 
 ## Documentation
 
-* 
+* [Document modes in subfolders](https://github.com/missionpinball/mpf-docs/pull/249) - pmansukhani
+* [Wording improvments](https://github.com/missionpinball/mpf-docs/pull/250), [grammar fixes](https://github.com/missionpinball/mpf-docs/pull/253), [typos](https://github.com/missionpinball/mpf-docs/pull/254), [more typos](https://github.com/missionpinball/mpf-docs/pull/255), [more grammar](https://github.com/missionpinball/mpf-docs/pull/256), [simple past](https://github.com/missionpinball/mpf-docs/pull/257), [proper count](https://github.com/missionpinball/mpf-docs/pull/259) - ironspider (a lot of fixes)
+* [More precise description](https://github.com/missionpinball/mpf-docs/pull/258) - ironspider
+* [Add modern Stern Opto Trough](https://github.com/missionpinball/mpf-docs/pull/251) - ironspider
+* [Fix segment_displays in shows](https://github.com/missionpinball/mpf-docs/pull/252) - snux
+* [Document LISY35 flipper enable](https://github.com/missionpinball/mpf-docs/commit/8472924c3d19eca3079e62ac24f32db865cca31d) - jab based on [question by Dave](https://groups.google.com/forum/#!topic/mpf-users/bHj-Tvh2KhY)
+* [Document local outputs on the P-Roc when using PDB boards](https://github.com/missionpinball/mpf-docs/commit/e3e83bc19ebb6ffa314560c3d05a7cd2dad63e3b) - jab
+* [Update LISY procotol](https://github.com/missionpinball/mpf-docs/commit/8ff96dd5ece1e8112079f814b645d3a56691adca) - jab
 
 Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
