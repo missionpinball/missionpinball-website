@@ -8,6 +8,9 @@ What happened in MPF-land in August 2019?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
 and the rest of the ecosystem.
 
+# News
+
+* Want to participate in Hacktoberfest 2019? Consider [contributing MPF](http://docs.missionpinball.org/en/dev/about/contributing_to_mpf.html) or the [MPF documentation](http://docs.missionpinball.org/en/dev/about/contributing_to_mpf_docs.html).
 
 # MPF Projects
 
