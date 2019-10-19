@@ -7,7 +7,7 @@ started: 2017-11-01
 finished:
 documentation_link:
 code_link: https://github.com/avanwinkle/masseffect2
-gameplay_link:
+gameplay_link: https://www.youtube.com/watch?v=USOwri2t82E
 boardsets: FAST
 lights: Fadecandy
 ---
