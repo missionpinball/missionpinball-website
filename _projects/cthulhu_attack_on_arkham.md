@@ -1,5 +1,5 @@
 ---
-name: Cthulhu: Attack on Arkham
+name: Cthulhu - Attack on Arkham
 acronym:
 team: rampantslug
 location: Melbourne, Australia
