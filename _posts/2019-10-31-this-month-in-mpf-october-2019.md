@@ -103,7 +103,6 @@ A list of things where we would love contributions (not exclusive):
   [kicking targets](http://docs.missionpinball.org/en/dev/mechs/targets/kicking_targets/index.html),
   [accelerometer](http://docs.missionpinball.org/en/dev/mechs/accelerometers/index.html),
   [playfield](http://docs.missionpinball.org/en/dev/mechs/playfields/index.html),
-  [flippers](http://docs.missionpinball.org/en/dev/mechs/flippers/index.html),
   [score reels](http://docs.missionpinball.org/en/dev/mechs/score_reels/index.html),
   [trough with optos](http://docs.missionpinball.org/en/dev/mechs/troughs/index.html) - please only send us picture where the rights belong to you
 * Document asset pools such as [video_pools](http://docs.missionpinball.org/en/dev/config/video_pools.html), [image_pools](http://docs.missionpinball.org/en/dev/config/image_pools.html) or [show_pools](http://docs.missionpinball.org/en/dev/config/show_pools.html)
