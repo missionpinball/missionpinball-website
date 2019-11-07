@@ -54,6 +54,7 @@ We pushed MPF 0.53.0-dev64 and MPF-MC 0.53.0-dev14.
 * [Improve install and dependency manangement for Max and Linux](https://github.com/missionpinball/mpf-mc/pull/387) - jab
 * [Improve build and install on Windows](https://github.com/missionpinball/mpf-mc/pull/388) - jab
 * [Lazy loading for zipped image sequences to speed up game startup](https://github.com/missionpinball/mpf-mc/pull/389) - jab
+* [New experimental language server support for IDEs](https://github.com/missionpinball/mpf-ls/) - jab
 
 ## Bugfixes
 
