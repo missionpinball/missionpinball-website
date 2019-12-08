@@ -707,7 +707,7 @@ title: Home
                     </div>
                     <div class="panel-footer">
                         <ul>
-                        {% assign projects_by_finish = site.projects | sort: 'finished' | reverse %}
+                        {% assign projects_by_finish = site.projects | sort: 'finished' | reverse | slice:0,5 %}
                         {% for project in projects_by_finish %}
                             {% if project.finished %}
                                 <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}
