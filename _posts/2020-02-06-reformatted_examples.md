@@ -17,7 +17,7 @@ in our CI/CD chain which builds the docs.
 You can have a look at the [changeset](https://github.com/missionpinball/mpf-docs/pull/274)
 which changed 289 files in the docs.
 
-How did you do this?
+How did we do this?
 As there are currently 783 tested examples in the docs we did not reformat
 everything by hand.
 Instead we create a new [command](https://github.com/missionpinball/mpf/pull/1499)
@@ -46,9 +46,9 @@ Config is not linted.
 Not writing back changes. Use --yes to do this. 
 ```
 
-It will first show you what it you change but does only apply changes if you
+It will first show you what it wants to change but does only apply changes if you
 pass `--yes` to the end of the commandline.
-We recommand you to put your machine configs into a git repository.
+We recommend you to put your machine configs into a git repository.
 In case `mpf format` accidentally breaks something you can simply revert the
 file.
 Please let us know if you find any cases where it fails to parse or format your
