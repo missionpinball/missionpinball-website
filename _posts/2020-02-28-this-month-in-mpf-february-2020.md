@@ -64,7 +64,7 @@ We pushed MPF 0.54.0-dev.7 and MPF-MC 0.54.0-dev.2.
 ## Documentation
 
 * [Support assets in doc tests](https://github.com/missionpinball/mpf/commit/3aa48cbb120a43a4f2146ecc84965f8ba30d1be6) - jab
-* [Support virtual platform in doc test cases](https://github.com/missionpinball/mpf/commit/07084c697831a082edb861b8d0e9f78e517bd713) - jab]
+* [Support virtual platform in doc test cases](https://github.com/missionpinball/mpf/commit/07084c697831a082edb861b8d0e9f78e517bd713) - jab
 * [Document common problems with Numlock when using keyboard in MPF](https://github.com/missionpinball/mpf-docs/commit/11c059708b7f0ea10f35c9377480469d9fea8247) - jab
 * [Example for multiball without physical lock](https://github.com/missionpinball/mpf-docs/commit/cd91947067fac439480e4218bd06f3716a31fe7f) - jab
 * [Reformat all examples for good copy and paste experience](https://github.com/missionpinball/mpf-docs/pull/274) - jab
