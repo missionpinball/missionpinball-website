@@ -1,10 +1,10 @@
 ---
 layout: post
 author: jab
-title: This Month in MPF January 2020
+title: This Month in MPF February 2020
 tags: [this_month_in_mpf_land, MPF]
 ---
-What happened in MPF-land in January 2020?
+What happened in MPF-land in February 2020?
 This post will highlight changes in MPF, MPF-MC, MPF monitor, documentation
 and the rest of the ecosystem.
 
