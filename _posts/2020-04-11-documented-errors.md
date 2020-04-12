@@ -2,7 +2,7 @@
 layout: post
 author: jab
 title: Error Codes and Knowledgebase with Common Pitfalls and Solution
-tags: [hardware, MPF, pin2dmd]
+tags: [software, MPF, errors, knowledge_base]
 ---
 Nobody likes error messages and we want to help you to get rid of them as fast
 as possible.
