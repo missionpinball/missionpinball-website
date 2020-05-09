@@ -2,7 +2,7 @@
 name: Haunted House Remake
 acronym: 
 team: Siegecraft
-location:  
+location: Sioux Falls, South Dakota, USA
 started: 2020-02-26
 finished:
 documentation_link: hhttps://pinside.com/pinball/forum/topic/let-s-p-roc-this-haunted-house-my-magnum-opus-has-begun
