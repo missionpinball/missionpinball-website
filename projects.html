@@ -35,6 +35,21 @@ title: Projects
 {% endfor %}
         </ul>
 
+    <h2>Projects with Source Code Link</h2>
+    <ul>
+{% assign projects_by_start = site.projects | sort: 'started' %}
+{% for project in projects_by_start %}
+    {% if project.code_link %}
+        <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.name }}
+        {% if project.acronym %}
+            ({{ project.acronym }})
+        {% endif %}
+        </a> by {{ project.team }} (started: {{ project.started | date_to_string }}) - <a href="{{ project.code_link }}">Code Link</a></li>
+    {% endif %}
+{% endfor %}
+        </ul>
+
+
     <h2>Hardware platforms in Use</h2>
 {% assign platforms = site.hardware_platforms | sort: 'name' %}
     <ul>
