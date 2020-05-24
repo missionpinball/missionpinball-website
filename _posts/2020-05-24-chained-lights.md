@@ -6,7 +6,7 @@ tags: [MPF, lights]
 ---
 Configuring a lot of lights in your machine is often tedious and error-prone.
 Especially, if you are using serial LEDs where you know that a light is
-physically localed after the previous one.
+physically located after the previous one.
 What if we could exploit this property in config? 
 
 Instead of this:
