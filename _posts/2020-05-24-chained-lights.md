@@ -10,7 +10,7 @@ physically located after the previous one.
 What if we could exploit this property in config? 
 
 Instead of this:
-```
+```yaml
 lights:
   l_led0:
     channels:
@@ -43,7 +43,7 @@ lights:
 ```
 
 You can now use (in MPF 0.54/dev):
-```
+```yaml
 lights:
   led_0:
     start_channel: 8-0
