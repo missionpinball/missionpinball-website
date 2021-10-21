@@ -9,5 +9,6 @@ documentation_link: https://pinside.com/pinball/forum/topic/cuphead-home-brew-pi
 code_link:
 gameplay_link: https://www.youtube.com/watch?v=dJaDG9J0AJc
 boardsets: Cobrapin
-lights: Neopixel driven by Cobrapin
+lights: Cobrapin
 ---
+Neopixel driven by Cobrapin
