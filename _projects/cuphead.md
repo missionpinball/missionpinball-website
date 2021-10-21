@@ -2,7 +2,7 @@
 name: Cuphead
 acronym: 
 team: Scott Miller
-location: Wisconsin  
+location: Wisconsin, USA
 started: 2020-10-27
 finished: 2020-10-12
 documentation_link: https://pinside.com/pinball/forum/topic/cuphead-home-brew-pinball
