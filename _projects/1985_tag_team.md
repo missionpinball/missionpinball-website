@@ -8,7 +8,7 @@ finished:
 documentation_link: https://pinside.com/pinball/forum/topic/re-game-1985-tag-team-pinball
 code_link:
 gameplay_link:
-boardsets: OPP
-lights:
+boardsets: Cobrapin
+lights: Cobrapin
 ---
 Retheme of a Tag Team Pinball
