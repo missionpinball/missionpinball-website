@@ -15,10 +15,10 @@ and the rest of the ecosystem.
 * [LISY35 for Bally/Stern machine between 1977 and 1985](https://pinside.com/pinball/forum/topic/lisy35-help-with-bally-lamp-driver-code-needed) - MPF will support this platform soon
 * [MPF Stickers](https://groups.google.com/forum/#!topic/mpf-users/_Hfof-FKqcs)
 
-# MPF Projects 
+# MPF Projects
 
 Some active publicly documented projects by MPF users.
- 
+
 * [The Crazy Mansion](https://pinside.com/pinball/forum/topic/the-crazy-mansion-by-the-pinball-amigos)
 * [The Nightmare Before Christmas](https://pinside.com/pinball/forum/topic/the-nightmare-before-christmas)
 * [Minions Pinball](https://pinside.com/pinball/forum/topic/we-are-building-a-minions-pinball-updates-every-friday)
@@ -81,15 +81,15 @@ We pushed MPF 0.51.0-dev-11 and MPF-MC 0.51.0-dev.2.
 * [Added example of game mode which increases multiplier when lanes are complete](https://github.com/missionpinball/mpf-docs/pull/176) - travisbmartin
 * [No longer claim Python 3.4 support - it is EOL](https://github.com/missionpinball/mpf-docs/commit/1639e5b62f221b6a525b3ca39da6b68dd2d88752) - jab
 * [Document PC power on/off](https://github.com/missionpinball/mpf-docs/commit/8bb7de3ce54153c8e7afbc3fdb992b13bb000409) - jab
-* [Typos](https://github.com/missionpinball/mpf-docs/pull/177), [Typos](https://github.com/missionpinball/mpf-docs/pull/178) - travisbmartin 
-* [Improve skill shot example to prevent race condition and add timeout](https://github.com/missionpinball/mpf-docs/commit/063dd00c2b9f0db50b099528e3f2d948c7e40f28) - jab based on [question from mike wiz](https://groups.google.com/forum/#!topic/mpf-users/Fxuh95wxmjY) 
+* [Typos](https://github.com/missionpinball/mpf-docs/pull/177), [Typos](https://github.com/missionpinball/mpf-docs/pull/178) - travisbmartin
+* [Improve skill shot example to prevent race condition and add timeout](https://github.com/missionpinball/mpf-docs/commit/063dd00c2b9f0db50b099528e3f2d948c7e40f28) - jab based on [question from mike wiz](https://groups.google.com/forum/#!topic/mpf-users/Fxuh95wxmjY)
 * [Document scoring based on logic blocks](https://github.com/missionpinball/mpf-docs/commit/a843d366bed107544aebf2198f80f07a501adb5b) - jab based on [question from alex](https://groups.google.com/forum/#!topic/mpf-users/3mShvjtjfPU)
 * [Describe how to debug crashes with GDB](https://github.com/missionpinball/mpf-docs/commit/27a7c31b524f2a1890c97e6dbc86e08811e31e38) - jab
 * [How to tune eject_timeouts in ball devices](https://github.com/missionpinball/mpf-docs/commit/ec7477e5a9c3e03adf24473599c2c2909db0a75a) - jab
 * [Understanding tags in MPF](https://github.com/missionpinball/mpf-docs/pull/179) - cfbenn
 * [Example for using MC with multiple screens](https://github.com/missionpinball/mpf-docs/commit/2d62878bc2a04d699e81fd12fad77d1ad4b13a52) - jab based on example from Brian Cox/cfbenn/qcapen
 
-Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
+Have a look at the [dev documentation](https://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
 
 ## Open PRs/Not landed yet

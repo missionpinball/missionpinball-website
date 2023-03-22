@@ -9,7 +9,7 @@ showed you which bits are tested and how.
 This has changed and you can now see the tests inside the docs.
 
 Have a look at this
-[example doc page with tests](http://docs.missionpinball.org/en/dev/game_logic/scoring/index.html).
+[example doc page with tests](https://docs.missionpinball.org/en/dev/game_logic/scoring/index.html).
 Below the first example you find "This example is tested to be valid MPF
 config. However, it is not integration tested."
 This basically means that we will tested that MPF started with that config
@@ -42,7 +42,7 @@ In this case you will find this test:
 
 First it will start a (single player) game and check that the multiplier
 variable is zero.
-Afterwards, it starts "my_mode", checks that the multiplier is now one and 
+Afterwards, it starts "my_mode", checks that the multiplier is now one and
 triggers some scoring.
 After verifying scoring it increases the multiplier and verifies that it is
 respected during scoring.
@@ -53,8 +53,8 @@ You can also use that to create your own small tested snippets.
 
 The test above only covers MPF and not MPF-MC.
 In case there are any slides or widgets they are mostly untested (except for
-valid syntax). 
-There are also some [snippets](http://docs.missionpinball.org/en/dev/game_logic/shots/integrate_shots_with_shows_lights_sounds_widgets_or_slides.html)
+valid syntax).
+There are also some [snippets](https://docs.missionpinball.org/en/dev/game_logic/shots/integrate_shots_with_shows_lights_sounds_widgets_or_slides.html)
 which require MPF-MC.
 This example also contains a test which asserts that the correct widgets show
 at the right time.
@@ -62,8 +62,8 @@ We do not test MPF-MC on all of the examples because those tests are two
 magnitudes slower than pure MPF tests and most snippets do not contain
 any slides or widgets anyway.
 
-[Contributions to the docs](http://docs.missionpinball.org/en/dev/about/contributing_to_mpf_docs.html)
+[Contributions to the docs](https://docs.missionpinball.org/en/dev/about/contributing_to_mpf_docs.html)
 are welcome.
 Even more if they contain tested snippets.
 We run those tests regularly to make sure that we do not break any real
-world examples. 
+world examples.

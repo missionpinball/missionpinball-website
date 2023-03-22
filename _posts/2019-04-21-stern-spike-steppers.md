@@ -12,7 +12,7 @@ It seems like node board on Spike support up to four steppers.
 Steppers connect to light outputs on the board and a homing switch (which may
 be on another board).
 We guess that they are hardware-wise similar to the
-[StepStick](http://docs.missionpinball.org/en/dev/hardware/stepstick/index.html)
+[StepStick](https://docs.missionpinball.org/en/dev/hardware/stepstick/index.html)
 (but that does not matter if you are using an existing machine).
 
 To configure a stepper in Spike you can use the following example:
@@ -43,7 +43,7 @@ Which ones does not matter but you can only use every number once.
 Then you need to look up the motor reference number in your manual.
 This is an example from Game of Thrones LE:
 
-![GoT Motor Reference](http://docs.missionpinball.org/en/dev/_images/spike_stepper_table.png)
+![GoT Motor Reference](https://docs.missionpinball.org/en/dev/_images/spike_stepper_table.png)
 
 We are interested in ``10-LP-10``.
 This is used as ``light_number`` above.
@@ -56,7 +56,7 @@ We configure is as ``s_stepper_home`` in this example.
 
 You can change ``speed`` and ``homing_speed`` to configure how fast the
 stepper will move.
-See [Stepper Motors](http://docs.missionpinball.org/en/dev/mechs/steppers/index.html)
+See [Stepper Motors](https://docs.missionpinball.org/en/dev/mechs/steppers/index.html)
 for more details about steppers.
 
 Steppers in Spike are now available in MPF dev and will land in 0.53 soon.

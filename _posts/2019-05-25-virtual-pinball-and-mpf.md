@@ -15,10 +15,10 @@ table.
 As the VPX table is used only to emulate the hardware and should not contain
 any game logic.
 
-At the moment the latest VPX platform is contained in MPF 0.53 dev (see: [Installing dev version](http://docs.missionpinball.org/en/dev/install/windows.html#install-mpf)).
+At the moment the latest VPX platform is contained in MPF 0.53 dev (see: [Installing dev version](https://docs.missionpinball.org/en/dev/install/windows.html#install-mpf)).
 This version is currently necessary for the [bridge](https://github.com/missionpinball/mpf-vpcom-bridge) to work.
 However, this will very likely make it into the upcoming 0.53 stable release.
-You can also read our [Documentation about the VPX platform](http://docs.missionpinball.org/en/dev/hardware/virtual/virtual_pinball_vpx.html).
+You can also read our [Documentation about the VPX platform](https://docs.missionpinball.org/en/dev/hardware/virtual/virtual_pinball_vpx.html).
 
 ## Installation
 
@@ -27,16 +27,16 @@ To register the bridge run a CMD shell as Administrator, then
 
 ```
 python register_vpcom.py --register
-``` 
+```
 
 (You can use ```--unregister``` to uninstall the bridge)
 
 ## Use VPX in MPF
 
-In your ```config.yaml``` configure virtual_pinball as your platform: 
+In your ```config.yaml``` configure virtual_pinball as your platform:
 
 ```
-hardware: 
+hardware:
     platform: virtual_pinball
 ```
 
@@ -60,13 +60,13 @@ The GameName set in VPX is not used to check or validate the MPF machine.
 - add a ```Sub MPFTimer_Timer``` to update all the lights and solenoids
 
 ### In Table_Init
- 
+
 - call Controller.run
 - set the Trough switch(es) or create balls for a physical Trough (as in the demo table)
 - init NC switches to False
 
 ### In Drain_Hit (for 1-Ball games)
-- set the Trough switch(es) 
+- set the Trough switch(es)
 
 ### To use autofire_coils (Slings, Pops etc)
 - add a droppable wall to each bumper. This will be used in ```Sub CheckAutofireCoils``` to disable/enable the bumper
@@ -85,7 +85,7 @@ The GameName set in VPX is not used to check or validate the MPF machine.
 ### LEDs and Lamps
 - in ```Sub UpdateLamps``` add a case for every MPF light and LED number, setting the state of the VPX lamp/LED. Use "" to include string type numbers
 
-### GI strings 
+### GI strings
 - create a collection for each GI string, assign the GI lamps to the collections as needed
 - assign all GI lamps to the collection "ControlledLamps" and call``` InitLamps```
 - in ```Sub UpdateGI``` add a case for every MPF gi string number, setting the state of the VPX GI collection. Use "" to include string type numbers

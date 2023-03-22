@@ -24,7 +24,7 @@ by Henner Zeller.
 
 We thank Michael for all his work and upstreamed the platform.
 You can read our documentation about the
-[RPi DMD](http://docs.missionpinball.org/en/dev/hardware/rpi_dmd/index.html)
+[RPi DMD](https://docs.missionpinball.org/en/dev/hardware/rpi_dmd/index.html)
 and try it out today.
 
 Did we forget anything? Please let us know!

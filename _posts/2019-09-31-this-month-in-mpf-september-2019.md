@@ -49,23 +49,23 @@ We pushed MPF 0.53.0-dev62 and MPF-MC 0.53.0-dev12.
 * [Add Scaffolding CLI to MPF](https://github.com/missionpinball/mpf/pull/1419) - jab
 * [Optimized Service Mode for LCDs](https://github.com/missionpinball/mpf/commit/6e09beca89f18f718402f3780cd42fb624b3d948) - jab
 
- 
+
 ## Bugfixes
 
 * [Fix inverted condition on show player conditions](https://github.com/missionpinball/mpf/pull/1407) - avanwinkle
 * [Prevent false positive duplicate numbers in virtual platform](https://github.com/missionpinball/mpf/pull/1409) - jab
 * [Prevent crash in Text UI](https://github.com/missionpinball/mpf/commit/b121d1e91245e99a88ef68463a67dfcb9f8a154a) - jab
 
- 
+
 ## Documentation
 
 * [Add LISY35 to WPC section](https://github.com/missionpinball/mpf-docs/commit/865bd788752b4f2f56c9695d4d49c6901ae37e69) - jab
 * [Document machine variables](https://github.com/missionpinball/mpf/commit/a433f72cee16101f37b66f81dcb5c944888a7571) and [more](https://github.com/missionpinball/mpf-docs/commit/dcb0364e4cfa409567c3e3315f432d774e9cbf4a) - jab
 * [Add images for coils, buttons, flasher, up-down-ramps and diverters](https://github.com/missionpinball/mpf-docs/pull/261) -  kevinleedrum
 * [Improve skill shot documentation](https://github.com/missionpinball/mpf-docs/commit/6a93a3d8b08028418911ad485b50f07cffc4952a) - jab
-* [Improve service mode documentation](https://github.com/missionpinball/mpf-docs/commit/ce3373e970bb5c7461ebceb1375bb804041c2031) - jab 
+* [Improve service mode documentation](https://github.com/missionpinball/mpf-docs/commit/ce3373e970bb5c7461ebceb1375bb804041c2031) - jab
 
-Have a look at the [dev documentation](http://docs.missionpinball.org/en/dev/).
+Have a look at the [dev documentation](https://docs.missionpinball.org/en/dev/).
 Do you have an example which is missing there? Please send it to us!
 
 ## Open PRs/Not landed yet
@@ -82,32 +82,32 @@ Do you have an example which is missing there? Please send it to us!
 
 A list of things where we would love contributions (not exclusive):
 
-* Pictures for the following devices: [pop bumpers](http://docs.missionpinball.org/en/dev/mechs/pop_bumpers/index.html),
-  [incandescant bulbs](http://docs.missionpinball.org/en/dev/mechs/lights/matrix_lights.html),
-  [GI bulbs](http://docs.missionpinball.org/en/dev/mechs/lights/gis.html),
-  [GI LEDs](http://docs.missionpinball.org/en/dev/mechs/lights/gis.html),
-  [data east optos](http://docs.missionpinball.org/en/dev/mechs/switches/optos.html),
-  [dual wound coils](http://docs.missionpinball.org/en/dev/mechs/coils/dual_wound_coils.html),
-  [orbits](http://docs.missionpinball.org/en/dev/mechs/loops/index.html),
-  [kickbacks](http://docs.missionpinball.org/en/dev/mechs/kickbacks/index.html),
-  [kicking targets](http://docs.missionpinball.org/en/dev/mechs/targets/kicking_targets/index.html),
-  [accelerometer](http://docs.missionpinball.org/en/dev/mechs/accelerometers/index.html),
-  [playfield](http://docs.missionpinball.org/en/dev/mechs/playfields/index.html),
-  [flippers](http://docs.missionpinball.org/en/dev/mechs/flippers/index.html),
-  [score reels](http://docs.missionpinball.org/en/dev/mechs/score_reels/index.html),
-  [trough with optos](http://docs.missionpinball.org/en/dev/mechs/troughs/index.html) - please only send us picture where the rights belong to you
-* Document asset pools such as [video_pools](http://docs.missionpinball.org/en/dev/config/video_pools.html), [image_pools](http://docs.missionpinball.org/en/dev/config/image_pools.html) or [show_pools](http://docs.missionpinball.org/en/dev/config/show_pools.html)
-* [Create an electronical drawing for mechanical switches in matrix and on direct inputs](http://docs.missionpinball.org/en/dev/mechs/switches/mechanical_switches.html)
-* [Document motors](http://docs.missionpinball.org/en/dev/mechs/motors/index.html)
-* [Add an example or howto for timed switches](http://docs.missionpinball.org/en/dev/game_logic/timed_switches/index.html)
-* [Add an example or howto for ball holds](http://docs.missionpinball.org/en/dev/game_logic/ball_holds/index.html)
-* [Add an example or howto for combo switches](http://docs.missionpinball.org/en/dev/game_logic/combo_switches/index.html)
-* [Add an example or howto for diverters](http://docs.missionpinball.org/en/dev/mechs/diverters/index.html)
+* Pictures for the following devices: [pop bumpers](https://docs.missionpinball.org/en/dev/mechs/pop_bumpers/index.html),
+  [incandescant bulbs](https://docs.missionpinball.org/en/dev/mechs/lights/matrix_lights.html),
+  [GI bulbs](https://docs.missionpinball.org/en/dev/mechs/lights/gis.html),
+  [GI LEDs](https://docs.missionpinball.org/en/dev/mechs/lights/gis.html),
+  [data east optos](https://docs.missionpinball.org/en/dev/mechs/switches/optos.html),
+  [dual wound coils](https://docs.missionpinball.org/en/dev/mechs/coils/dual_wound_coils.html),
+  [orbits](https://docs.missionpinball.org/en/dev/mechs/loops/index.html),
+  [kickbacks](https://docs.missionpinball.org/en/dev/mechs/kickbacks/index.html),
+  [kicking targets](https://docs.missionpinball.org/en/dev/mechs/targets/kicking_targets/index.html),
+  [accelerometer](https://docs.missionpinball.org/en/dev/mechs/accelerometers/index.html),
+  [playfield](https://docs.missionpinball.org/en/dev/mechs/playfields/index.html),
+  [flippers](https://docs.missionpinball.org/en/dev/mechs/flippers/index.html),
+  [score reels](https://docs.missionpinball.org/en/dev/mechs/score_reels/index.html),
+  [trough with optos](https://docs.missionpinball.org/en/dev/mechs/troughs/index.html) - please only send us picture where the rights belong to you
+* Document asset pools such as [video_pools](https://docs.missionpinball.org/en/dev/config/video_pools.html), [image_pools](https://docs.missionpinball.org/en/dev/config/image_pools.html) or [show_pools](https://docs.missionpinball.org/en/dev/config/show_pools.html)
+* [Create an electronical drawing for mechanical switches in matrix and on direct inputs](https://docs.missionpinball.org/en/dev/mechs/switches/mechanical_switches.html)
+* [Document motors](https://docs.missionpinball.org/en/dev/mechs/motors/index.html)
+* [Add an example or howto for timed switches](https://docs.missionpinball.org/en/dev/game_logic/timed_switches/index.html)
+* [Add an example or howto for ball holds](https://docs.missionpinball.org/en/dev/game_logic/ball_holds/index.html)
+* [Add an example or howto for combo switches](https://docs.missionpinball.org/en/dev/game_logic/combo_switches/index.html)
+* [Add an example or howto for diverters](https://docs.missionpinball.org/en/dev/mechs/diverters/index.html)
 * [Adding more devices to the built-in service mode](https://github.com/missionpinball/mpf/issues/693)
 * [Good first issues in MPF](https://github.com/missionpinball/mpf/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [Good first issues in MPF-MC](https://github.com/missionpinball/mpf-mc/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 * [Good first issues in MPF-Monitor](https://github.com/missionpinball/mpf-monitor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-* [More TODOs in the documentation](http://docs.missionpinball.org/en/dev/search.html?q="Help+us+to+write+it"&check_keywords=yes&area=default)
+* [More TODOs in the documentation](https://docs.missionpinball.org/en/dev/search.html?q="Help+us+to+write+it"&check_keywords=yes&area=default)
 
 Other contributions are welcome as well.
 Those are meant as starting point.

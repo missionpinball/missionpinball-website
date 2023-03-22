@@ -2,7 +2,7 @@
 name: Snux
 label: Snux System 11
 manufacturer: Snux
-documentation_link: http://docs.missionpinball.org/en/latest/hardware/snux/
+documentation_link: https://docs.missionpinball.org/hardware/snux/
 link:
 ---
 {% assign board = site["hardware_platforms"] | where:"name", "P-Roc" | first %}

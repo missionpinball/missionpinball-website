@@ -30,7 +30,7 @@ videos or sounds).
 Second, add the ``-P`` flag to the commandline to run MPF in production mode.
 
 Find out more about it in the
-[MPF docs about Tuning Software for Production](http://docs.missionpinball.org/en/dev/finalization/software.html#run-mpf-in-production-mode).
+[MPF docs about Tuning Software for Production](https://docs.missionpinball.org/en/dev/finalization/software.html#run-mpf-in-production-mode).
 
 Did we forget anything? Please let us know!
 Discussions in [MPF-Users](https://groups.google.com/forum/#!forum/mpf-users).
